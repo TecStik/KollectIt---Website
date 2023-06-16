@@ -168,7 +168,7 @@ function Home() {
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content">
-                  <h2>Enriching cash collection with Unique Attributes</h2>
+                  <h2>Enriching Collection</h2>
                   <br />
                   {/* <h3>Join KOLLECTIT as an IBFI</h3> */}
                   <br />
