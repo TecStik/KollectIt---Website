@@ -19,8 +19,8 @@ export default function Header() {
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
             <img src={Logo} alt="" id="logo" height={170} style={{ marginTop: "5%" }} />
-            <span style={{ marginLeft: '.37%', color: "#134D61", fontWeight: "bold" }}>KollectIt</span>
-            {/* <i className="fas fa-arrow-down">KOLLECTIT</i> */}
+            <span style={{ marginLeft: '.37%', color: "#134D61", fontWeight: "bold" }}>KOLLECTIT</span>
+            {/* <i className="fas ">KOLLECTIT</i> */}
           </Link>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -35,7 +35,18 @@ export default function Header() {
                 Home
               </Link>
             </li>
-            
+            {/* <li className="nav-item">
+              <Link
+                exact
+                to="/KOLLECTIT-About"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                About Us
+              </Link>
+            </li> */}
+
 
             {/* <li className="nav-item">
               <div class="dropdown">
@@ -51,7 +62,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 exact
-                to="/KOLLECTIT-Join"
+                to="/KOLLECTIT-Need"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -66,7 +77,7 @@ export default function Header() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                The Platform
+               Our Platform
               </Link>
             </li>
             <li className="nav-item">
@@ -97,7 +108,7 @@ export default function Header() {
 
       <nav className="Twonavbar">
         <div className="Twonav-container">
-          <h4 id="TwoNavText">Minimizing Collection Challenges</h4>
+          <h4 id="TwoNavText">Digitize Physical Collection</h4>
         </div>
       </nav>
 

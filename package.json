@@ -1,6 +1,6 @@
 {
-  "name": "tecstik",
-  "homepage": "http://tecstik.com",
+  "name": "tecstik-kollectit",
+  "homepage": "http://tecstik-kollectit.com",
   "version": "0.1.0",
   "main": "dist/cjs",
   "private": true,

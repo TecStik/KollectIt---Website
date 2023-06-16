@@ -5,7 +5,8 @@ import "./App.css";
 // import 'bootstrap/dist/css/bootstrap-theme.css';
 import { Helmet } from "react-helmet";
 import Home from "./components/Home/Home";
-
+import YouNeedKollectit from "./components/YouNeedKollectit/YouNeedKollectit";
+import ContactUS from "./components/ContactUS/ContactUS";
 
 export const App = () => {
   return (
@@ -28,15 +29,16 @@ export const App = () => {
         <meta property="og:type" content="article" />
         <meta property="fb:app_id" content="ID_APP_FACEBOOK" />
       </Helmet>
-      <Home />
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/KOLLECTIT-Need" element={<YouNeedKollectit />} />
+        <Route path="/KOLLECTIT-Contact" element={<ContactUS />} />
+        {/*
         <Route path="/KOLLECTIT-About" element={<About />} />
-        <Route path="/KOLLECTIT-Join" element={<JoinKOLLECTIT />} />
         <Route path="/KOLLECTIT-Platform" element={<Platform />} />
         <Route path="/KOLLECTIT-OurTeam" element={<OurTeam />} />
-        <Route path="/KOLLECTIT-Contact" element={<Contact />} />
-      </Routes> */}
+      */}
+      </Routes>
     </BrowserRouter>
   );
 };

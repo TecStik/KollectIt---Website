@@ -3,7 +3,7 @@ import React, { useState } from "react";
 // import Imag2 from '../../assests/Imag0.png'
 // import mobileIcon from '../../assests/mobileIcon.png'
 // import damiImage from '../../components/Header/kollect-logo.png'
-// import smartphone from '../../assests/smartphone.png'
+import Mobilepayment from './Mobilepayment.png'
 import { Slide, Zoom } from 'react-slideshow-image';
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
@@ -128,14 +128,14 @@ function Home() {
             <div class="row justify-content-between gy-5">
               <div
                 class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-                <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#11366B" }}>Accounting irregularities are History</p>
+                <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Financial Anomalies are History</p>
                 <br />
                 <br />
-                <h2 data-aos="fade-up" style={{ color: "#11366B" }}>Cross-Platform Collection</h2>
+                <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Cross-Platform Collection</h2>
 
                 <div class="content">
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                    <li>Economic Crimes, Payment Discrepancies, Inaccurate Reporting, Payment Fraud, etc., are all problems faced by Businesses and Individuals globally. KollectIt offers an effortless way to ensure all of your collection staff’s reporting is carried out accurately.</li>
+                    <li>Economic Crimes, Payment Discrepancies, Inaccurate Reporting, Payment Fraud, etc. are all problems faced by Businesses and Individuals. KollectIt offers an effortless way to ensure yours or a collection team’s reporting is precise.</li>
                   </ul>
                 </div>
                 {/* <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
@@ -163,12 +163,12 @@ function Home() {
 
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                {/* <img src={damiImage} class="img-fluid" alt="" id="ImgeSize" /> */}
+                <img src={Mobilepayment} class="img-fluid" alt="" id="ImgeSize" />
               </div>
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content">
-                  <h2>Enriching Collection</h2>
+                  <h2  style={{ color: "#134D61" }}>Enriching cash collection with Unique Attributes</h2>
                   <br />
                   {/* <h3>Join KOLLECTIT as an IBFI</h3> */}
                   <br />

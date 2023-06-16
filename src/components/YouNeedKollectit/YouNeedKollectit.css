@@ -1,0 +1,93 @@
+
+/*--------------------------------------------------------------
+# YouNeedKollectit Section
+--------------------------------------------------------------*/
+#YouNeedKollectit {
+    /* margin-top: -2%; */
+    width: 100%;
+    /* height: 70vh; */
+    margin-top: 1%;
+  }
+  
+  #YouNeedKollectit p {
+    margin: 0 0 10px 0;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 56px;
+    color: black;
+  }
+  
+  #YouNeedKollectit h2 {
+    color: #484848;
+    margin-bottom: 50px;
+    /* font-size: 20px; */
+  }
+  
+  #KOLLECTITfooter{
+    margin-top: 20%;
+  }
+  /* #YouNeedKollectit .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  } */
+  
+  @media (min-width: 1024px) {
+    #YouNeedKollectit {
+      background-attachment: fixed;
+    }
+    #KOLLECTITfooter{
+      margin-top: 20%;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    #YouNeedKollectit {
+      height: 100vh;
+    }
+  
+    #YouNeedKollectit .animated {
+      -webkit-animation: none;
+      animation: none;
+    }
+  
+    #YouNeedKollectit .YouNeedKollectit-img {
+      text-align: center;
+    }
+  
+    #YouNeedKollectit .YouNeedKollectit-img img {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #YouNeedKollectit {
+      margin-top: 50%;
+    }
+  
+    #YouNeedKollectit h1 {
+      /* font-size: 28px; */
+      line-height: 36px;
+    }
+  
+    #YouNeedKollectit h2 {
+      /* font-size: 18px; */
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  
+    #YouNeedKollectit .YouNeedKollectit-img img {
+      width: 70%;
+    }
+    #KOLLECTITfooter{
+      margin-top: 140%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #KOLLECTITfooter{
+      margin-top: 100%;
+    }
+    #YouNeedKollectit .YouNeedKollectit-img img {
+      width: 80%;
+    }
+  }
+  
