@@ -1,16 +1,13 @@
 import "./Home.css";
 import React, { useState } from "react";
-import smartphone from '../../assests/smartphone.png'
-import Imag2 from '../../assests/Imag0.png'
-import mobileIcon from '../../assests/mobileIcon.png'
-import damiImage from '../../components/Header/kollect-logo.png'
+// import Imag2 from '../../assests/Imag0.png'
+// import mobileIcon from '../../assests/mobileIcon.png'
+// import damiImage from '../../components/Header/kollect-logo.png'
+// import smartphone from '../../assests/smartphone.png'
 import { Slide, Zoom } from 'react-slideshow-image';
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
-// import makeCarousel from "react-reveal/makeCarousel";
-// import Slide from "react-reveal/Slide";
-import styled, { css } from "styled-components";
 
 function Home() {
 

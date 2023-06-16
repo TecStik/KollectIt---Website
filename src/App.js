@@ -1,32 +1,18 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "antd/dist/antd.min.css";
 import "./App.css";
-import SecondHeader from "./Pages/SecondHeader/SecondHeader";
-import {
-  // About,
-  // Contact,
-  // JoinKOLLECTIT,
-  // OurTeam,
-  // Platform,
-  Home,
-} from "./Pages/index";
 // import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/css/bootstrap-theme.css';
 import { Helmet } from "react-helmet";
+import Home from "./components/Home/Home";
+
 
 export const App = () => {
   return (
-    // <BrowserRouter>
-    //   <SecondHeader />
-    // </BrowserRouter>
-
     <BrowserRouter>
       <Helmet>
         ‍<title>KOLLECTIT</title>‍
-        <meta
-          name="description"
-          content="Find all the best quality products your pet may need"
-        />
+        <meta name="description" content="Find all the best quality products your pet may need" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@user" />
         <meta name="twitter:creator" content="@user" />

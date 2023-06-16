@@ -1,16 +1,9 @@
 import React, { useState } from "react";
-// import { NavLink } from "react-router-dom";
-import "./Header.css";
-// import "./about.css";
-// import "./feature.css";
 import { Link } from "react-router-dom";
-import Logo from './kollect-logo.png'
-import smartphone from '../../assests/smartphone.png'
-import Imag2 from '../../assests/Imag2.png'
-import { Slide, Zoom } from 'react-slideshow-image';
-import { Col, Row } from "antd";
-import Button from 'react-bootstrap/Button';
 import { Helmet } from "react-helmet";
+import Logo from './kollect-logo.png'
+import "./Header.css";
+
 
 export default function Header() {
   const [click, setClick] = useState(false);
@@ -19,14 +12,13 @@ export default function Header() {
 
   return (
     <>
-      {/* NAvbar */}
       <Helmet>
         <title>{window.location.pathname.slice(1) === "" ? "KOLLECTIT-Home" : window.location.pathname.slice(1)}</title>
       </Helmet>
       <nav className="navbar">
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
-            <img src={Logo} alt="" id="logo" height={170} style={{ marginTop: "7%" }} />
+            <img src={Logo} alt="" id="logo" height={170} style={{ marginTop: "5%" }} />
             <span style={{ marginLeft: '-1.5%', color: "#134D61", fontWeight: "bold" }}>KOLLECTIT</span>
             {/* <i className="fas fa-arrow-down">KOLLECTIT</i> */}
           </Link>
@@ -74,9 +66,9 @@ export default function Header() {
                 className="nav-links"
                 onClick={handleClick}
               >
-               Why you need it?</Link>
+                Why you need it?</Link>
             </li>
-          
+
             <li className="nav-item">
               <Link
                 exact
@@ -108,7 +100,6 @@ export default function Header() {
           <h4 id="TwoNavText">Eliminating obstacles to collection</h4>
         </div>
       </nav>
-
 
       <br />
       <br />
