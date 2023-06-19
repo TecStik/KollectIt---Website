@@ -49,13 +49,11 @@ export default function Footer() {
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" id="footerLine">
                 <h6 class="text-uppercase fw-bold text-white">KOLLECTIT</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style={{ background: "#7c4dff", height: 2, width: 60 }} />
-                <p>
-                  Retail Transactions, are key to the development of any digital payments, receivables or delivery systems.KollectIt enhances precision between all of the collection staff of businesses or even individuals.
-                </p>
+                <p>Retail Transactions are key to the development of any digital payments, receivables or delivery system(s). KollectIt enhances precision between all of the collection staff of businesses or even individuals.</p>
               </div>
 
 
-              <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4" id="footerLine">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" id="footerLine">
 
                 <h6 class="text-uppercase fw-bold text-white">BENEFITS OF KOLLECTIT</h6>
                 <hr
@@ -64,18 +62,18 @@ export default function Footer() {
                 />
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
-                  Accuracy of Transactions   {/* </Link> */}
+                  Accuracy of your transactions {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/webAndMobile?tab=6" class="text-white"> */}
 
-                  Efficiency between transacting parties
+                  Coherent Communication
                   {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/webAndMobile?tab=6" class="text-white"> */}
 
-                  Reduced Monitoring Costs        {/* </Link> */}
+                  Reduced Monitoring Costs    {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
@@ -85,7 +83,7 @@ export default function Footer() {
                 </p>
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
-                  Decreased Miscommunications
+                  Improved Clarity
                   {/* </Link> */}
                 </p>
               </div>
@@ -99,24 +97,24 @@ export default function Footer() {
                 />
                 <p>
                   <Link to="/KOLLECTIT-About?tab=6" class="text-white">
-                    Why you need it
+                    Home
                   </Link>
                 </p>
                 <p>
                   <Link to="/KOLLECTIT-Join?tab=6" class="text-white">
-                    Our platform
+                    Why you need KollectIt
                   </Link>
                 </p>
                 <p>
                   <Link to="/KOLLECTIT-OurTeam?tab=6" class="text-white">
-                    Contact
+                  Our Team 
                   </Link>
                 </p>
-                {/* <p>
+                <p>
                   <Link to="/KOLLECTIT-Contact?tab=6" class="text-white">
-                    Contact Us
+                  Contact Us
                   </Link>
-                </p> */}
+                </p>
               </div>
 
 
@@ -127,7 +125,7 @@ export default function Footer() {
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style={{ background: "#7c4dff", height: 2, width: 60 }}
                 />
-                {/* <p>
+                <p>
                   <i class="fas fa-home mr-3"></i>  Business Centre, II Chundrigar Road
                 </p>
                 <p>
@@ -136,7 +134,7 @@ export default function Footer() {
                 </p>
                 <p>
                   <i class="fas fa-phone mr-3"></i> (92-21) 32442392-93
-                </p> */}
+                </p>
               </div>
             </div>
           </div>

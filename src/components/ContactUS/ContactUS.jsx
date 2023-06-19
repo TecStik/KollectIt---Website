@@ -54,7 +54,8 @@ export default function ContactUS() {
 
                 id="locationMap"
                 // height="200"
-                class="mb-4 mb-lg-0"
+                // class="mb-4 mb-lg-0"
+                class="col-md-10 col-lg-10 col-xl-10 mx-auto mb-md-0"
                 referrerpolicy="no-referrer-when-downgrade"
                 frameborder="0"
                 onClick={maplink}

@@ -1,9 +1,7 @@
+import React from "react";
 import "./Home.css";
-import React, { useState } from "react";
-// import Imag2 from '../../assests/Imag0.png'
-// import mobileIcon from '../../assests/mobileIcon.png'
-// import damiImage from '../../components/Header/kollect-logo.png'
-import Mobilepayment from './Mobilepayment.png'
+import payment from '../Images/payment.png'
+import Mobilepayment from '../Images/Mobilepayment.png'
 import { Slide, Zoom } from 'react-slideshow-image';
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
@@ -128,15 +126,15 @@ function Home() {
             <div class="row justify-content-between gy-5">
               <div
                 class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-                <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Financial Anomalies are History</p>
+                <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Taming the Chaos of Collection</p>
                 <br />
                 <br />
-                <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Cross-Platform Collection</h2>
+                {/* <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Cross-Platform Collection</h2> */}
 
                 <div class="content">
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                    <li>Economic Crimes, Payment Discrepancies, Inaccurate Reporting, Payment Fraud, etc. are all problems faced by Businesses and Individuals. KollectIt offers an effortless way to ensure yours or a collection team’s reporting is precise.</li>
-                  </ul>
+                  <li>Economic Crimes, Payment Discrepancies, Inaccurate Reporting, Payment Fraud, etc., are all problems faced by Businesses and Individuals. KollectIt offers an effortless way to ensure yours or a collection team’s reporting is precise.</li>
+                   </ul>
                 </div>
                 {/* <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
                 <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
@@ -153,6 +151,7 @@ function Home() {
                     images.map((each, index) => <img key={index} style={{ width: "70%", alignItems: "center" }} id="slideImage" src={each} />)
                   }
                 </Slide> */}
+                <img style={{ width: "70%", alignItems: "center" }} id="slideImage" src={payment} />
               </div>
             </div>
           </div>
@@ -168,14 +167,13 @@ function Home() {
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content">
-                  <h2  style={{ color: "#134D61" }}>Enriching cash collection with Unique Attributes</h2>
+                  <h2 style={{ color: "#134D61" }}>The Ultimate Collection App for All Platforms</h2>
                   <br />
                   {/* <h3>Join KOLLECTIT as an IBFI</h3> */}
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                    {/* <li>Stand out from conventional banks and strengthen your Islamic Banking window with KOLLECTIT. KOLLECTIT offers enhanced regulatory compliance, real-time automated reporting, and superior controls that minimize the need for physical inspections and audits. Embrace transparency and security, as Blockchain Technology functions to diminish the risks  of forgery and ensures the integrity of your transactions. Paving the Way to Authentically Digitized Islamic Banking.
-                    </li> */}
-                    <br />
+                   <li>Looking at the mix of banking transactions, paper-based activity still dominates the share in transaction value. While digital options are freely available, people prefer dealing in hard cash and checks. A lack of trust of online channels is one of the main issues, but avoiding taxes and documentation are also major contributory factors. With The KollectIt Cross-Platform App, The Admin User is granted Super Access allowing them to assign Team Members to roles, overlook each Team Member’s Task Status, remove roles as per needed or even finish a Team Member’s access to information. With separate priviledges for Cashier’s and Riders(Collection Staff), KollectIt ensures the collection aspect of any collection endeavour is optimized.</li>
+                    {/* <br /> */}
                     {/* <li>With KOLLECTIT, you'll enjoy streamlined processes, reduced monitoring requirements, and associated costs. Bid farewell to excessive regulatory reporting and filing burdens, as The KOLLECTIT Platform streamlines these tasks on your behalf.</li> */}
                   </ul>
                 </div>
@@ -210,30 +208,30 @@ function Home() {
         </section>
 
 
-        <section id="about" class="about">
+        {/* <section id="about" class="about">
 
           <div class="container" data-aos="fade-up" style={{ marginTop: "-5%" }}>
 
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                 <div class="content">
-                  {/* <h2>KOLLECTIT is aligned with the vision of digitalized Islamic Banking.</h2> */}
+                  <h2>KOLLECTIT is aligned with the vision of digitalized Islamic Banking.</h2>
                   <br />
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                    {/* <li>By leveraging KOLLECTIT, you can complement the country's digital transformation efforts. Embrace the possibility of integrating with The Raast Network and stay ahead of the curve.</li> */}
+                    <li>By leveraging KOLLECTIT, you can complement the country's digital transformation efforts. Embrace the possibility of integrating with The Raast Network and stay ahead of the curve.</li>
                     <br />
-                    {/* <li>Join us on this groundbreaking journey as we reshape Islamic Banking. Embrace innovation, improve efficiency, and ensure true Sharia compliance using KOLLECTIT. Contact us now to learn more about our transformative solution and how it can benefit your organization. Let's revolutionize Islamic Banking and Financial Services with KOLLECTIT</li> */}
+                    <li>Join us on this groundbreaking journey as we reshape Islamic Banking. Embrace innovation, improve efficiency, and ensure true Sharia compliance using KOLLECTIT. Contact us now to learn more about our transformative solution and how it can benefit your organization. Let's revolutionize Islamic Banking and Financial Services with KOLLECTIT</li>
                   </ul>
                 </div>
               </div>
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                {/* <img src={damiImage} id="labtopImage" class="img-fluid" alt="" /> */}
+                <img src={damiImage} id="labtopImage" class="img-fluid" alt="" />
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
 
         {/* <div class="container">
