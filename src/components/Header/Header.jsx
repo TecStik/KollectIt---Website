@@ -17,7 +17,7 @@ export default function Header() {
 
   const listenScrollEvent = () => {
     window.scrollY > 120 ? setnavSize(100) : setnavSize(170);
-    window.scrollY > 120 ? setmarginSize('-14%') : setmarginSize('5%');
+    window.scrollY > 120 ? setmarginSize('-4%') : setmarginSize('5%');
     window.scrollY > 120 ? setmenuSize('-17.5%') : setmenuSize('0%');
     window.scrollY > 120 ? setnavPosition('unset') : setnavPosition('fixed');
     // window.scrollY > 10 ? setnavColor("#fff") : setnavColor("#fff");

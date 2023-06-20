@@ -79,7 +79,10 @@ function Home() {
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content">
-                  <h2 style={{ color: "#134D61" }}>The Ultimate Collection App for All Platforms</h2>
+
+                  <br />
+                  <br />
+                  <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} id="textCenter">The Ultimate Collection App for All Platforms</h2>
                   <br />
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
@@ -95,6 +98,7 @@ function Home() {
           <div class="container">
             <div class="section-title">
               <br />
+
               <h2>Conquer Collection Challenges with KollectIt</h2>
               <br />
               {/* <p>The lack of transparency and the burden of manual documentation can present significant challenges. With KOLLECTIT, entire Islamic Banking transactions are executed digitally in just a few clicks/taps, while  ensuring compliance with Sharia principles. There may no longer be delays caused by continuous
@@ -109,13 +113,11 @@ function Home() {
 
 
         <section id="about" class="about">
-
           <div class="container" data-aos="fade-up" style={{ marginTop: "-5%" }}>
-
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                 <div class="content">
-                  <h2>KOLLECTIT is aligned with the vision of digitalized Islamic Banking.</h2>
+                  <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} id="textCenter">KOLLECTIT is aligned with the vision of digitalized Islamic Banking.</h2>
                   <br />
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
