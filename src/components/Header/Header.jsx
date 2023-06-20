@@ -12,12 +12,13 @@ export default function Header() {
   const [navSize, setnavSize] = useState(170);
   const [marginSize, setmarginSize] = useState("5%");
   const [navPosition, setnavPosition] = useState("fixed");
-  const [navColor, setnavColor] = useState("transparent");
+  const [menuSize, setmenuSize] = useState("transparent");
   const [navItemColor, setnavItemColor] = useState("#fff");
 
   const listenScrollEvent = () => {
     window.scrollY > 120 ? setnavSize(100) : setnavSize(170);
-    window.scrollY > 120 ? setmarginSize('-5%') : setmarginSize('5%');
+    window.scrollY > 120 ? setmarginSize('-14%') : setmarginSize('5%');
+    window.scrollY > 120 ? setmenuSize('-17.5%') : setmenuSize('0%');
     window.scrollY > 120 ? setnavPosition('unset') : setnavPosition('fixed');
     // window.scrollY > 10 ? setnavColor("#fff") : setnavColor("#fff");
     // window.scrollY > 10 ? setnavItemColor("#012049") : setnavItemColor("#fff");
@@ -46,11 +47,11 @@ export default function Header() {
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
             <img src={Logo} alt="" id="logo" style={{ height: navSize, marginTop: marginSize }} />
-            <span style={{ marginLeft: '.37%', color: "#134D61", fontWeight: "bold" }}>KOLLECTIT</span>
+            <span style={{ marginLeft: '.35%', color: "#134D61", fontWeight: "bold" }}>KOLLECTIT</span>
             {/* <i className="fas ">KOLLECTIT</i> */}
           </Link>
 
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? "nav-menu active" : "nav-menu"} style={{ marginTop: menuSize }}>
             <li className="nav-item">
               <Link
                 exact
@@ -109,10 +110,10 @@ export default function Header() {
             </li>
             {/* <li className="nav-item">
               <div class="dropdown">
-                <div id="services"><Link to="/KOLLECTIT-OurTeam">Our team</Link><i className="fa fa-caret-down"></i></div>
+                <div id="services"><Link to="/KOLLECTIT-OurTeam#Ourteam">Our team</Link><i className="fa fa-caret-down"></i></div>
                 <div class="dropdown-Industries">
+                    <a href="/KOLLECTIT-OurTeam#AboutOperator">About</a>
                   <>
-                    <> <Link to="/KOLLECTIT-OurTeam">About</Link></>
                   </>
 
                 </div>

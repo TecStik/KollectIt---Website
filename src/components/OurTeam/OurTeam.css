@@ -1,5 +1,7 @@
+
+
 /*--------------------------------------------------------------
-# Ourteam
+# Hero Section
 --------------------------------------------------------------*/
 #hero {
   /* margin-top: -2%; */
@@ -8,19 +10,19 @@
   margin-top: 5%;
 }
 
-#OurTeamhero p {
+#hero p {
   margin: 0 0 10px 0;
-  font-size: 47px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 600;
   line-height: 56px;
-  color: black;
 }
 
-#OurTeamhero h5 {
+#hero h2 {
   color: #484848;
   margin-bottom: 50px;
   font-size: 24px;
 }
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -31,12 +33,6 @@
   #hero {
     height: 100vh;
   }
-
-  #hero .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-
   #hero .hero-img {
     text-align: center;
   }
@@ -45,11 +41,24 @@
     width: 50%;
   }
 }
+
+#slideImage{
+  margin-left: 15%;
+}
+#ImgeSize{
+width: 70%;
+}
 @media (max-width: 768px) {
   #hero {
     margin-top: 20px;
   }
 
+  #ourTimeImage{
+    margin-top: 80%;
+  }
+  #ImgeSize{
+    width: 100%;
+    }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -59,6 +68,10 @@
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  #ladiesImage{
+    width: 100%; 
+    margin-left: 0%;
   }
 
   #hero .hero-img img {
@@ -164,3 +177,7 @@
   /* margin: 2%; */
   justify-content: space-between;
 }
+
+/* #ourTimeImage{
+  margin-top: 15%;
+} */
