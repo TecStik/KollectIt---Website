@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
+import Radium, { StyleRoot } from 'radium';
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Logo from './kollect-logo.png'
 import "./Header.css";
-
 
 export default function Header() {
   const [click, setClick] = useState(false);
@@ -12,16 +12,17 @@ export default function Header() {
   const [navSize, setnavSize] = useState(170);
   const [marginSize, setmarginSize] = useState("5%");
   const [navPosition, setnavPosition] = useState("fixed");
-  const [menuSize, setmenuSize] = useState("transparent");
-  const [navItemColor, setnavItemColor] = useState("#fff");
+  const [menuSize, setmenuSize] = useState("");
+  const [MarginLeft, setMarginLeft] = useState("");
+  const [height, setheight] = useState("");
 
   const listenScrollEvent = () => {
     window.scrollY > 120 ? setnavSize(100) : setnavSize(170);
-    window.scrollY > 120 ? setmarginSize('-4%') : setmarginSize('5%');
-    window.scrollY > 120 ? setmenuSize('-17.5%') : setmenuSize('0%');
+    window.scrollY > 120 ? setmarginSize('-5%') : setmarginSize('5%');
+    window.scrollY > 120 ? setmenuSize('15') : setmenuSize('0%');
     window.scrollY > 120 ? setnavPosition('unset') : setnavPosition('fixed');
-    // window.scrollY > 10 ? setnavColor("#fff") : setnavColor("#fff");
-    // window.scrollY > 10 ? setnavItemColor("#012049") : setnavItemColor("#fff");
+    window.scrollY > 10 ? setMarginLeft(".35%") : setMarginLeft("");
+    // window.scrollY > 10 ? setheight("75px") : setheight('65px');
   };
 
   useEffect(() => {
@@ -31,39 +32,47 @@ export default function Header() {
     };
   }, []);
 
+  const style = {
+    // Adding media query..
+
+    '@media screen and (max-width: 500px)': {
+      marginTop: menuSize,
+    },
+  };
   return (
     <>
       <Helmet>
         <title>{window.location.pathname.slice(1) === "" ? "KOLLECTIT-Home" : window.location.pathname.slice(1)}</title>
       </Helmet>
       <nav className="navbar"
-      // style={{
-      //   backgroundColor: navColor,
-      //   color: navItemColor,
-      //   height: navSize,
-      //   transition: "all 1s",
-      // }}
+        style={{
+          // backgroundColor: navColor,
+          // color: navItemColor,
+          // height: navSize,
+          // transition: "all 1s",
+          // height: height
+        }}
       >
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
-            <img src={Logo} alt="" id="logo" style={{ height: navSize, marginTop: marginSize }} />
-            <span style={{ marginLeft: '.35%', color: "#134D61", fontWeight: "bold" }}>KOLLECTIT</span>
+            <img src={Logo} alt="" id="logo" style={{ transition: "all 1s", height: navSize, marginTop: marginSize, paddingLeft: 5 }} />
+            <span style={{ marginTop: marginSize, marginLeft: MarginLeft, color: "#134D61", fontWeight: "bold" }}>KOLLECTIT</span>
             {/* <i className="fas ">KOLLECTIT</i> */}
           </Link>
-
-          <ul className={click ? "nav-menu active" : "nav-menu"} style={{ marginTop: menuSize }}>
-            <li className="nav-item">
-              <Link
-                exact
-                to="/"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Home
-              </Link>
-            </li>
-            {/* <li className="nav-item">
+          <StyleRoot>
+            <ul className={click ? "nav-menu active" : "nav-menu"} style={style}>
+              <li className="nav-item">
+                <Link
+                  exact
+                  to="/"
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  Home
+                </Link>
+              </li>
+              {/* <li className="nav-item">
               <Link
                 exact
                 to="/KOLLECTIT-About"
@@ -76,7 +85,7 @@ export default function Header() {
             </li> */}
 
 
-            {/* <li className="nav-item">
+              {/* <li className="nav-item">
               <div class="dropdown">
                 <div id="services">Our Platform <i className="fa fa-caret-down"></i></div>
                 <div class="dropdown-Industries">
@@ -87,28 +96,28 @@ export default function Header() {
                 </div>
               </div>
             </li> */}
-            <li className="nav-item">
-              <Link
-                exact
-                to="/KOLLECTIT-Need"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Why you Need KollectIt</Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                exact
-                to="/KOLLECTIT-OurTeam"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Our Team
-              </Link>
-            </li>
-            {/* <li className="nav-item">
+              <li className="nav-item">
+                <Link
+                  exact
+                  to="/KOLLECTIT-Need"
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  Why you Need KollectIt</Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  exact
+                  to="/KOLLECTIT-OurTeam"
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  Our Team
+                </Link>
+              </li>
+              {/* <li className="nav-item">
               <div class="dropdown">
                 <div id="services"><Link to="/KOLLECTIT-OurTeam#Ourteam">Our team</Link><i className="fa fa-caret-down"></i></div>
                 <div class="dropdown-Industries">
@@ -119,24 +128,25 @@ export default function Header() {
                 </div>
               </div>
             </li> */}
-            <li className="nav-item">
-              <Link
-                exact
-                to="/KOLLECTIT-Contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Contact Us
-              </Link>
-            </li>
-            {/* <li className="nav-item">
+              <li className="nav-item">
+                <Link
+                  exact
+                  to="/KOLLECTIT-Contact"
+                  activeClassName="active"
+                  className="nav-links"
+                  onClick={handleClick}
+                >
+                  Contact Us
+                </Link>
+              </li>
+              {/* <li className="nav-item">
                 <Button variant="outline-primary" className="nav-links">Login</Button>
             </li>
             <li className="nav-item">
                 <Button variant="outline-primary">Sign UP</Button>
             </li> */}
-          </ul>
+            </ul>
+          </StyleRoot>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
@@ -157,3 +167,5 @@ export default function Header() {
     </>
   );
 }
+
+

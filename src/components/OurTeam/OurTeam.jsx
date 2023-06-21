@@ -27,7 +27,7 @@ export default function OurTeam() {
         };
     }, []);
     return (
-        <div>
+        <>
             <Header />
             <section id="hero" class="hero d-flex align-items-center section-bg" style={{ marginTop: "12%", backgroundColor: "white" }}>
                 <div class="container">
@@ -53,12 +53,10 @@ export default function OurTeam() {
             </section>
 
             <br />
-            <br />
-            <br />
-            <br />
+
 
             <div class="container">
-                <div class="section-title" id='OurTeam'>
+                <div class="section-title" id='Ourteam'>
                     <h2><span></span>Our Team</h2>
                     <br />
                     <p>Led by experts, TecStik and The KollectIt App is primarily operated by professionals who have prominent reputations across The Finance Industry.</p>
@@ -157,7 +155,9 @@ export default function OurTeam() {
             </div>
 
             <br />
-            <Footer />
-        </div >
+            <div id='Teamfooter'>
+                <Footer />
+            </div>
+        </ >
     )
 }

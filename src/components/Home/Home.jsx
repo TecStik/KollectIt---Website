@@ -99,7 +99,7 @@ function Home() {
             <div class="section-title">
               <br />
 
-              <h2>Conquer Collection Challenges with KollectIt</h2>
+              <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} >Conquer Collection Challenges with KollectIt</h2>
               <br />
               {/* <p>The lack of transparency and the burden of manual documentation can present significant challenges. With KOLLECTIT, entire Islamic Banking transactions are executed digitally in just a few clicks/taps, while  ensuring compliance with Sharia principles. There may no longer be delays caused by continuous
                 back-and-forths or pre-signed post-dated documents. Rest assured that The Solution meets Sharia requirements, allowing you to conduct all transactions seamlessly.

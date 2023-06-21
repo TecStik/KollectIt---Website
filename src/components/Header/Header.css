@@ -120,6 +120,10 @@
 
 }
 
+#TwoNavText {
+  margin-left: 14.5rem;
+}
+
 @media screen and (max-width: 960px) {
   .nav-menu {
     display: flex;
@@ -140,6 +144,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    margin-top: -13%; /*  */
   }
 
   .nav-item .active {
@@ -165,26 +170,22 @@
   }
 
   #logo {
-    height: 180px;
-    margin-left: -17.35%;
-    /* margin: -7%; */
-    padding: 2%;
-    /* margin-bottom: -17px; */
+    height: 150px;
+    margin-left: -12%;
+    margin-bottom: -17px;
   }
-  /* #logo {
-    margin-left: -15%;
-  } */
 
   #TwoNavText {
     color: #11366B;
     justify-content: right;
     align-items: right;
     text-align: right;
-    margin-left: 7rem;
+    margin-left: 9rem;
     font-size: 22px;
     text-align: center;
     font-weight: bold;
   }
+
 }
 
 
@@ -271,11 +272,10 @@
   .hero {
     margin-top: 25%;
   }
-
-  /* .hero .btn-get-started,
-  .hero .btn-watch-video {
-      font-size: 14px;
-  } */
+  .navbar{
+    height: 75px;
+    /* margin-left: -5%; */
+  }
 }
 
 

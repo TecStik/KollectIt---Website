@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -27,12 +25,19 @@
   #hero {
     background-attachment: fixed;
   }
+
+  #Ourteam {
+    /* background-color: #012970; */
+    margin-top: 5%;
+    /* margin-bottom: -100%; */
+  }
 }
 
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
   }
+
   #hero .hero-img {
     text-align: center;
   }
@@ -42,23 +47,29 @@
   }
 }
 
-#slideImage{
+#slideImage {
   margin-left: 15%;
 }
-#ImgeSize{
-width: 70%;
+
+#ImgeSize {
+  width: 70%;
 }
+
 @media (max-width: 768px) {
   #hero {
     margin-top: 20px;
   }
 
-  #ourTimeImage{
+
+
+  #ourTimeImage {
     margin-top: 80%;
   }
-  #ImgeSize{
+
+  #ImgeSize {
     width: 100%;
-    }
+  }
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -69,8 +80,9 @@ width: 70%;
     line-height: 24px;
     margin-bottom: 30px;
   }
-  #ladiesImage{
-    width: 100%; 
+
+  #ladiesImage {
+    width: 100%;
     margin-left: 0%;
   }
 
@@ -83,6 +95,14 @@ width: 70%;
   #hero .hero-img img {
     width: 80%;
   }
+
+  #Ourteam {
+    margin-top: 90%;
+    margin-bottom: -100%;
+  }
+  #Teamfooter{
+    margin-top: 100%;
+  }
 }
 
 
@@ -92,90 +112,93 @@ width: 70%;
   margin: 2%;
   height: 100%;
 }
-  
-  .Ourteam h3 {
-    font-size: 14px;
-    font-weight: 700;
-    color: #4154f1;
-    text-transform: uppercase;
-  }
-  
-  .Ourteam h2 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #012970;
-  }
-  
-  .Ourteam p {
-    margin: 15px 0 30px 0;
-    line-height: 24px;
-  }
-  
-  .Ourteam .btn-read-more {
-    line-height: 0;
-    padding: 15px 40px;
-    border-radius: 4px;
-    transition: 0.5s;
-    color: #fff;
-    background: #4154f1;
-    box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
-  }
-  
-  .Ourteam .btn-read-more span {
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 1px;
-  }
-  
-  .Ourteam .btn-read-more i {
-    margin-left: 5px;
-    font-size: 18px;
-    transition: 0.3s;
-  }
-  
-  .Ourteam .btn-read-more:hover i {
-    transform: translateX(5px);
-  }
 
-  .Ourteam-header {
-    text-align: center;
-    padding-bottom: 40px;
-  }
-  
-  .Ourteam-header h2 {
-    font-size: 13px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    margin: 0;
-    color: #4154f1;
-    text-transform: uppercase;
-  }
-  
-  .Ourteam-header p {
-    margin: 10px 0 0 0;
-    padding: 0;
-    font-size: 38px;
-    line-height: 42px;
-    font-weight: 700;
-    color: #012970;
-  }
-  
-
-  #OurteamImage {
-    margin-left: 20%;
-    width: 70%;
-    margin-top: -10%;
+.Ourteam h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
 }
+
+.Ourteam h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #012970;
+}
+
+.Ourteam p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+
+.Ourteam .btn-read-more {
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+}
+
+.Ourteam .btn-read-more span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.Ourteam .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.Ourteam .btn-read-more:hover i {
+  transform: translateX(5px);
+}
+
+.Ourteam-header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.Ourteam-header h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+.Ourteam-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+}
+
+
+#OurteamImage {
+  margin-left: 20%;
+  width: 70%;
+  margin-top: -10%;
+}
+
 @media (max-width: 667px) {
   #OurteamImage {
-      margin-left: 0%;
-      width: 100%;
+    margin-left: 0%;
+    width: 100%;
   }
 }
-#Ourteam{
-  /* margin: 2%; */
+
+#Ourteam {
   justify-content: space-between;
+  /* margin-top: 10%; */
+  /* margin-bottom: -10%; */
 }
 
 /* #ourTimeImage{
