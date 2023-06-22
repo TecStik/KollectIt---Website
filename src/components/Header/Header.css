@@ -46,10 +46,7 @@
   /* position: fixed; */
 }
 
-#TwoNavText {
-  margin-left: 14rem;
-  color: #11366B;
-}
+
 
 .nav-logo {
   color: white;
@@ -60,6 +57,11 @@
   font-size: 2rem;
   flex-grow: 1;
 
+}
+
+#TwoNavText {
+  color: #11366B;
+  margin-left: 13%;
 }
 
 .nav-menu {
@@ -121,7 +123,9 @@
 }
 
 #TwoNavText {
-  margin-left: 14.5rem;
+  margin-left: 13.7rem;
+  text-align: center;
+  color: #11366B;
 }
 
 @media screen and (max-width: 960px) {
@@ -136,7 +140,7 @@
     opacity: 1;
     transition: all 0.5s ease;
   }
-  
+
   .nav-menu.active {
     background: #578B9D;
     background: #578B9D;
@@ -144,7 +148,8 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    margin-top: -13%; /*  */
+    /* margin-top: 13% red; */
+    /*  */
   }
 
   .nav-item .active {
@@ -180,10 +185,8 @@
     justify-content: right;
     align-items: right;
     text-align: right;
-    margin-left: 9rem;
-    font-size: 22px;
+    margin-left: 32%;
     text-align: center;
-    font-weight: bold;
   }
 
 }
@@ -272,7 +275,8 @@
   .hero {
     margin-top: 25%;
   }
-  .navbar{
+
+  .navbar {
     height: 75px;
     /* margin-left: -5%; */
   }

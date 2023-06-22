@@ -51,28 +51,29 @@ export default function Header() {
           // height: navSize,
           // transition: "all 1s",
           // height: height
+
         }}
       >
-        <div className="nav-container">
-          <Link exact to="/" className="nav-logo">
-            <img src={Logo} alt="" id="logo" style={{ transition: "all 1s", height: navSize, marginTop: marginSize, paddingLeft: 5 }} />
-            <span style={{ marginTop: marginSize, marginLeft: MarginLeft, color: "#134D61", fontWeight: "bold" }}>KOLLECTIT</span>
-            {/* <i className="fas ">KOLLECTIT</i> */}
+        <div className="nav-container" >
+          <Link exact to="/" className="nav-logo" style={{ color: "#134D61", fontSize: '30px', fontWeight: 600 }}>
+            <img src={Logo} alt="" id="logo" height={170} style={{ marginTop: "6%" }} />
+            KOLLECTIT
           </Link>
-          <StyleRoot>
-            <ul className={click ? "nav-menu active" : "nav-menu"} style={style}>
-              <li className="nav-item">
-                <Link
-                  exact
-                  to="/"
-                  activeClassName="active"
-                  className="nav-links"
-                  onClick={handleClick}
-                >
-                  Home
-                </Link>
-              </li>
-              {/* <li className="nav-item">
+
+          {/* <StyleRoot> */}
+          <ul className={click ? "nav-menu active" : "nav-menu"} >
+            <li className="nav-item">
+              <Link
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Home
+              </Link>
+            </li>
+            {/* <li className="nav-item">
               <Link
                 exact
                 to="/KOLLECTIT-About"
@@ -85,7 +86,7 @@ export default function Header() {
             </li> */}
 
 
-              {/* <li className="nav-item">
+            {/* <li className="nav-item">
               <div class="dropdown">
                 <div id="services">Our Platform <i className="fa fa-caret-down"></i></div>
                 <div class="dropdown-Industries">
@@ -96,28 +97,28 @@ export default function Header() {
                 </div>
               </div>
             </li> */}
-              <li className="nav-item">
-                <Link
-                  exact
-                  to="/KOLLECTIT-Need"
-                  activeClassName="active"
-                  className="nav-links"
-                  onClick={handleClick}
-                >
-                  Why you Need KollectIt</Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  exact
-                  to="/KOLLECTIT-OurTeam"
-                  activeClassName="active"
-                  className="nav-links"
-                  onClick={handleClick}
-                >
-                  Our Team
-                </Link>
-              </li>
-              {/* <li className="nav-item">
+            <li className="nav-item">
+              <Link
+                exact
+                to="/KOLLECTIT-Need"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Why you Need KollectIt</Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                exact
+                to="/KOLLECTIT-OurTeam"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Our Team
+              </Link>
+            </li>
+            {/* <li className="nav-item">
               <div class="dropdown">
                 <div id="services"><Link to="/KOLLECTIT-OurTeam#Ourteam">Our team</Link><i className="fa fa-caret-down"></i></div>
                 <div class="dropdown-Industries">
@@ -128,25 +129,25 @@ export default function Header() {
                 </div>
               </div>
             </li> */}
-              <li className="nav-item">
-                <Link
-                  exact
-                  to="/KOLLECTIT-Contact"
-                  activeClassName="active"
-                  className="nav-links"
-                  onClick={handleClick}
-                >
-                  Contact Us
-                </Link>
-              </li>
-              {/* <li className="nav-item">
+            <li className="nav-item">
+              <Link
+                exact
+                to="/KOLLECTIT-Contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Contact Us
+              </Link>
+            </li>
+            {/* <li className="nav-item">
                 <Button variant="outline-primary" className="nav-links">Login</Button>
             </li>
             <li className="nav-item">
                 <Button variant="outline-primary">Sign UP</Button>
             </li> */}
-            </ul>
-          </StyleRoot>
+          </ul>
+          {/* </StyleRoot> */}
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
@@ -155,9 +156,9 @@ export default function Header() {
 
       {/* 2nd Nav */}
 
-      <nav className="Twonavbar" style={{ position: navPosition, width: "100%" }}>
+      <nav className="Twonavbar">
         <div className="Twonav-container">
-          <h4 id="TwoNavText">Digitize Physical Collection</h4>
+          <h4 id="TwoNavText" style={{ color: "#134D61" }}>Digitize Physical Collection</h4>
         </div>
       </nav>
 
