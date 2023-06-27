@@ -56,12 +56,16 @@
   text-decoration: none;
   font-size: 2rem;
   flex-grow: 1;
+  
+}
+#logo{
+  margin-top: -25px;
 
 }
 
 #TwoNavText {
   color: #11366B;
-  margin-left: 13%;
+  /* margin-left: 23%; */
 }
 
 .nav-menu {
@@ -95,6 +99,7 @@
   width: 0;
   background: transparent;
   transition: width 0.7s ease, background-color 0.5s ease;
+  /* margin-top: 10%; */
 }
 
 .nav-item:hover:after {
@@ -114,16 +119,20 @@
 @media screen and (max-width: 1024px) {
 
   #logo {
-    background-color: "red";
-    height: 150px;
-    margin-left: -8%;
-    margin-bottom: -17px;
+    /* background-color: "red"; */
+    /* height: 150px; */
+    /* margin-left: -8%; */
+    /* margin-bottom: -17px; */
+  }
+  #Kollectit{
+    margin: auto;
+    text-align: center;
   }
 
 }
 
 #TwoNavText {
-  margin-left: 13.7rem;
+  margin-left: 9rem;
   text-align: center;
   color: #11366B;
 }
@@ -148,6 +157,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    margin-top: -15%;
     /* margin-top: 13% red; */
     /*  */
   }
@@ -175,17 +185,22 @@
   }
 
   #logo {
-    height: 150px;
+    height: 100px;
     margin-left: -12%;
     margin-bottom: -17px;
   }
 
   #TwoNavText {
     color: #11366B;
-    justify-content: right;
-    align-items: right;
-    text-align: right;
-    margin-left: 32%;
+    /* justify-content: right; */
+    /* align-items: right; */
+    /* text-align: right; */
+    /* margin-left: 22%; */
+    margin: auto;
+    text-align: center;
+  }
+  #Kollectit{
+    margin: auto;
     text-align: center;
   }
 
@@ -279,6 +294,14 @@
   .navbar {
     height: 75px;
     /* margin-left: -5%; */
+  }
+  #TwoNavText {
+    color: #11366B;
+    /* justify-content: right; */
+    /* align-items: right; */
+    /* text-align: right; */
+    /* margin-left: 32%; */
+    text-align: center;
   }
 }
 

@@ -56,8 +56,10 @@ export default function Header() {
       >
         <div className="nav-container" >
           <Link exact to="/" className="nav-logo" style={{ color: "#134D61", fontSize: '30px', fontWeight: 600 }}>
-            <img src={Logo} alt="" id="logo" height={170} style={{ marginTop: "6%" }} />
+            <img src={Logo} alt="" id="logo" height={100} />
+           <span id="Kollectit">
             KOLLECTIT
+           </span>
           </Link>
 
           {/* <StyleRoot> */}
@@ -106,6 +108,16 @@ export default function Header() {
                 onClick={handleClick}
               >
                 Why you Need KollectIt</Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+               How it Works</Link>
             </li>
             <li className="nav-item">
               <Link

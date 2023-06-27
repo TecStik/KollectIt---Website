@@ -7,6 +7,9 @@ import Header from "../Header/Header";
 import payment from '../Images/payment.png'
 import ladypayment from '../Images/ladypayment.png'
 import splash from '../Images/splash1.png'
+import Mobile from '../Images/whyJoin/Mobile1.png'
+import Setting from '../Images/whyJoin/Setting.png'
+import Question from '../Images/whyJoin/Question.png'
 
 
 const YouNeedKollectit = () => {
@@ -45,7 +48,7 @@ const YouNeedKollectit = () => {
 
                     <div class="row gx-0">
                         <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                            {/* <img src={payment} class="img-fluid" alt="" id="ImgeSize" /> */}
+                            <img src={Question} class="img-fluid" alt="" id="ImgeSize" />
                         </div>
                         <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                             <div class="content">
@@ -81,8 +84,8 @@ const YouNeedKollectit = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                            {/* <img src={ladypayment} id="ladiesImage" alt="" /> */}
+                        <div class="col-lg-6 d-flex " style={{justifyContent:"center"}} data-aos="zoom-out" data-aos-delay="200">
+                            <img src={Setting}  id="ImgeSize" alt="" />
                         </div>
                     </div>
                 </div>
@@ -94,7 +97,7 @@ const YouNeedKollectit = () => {
 
                     <div class="row gx-0">
                         <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                            {/* <img src={payment} class="img-fluid" alt="" id="ImgeSize" /> */}
+                            <img src={Mobile} class="img-fluid" alt="" id="ImgeSize" />
                         </div>
                         <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                             <div class="content">
