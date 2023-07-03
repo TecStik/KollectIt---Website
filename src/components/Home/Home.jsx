@@ -117,13 +117,15 @@ function Home() {
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                 <div class="content">
-                  <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} id="textCenter">KOLLECTIT is aligned with the vision of digitalized Islamic Banking.</h2>
+                  <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} id="textCenter">KollectIt is The Key to Accurate Reporting</h2>
                   <br />
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                    <li>By leveraging KOLLECTIT, you can complement the country's digital transformation efforts. Embrace the possibility of integrating with The Raast Network and stay ahead of the curve.</li>
+                    <li>Venturing into the realm of handling tangible cash becomes a daunting endeavour for businesses and individuals. Misrepresenting amounts of cash exchanges becomes highly likely, when two separate parties are involved.</li>
                     <br />
-                    <li>Join us on this groundbreaking journey as we reshape Islamic Banking. Embrace innovation, improve efficiency, and ensure true Sharia compliance using KOLLECTIT. Contact us now to learn more about our transformative solution and how it can benefit your organization. Let's revolutionize Islamic Banking and Financial Services with KOLLECTIT</li>
+                    <li>The Mobile and Desktop (hybrid) Software behind KollectIt enable clear-cut methods to authenticate how much cash is exchanged between both parties of cash transactions. Using OTPs (One-Time-Passwords) sent by KollectIt, The Providers of cash can verify the sum of cash provided. The cashier or person responsible to validate the receipt of cash or check from the receiving end, conveniently identifies the exact amount to be received so the scrutiny of parties is conducted with enhanced precision. </li>
+                    <br/>
+                    <li>The Team behind KollectIt is prepared to tailor the Application to specific requirements of user-friendly integration between other in-house software your financial team might use. Simply send detailed requirements to info@tecstik.com and anticipate a prompt response from KollectIt’s developers.</li>
                   </ul>
                 </div>
               </div>
