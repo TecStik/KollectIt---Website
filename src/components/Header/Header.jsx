@@ -112,7 +112,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 exact
-                to="/"
+                to="/KOLLECTIT-Work"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}

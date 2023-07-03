@@ -125,7 +125,8 @@ function Home() {
                     <br />
                     <li>The Mobile and Desktop (hybrid) Software behind KollectIt enable clear-cut methods to authenticate how much cash is exchanged between both parties of cash transactions. Using OTPs (One-Time-Passwords) sent by KollectIt, The Providers of cash can verify the sum of cash provided. The cashier or person responsible to validate the receipt of cash or check from the receiving end, conveniently identifies the exact amount to be received so the scrutiny of parties is conducted with enhanced precision. </li>
                     <br/>
-                    <li>The Team behind KollectIt is prepared to tailor the Application to specific requirements of user-friendly integration between other in-house software your financial team might use. Simply send detailed requirements to info@tecstik.com and anticipate a prompt response from KollectIt’s developers.</li>
+                    <li>The Team behind KollectIt is prepared to tailor the Application to specific requirements of user-friendly integration between other in-house software your financial team might use. Simply send detailed requirements to 
+                    <a href="mailto:info@tecstik.com" class="text-black"><b> info@tecstik.com </b></a> and anticipate a prompt response from KollectIt’s developers within 24-Hours.</li>
                   </ul>
                 </div>
               </div>

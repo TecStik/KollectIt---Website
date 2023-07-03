@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 import YouNeedKollectit from "./components/YouNeedKollectit/YouNeedKollectit";
 import ContactUS from "./components/ContactUS/ContactUS";
 import OurTeam from "./components/OurTeam/OurTeam";
+import HowItWork from "./components/HowItWork/HowItWork";
 
 
 export const App = () => {
@@ -36,6 +37,7 @@ export const App = () => {
         <Route path="/KOLLECTIT-Need" element={<YouNeedKollectit />} />
         <Route path="/KOLLECTIT-Contact" element={<ContactUS />} />
         <Route path="/KOLLECTIT-OurTeam" element={<OurTeam />} />
+        <Route path="/KOLLECTIT-Work" element={<HowItWork />} />
         {/*
         <Route path="/KOLLECTIT-About" element={<About />} />
         <Route path="/KOLLECTIT-Platform" element={<Platform />} />

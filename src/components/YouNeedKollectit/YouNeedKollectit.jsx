@@ -43,6 +43,8 @@ const YouNeedKollectit = () => {
                 }}
             />
 
+            <h1 style={{}} className="text-center"> Enhance your Finance.</h1>
+
             <section id="about" class="about">
                 <div class="container" data-aos="fade-up">
 
@@ -55,11 +57,11 @@ const YouNeedKollectit = () => {
 
                                 <br />
                                 <br />
-                                {/* <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} id="textCenter">The Ultimate Collection App for All Platforms</h2> */}
+                                <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, marginLeft: "-1%" }} id="textCenter">Seamless Collaboration</h2>
                                 <br />
                                 <br />
-                                <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                                    <li>With integrated databases, KollectIt brings the finest communications between your collection team. Overlook your collection process as an Admin user by confirming, examining status(es) and assigning team members to relevant roles.</li>
+                                <ul style={{ listStyleType: "none", marginLeft: "-5%" }}>
+                                    <li>With integrated databases, KollectIt brings the finest communications between your collection team. Carefully look into collection processes as an Admin User by confirming, examining status(es) and assigning team members to relevant roles.</li>
                                 </ul>
                             </div>
                         </div>
@@ -70,22 +72,23 @@ const YouNeedKollectit = () => {
 
             </section>
 
-
             <section id="about" class="about">
                 <div class="container" data-aos="fade-up" style={{ marginTop: "-5%" }}>
                     <div class="row gx-0">
                         <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                             <div class="content">
-                                {/* <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} id="textCenter">KOLLECTIT is aligned with the vision of digitalized Islamic Banking.</h2> */}
+                                <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600,marginLeft:"-1%" }} id="textCenter">Reassured Accuracy</h2>
                                 <br />
                                 <br />
-                                <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                                    <li>Once designated for the position, your cashier or manager is tasked with ensuring fulfillment. After signing in as Cashier, the ability to add a Client(s), Assign Rider(s) for collection, view payment deposits, view payment statuses and more.</li>
+                                <ul style={{ listStyleType: "none", marginLeft: "-5%" }}>
+                                    <li>
+                                        Once designated for the position, your cashier or manager is tasked with ensuring fulfilment. After signing in as Cashier, the ability to add a Client(s), Assign Rider(s) for collection, view and make payment deposits, view payment statuses and more.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-6 d-flex " style={{justifyContent:"center"}} data-aos="zoom-out" data-aos-delay="200">
-                            <img src={Setting}  id="ImgeSize" alt="" />
+                        <div class="col-lg-6 d-flex " style={{ justifyContent: "center" }} data-aos="zoom-out" data-aos-delay="200">
+                            <img src={Setting} id="ImgeSize" alt="" />
                         </div>
                     </div>
                 </div>
@@ -104,11 +107,12 @@ const YouNeedKollectit = () => {
 
                                 <br />
                                 <br />
-                                {/* <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} id="textCenter">The Ultimate Collection App for All Platforms</h2> */}
+                                <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 ,marginLeft:"-1%"}} id="textCenter">Precise Data Exchange</h2>
                                 <br />
                                 <br />
-                                <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                                    <li>When assigned to the role of a Rider, a Rider can select an option from their home screen. Complete with a Client List designated to them, view all of the payments they have collected, verify recently collected payments with a PVC(Payment Verification Code) sent to a client.</li>
+                                <ul style={{ listStyleType: "none", marginLeft: "-5%" }}>
+                                    <li>When assigned to the role of a Rider, a Rider can select an option from their home screen. Complete with a Client List designated to them, view all of the payments they have collected, verify recently collected payments with a PVC(Payment Verification Code) sent to a client.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
