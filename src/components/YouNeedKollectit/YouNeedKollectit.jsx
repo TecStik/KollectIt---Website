@@ -43,8 +43,8 @@ const YouNeedKollectit = () => {
                 }}
             />
 
-            <h1 style={{}} className="text-center"> Enhance your Finance.</h1>
-
+            <h1 style={{color: "#134D61", fontSize: '35px', fontWeight: 600}} className="text-center">Revamp Your Cash Collection Game Now!</h1>
+            
             <section id="about" class="about">
                 <div class="container" data-aos="fade-up">
 

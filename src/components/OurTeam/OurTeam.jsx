@@ -29,7 +29,7 @@ export default function OurTeam() {
     return (
         <>
             <Header />
-            <section id="hero" class="hero d-flex align-items-center section-bg" style={{ marginTop: "12%", backgroundColor: "white" }}>
+            <section id="hero" class="hero d-flex align-items-center section-bg" style={{ marginTop: "8%", backgroundColor: "white" }}>
                 <div class="container">
                     <div class="row justify-content-between gy-5">
                         <div
@@ -55,7 +55,7 @@ export default function OurTeam() {
             <br />
 
 
-            <div class="container">
+            <div class="container" id="OurTeamSection">
                 <div class="section-title" id='Ourteam'>
                     <h2><span></span>Our Team</h2>
                     <br />
@@ -63,30 +63,29 @@ export default function OurTeam() {
                 </div>
             </div>
 
-            <div id='Team'>
-                <section id="Ourteam" class="Ourteam">
-                    <div class="container" data-aos="fade-up" >
+            <section id="Ourteam" class="Ourteam">
+                <div class="container" data-aos="fade-up" id='TeamContainer'>
 
-                        <div class="row gx-0" style={{ justifyContent: "center" }}>
-                            <div class="col-lg-6 d-flex align-items-center mt-0 mb-0" data-aos="zoom-out" data-aos-delay="200">
-                                <div class="content">
-                                    <h2>Mr. Bilal Saleem - Chief Executive</h2>
+                    <div class="row gx-0" style={{ justifyContent: "center" }}>
+                        <div class="col-lg-6 d-flex align-items-center mt-0 mb-0" data-aos="zoom-out" data-aos-delay="200">
+                            <div class="content">
+                                <h2>Mr. Bilal Saleem - Chief Executive</h2>
+                                <br />
+                                <h5>Mr. Bilal Saleem is the Director of TecStik, bringing you IJMA. His extensive expertise in Banking and Finance leading Pacific Financial Services Pvt. Ltd., has allowed TecStik to make diligent efforts to upgrade Islamic Banking.</h5>
+                                <br />
+                                <ul>
+                                    <li>Over 26 years of experience in Corporate Finance, Treasury and Investment Banking with several successful transactions to his credit.</li>
                                     <br />
-                                    <h5>Mr. Bilal Saleem is the Director of TecStik, bringing you IJMA. His extensive expertise in Banking and Finance leading Pacific Financial Services Pvt. Ltd., has allowed TecStik to make diligent efforts to upgrade Islamic Banking.</h5>
+                                    <li> An Entrepreneur with his own consultancy firm providing advisory to several local and International clientele.</li>
                                     <br />
-                                    <ul>
-                                        <li>Over 26 years of experience in Corporate Finance, Treasury and Investment Banking with several successful transactions to his credit.</li>
-                                        <br />
-                                        <li> An Entrepreneur with his own consultancy firm providing advisory to several local and International clientele.</li>
-                                        <br />
-                                        <li> Holds MBA in Finance from Iowa State University(USA).</li>
-                                    </ul>
-                                    <br />
-                                    <br />
-                                    <br />
-                                </div>
+                                    <li> Holds MBA in Finance from Iowa State University(USA).</li>
+                                </ul>
+                                <br />
+                                <br />
+                                <br />
                             </div>
-                            {/* <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                        </div>
+                        {/* <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                             <div class="content">
                                 <h2>Mr. Bilal Saleem - Chief Executive</h2>
                                 <br />
@@ -101,58 +100,59 @@ export default function OurTeam() {
                                 </ul>
                             </div>
                         </div> */}
-                        </div>
                     </div>
+                </div>
 
-                </section>
+            </section>
 
-                <section id="Ourteam" class="Ourteam" >
-                    <div class="container" data-aos="fade-up">
+            <section id="Ourteam" class="Ourteam" >
+                <div class="container" data-aos="fade-up" id='TeamContainer'>
 
-                        <div class="row gx-0 ">
-                            <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
-                                <div class="content m-2">
-                                    <h2>Mr. Azfar Saleem - Marketing Director</h2>
+                    <div class="row gx-0 ">
+                        <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
+                            <div class="content m-2">
+                                <h2>Mr. Azfar Saleem - Marketing Director</h2>
+                                <br />
+                                <h5>Guided by strategy and discipline, Mr. Azfar Saleem excels at developing compelling strategies to promote the underlying concept of IJMA, supported by the driving force of technology.</h5>
+                                <br />
+                                <ul>
+                                    <li>With more than a decade of experience in Digital Marketing, Azfar has collaborated with leading international technology firms.</li>
                                     <br />
-                                    <h5>Guided by strategy and discipline, Mr. Azfar Saleem excels at developing compelling strategies to promote the underlying concept of IJMA, supported by the driving force of technology.</h5>
+                                    <li>He holds an undergraduate degree with honors in Anthropology from Kingston University in London, UK.</li>
                                     <br />
-                                    <ul>
-                                        <li>With more than a decade of experience in Digital Marketing, Azfar has collaborated with leading international technology firms.</li>
-                                        <br />
-                                        <li>He holds an undergraduate degree with honors in Anthropology from Kingston University in London, UK.</li>
-                                        <br />
-                                        <li>With his profound expertise in the field, he possesses the ability to thoroughly investigate, supervise, and execute the vast array of projected requirements for professionals engaged in cash-intensive finance. His primary focus lies in harnessing technology to optimize and augment the industry.</li>
+                                    <li>With his profound expertise in the field, he possesses the ability to thoroughly investigate, supervise, and execute the vast array of projected requirements for professionals engaged in cash-intensive finance. His primary focus lies in harnessing technology to optimize and augment the industry.</li>
 
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 d-flex align-items-center mt-2 mb-2" data-aos="zoom-out" data-aos-delay="200" style={{ marginTop: "-4.5%" }}>
-                                <div class="content">
-                                    <h2>Mr. Hammad Ahmed, CFA, CMA, IFQ as Product Manager</h2>
-                                    <br />
-                                    <h5>Muhammad Hammad Ahmed holds over 16 years of experience in Corporate Finance, Commercial Banking, Investment Banking ,Islamic Finance and Fintech.
-                                        <br />
-                                        <br />
-                                        Working with TecStik in a pivotal Technical Role, Mr. Hammad Ahmed oversees the technical updates of KollectIt, identifies trends of cash or cheque payments according to KollectIt Users’ Geographical Locations.</h5>
-                                    <br />
-                                    <ul>
-                                        <li>Played Instrumental Role in setting up of Islamic Banking window of Chase Bank in KenyaAdvisor to Malaysian Islamic Investment Bank on fintech initiatives.</li>
-                                        <br />
-                                        <li> Advisor to Malaysian Islamic Investment Bank on fintech initiatives..</li>
-                                        <br />
-                                        <li>Holds prestigious qualifications in finance including CFA,CMA,IFQ</li>
-                                        <br />
-                                        <li>possesses multiple international Fintech accreditations.</li>
-                                        <br />
-                                        <li>Position holder in International Blockchain examination</li>
-                                    </ul>
-                                </div>
+                                </ul>
                             </div>
                         </div>
+                        <div class="col-lg-6 d-flex align-items-center mt-2 mb-2" data-aos="zoom-out" data-aos-delay="200" style={{ marginTop: "-4.5%" }}>
+                            <div class="content">
+                                <h2>Mr. Hammad Ahmed, CFA, CMA, IFQ as Product Manager</h2>
+                                <br />
+                                <h5>Muhammad Hammad Ahmed holds over 16 years of experience in Corporate Finance, Commercial Banking, Investment Banking ,Islamic Finance and Fintech.
+                                    <br />
+                                    <br />
+                                    Working with TecStik in a pivotal Technical Role, Mr. Hammad Ahmed oversees the technical updates of KollectIt, identifies trends of cash or cheque payments according to KollectIt Users’ Geographical Locations.</h5>
+                                <br />
+                                <ul>
+                                    <li>Played Instrumental Role in setting up of Islamic Banking window of Chase Bank in KenyaAdvisor to Malaysian Islamic Investment Bank on fintech initiatives.</li>
+                                    <br />
+                                    <li> Advisor to Malaysian Islamic Investment Bank on fintech initiatives..</li>
+                                    <br />
+                                    <li>Holds prestigious qualifications in finance including CFA,CMA,IFQ</li>
+                                    <br />
+                                    <li>possesses multiple international Fintech accreditations.</li>
+                                    <br />
+                                    <li>Position holder in International Blockchain examination</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                </section >
-            </div>
+            </section >
+            {/* <div id='Team'>
+            </div> */}
 
             <br />
             <div id='Teamfooter'>

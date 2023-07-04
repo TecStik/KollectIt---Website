@@ -37,7 +37,7 @@ export const App = () => {
         <Route path="/KOLLECTIT-Need" element={<YouNeedKollectit />} />
         <Route path="/KOLLECTIT-Contact" element={<ContactUS />} />
         <Route path="/KOLLECTIT-OurTeam" element={<OurTeam />} />
-        <Route path="/KOLLECTIT-Work" element={<HowItWork />} />
+        <Route path="/KOLLECTIT-HowItWork" element={<HowItWork />} />
         {/*
         <Route path="/KOLLECTIT-About" element={<About />} />
         <Route path="/KOLLECTIT-Platform" element={<Platform />} />

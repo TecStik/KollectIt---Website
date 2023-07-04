@@ -21,6 +21,9 @@
   font-size: 24px;
 }
 
+#TeamContainer{
+  margin-top: -7%;
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -63,7 +66,10 @@
 
 
   #ourTimeImage {
-    margin-top: 80%;
+    margin-top: 0%;
+  }
+  #OurTeamSection {
+    margin-top: -50%;
   }
 
   #ImgeSize {

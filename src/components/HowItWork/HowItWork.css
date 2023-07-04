@@ -21,6 +21,30 @@
   font-size: 24px;
 }
 
+#SplashImage {
+  /* padding: 0; */
+  /* width: 100%; */
+  /* height: 50vh; */
+  /* position: relative; */
+  /* background-size: 100% 90%; */
+  /* background-repeat: no-repeat; */
+  margin-top: -1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#newImageSize {
+  width: 32%;
+  /* height: 100%; */
+}
+
+#newImageSizeThree {
+  width: 40%;
+  height: 80%;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -47,13 +71,30 @@
 
 #ImgeSize {
   width: 70%;
+  margin-left: 10%;
+}
+
+#Splash {
+  width: 20%;
+  /* margin-left: 10%; */
+}
+
+#ImgeSizeRight {
+  width: 70%;
+  /* margin-right: 5%; */
+}
+
+#leftContent {
   margin-left: 15%;
 }
 
+.ImgeSizeClass {
+  margin-left: 15%;
+}
 
 @media (max-width: 768px) {
   #hero {
-    margin-top: 20px;
+    margin-top: -30px;
   }
 
   #textCenter {
@@ -67,7 +108,40 @@
 
   #ImgeSize {
     width: 100%;
-    margin-left: -5%;
+    /* margin-left: -5%; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Splash {
+    width: 50%;
+    /* margin-left: -5%; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #ImgeSizeRight {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-right: 5%; */
+  }
+
+  #heroContain {
+    margin-top: -45%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 55%; */
+  }
+
+  #leftContent {
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 5%;
+    padding: 2%; */
+    margin-top: 6%;
+    padding: 5%;
+    /* background-color: #11366B; */
   }
 
   #hero h1 {
@@ -90,7 +164,38 @@
     width: 70%;
   }
 
- 
+  #SplashImage {
+    /* padding: 0; */
+    width: 100%;
+    /* height: 50vh; */
+    /* position: relative; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    background-color: #11366B;
+  }
+
+  #AddContainer {
+    background: "white";
+    margin-top: "-35%";
+    padding: '5px';
+    margin: "5px"
+  }
+
+  #newImageSizeThree {
+    width: 31%;
+    height: 110%;
+  }
+
+  #newImageSize {
+    width: 45%;
+    height: 100%;
+  }
+
 }
 
 @media (max-width: 575px) {
@@ -118,11 +223,11 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .section-title h2 {
-  margin: 15px 0 0 0;
+  /* margin: 15px 0 0 0; */
   font-size: 32px;
   font-weight: 700;
   color: #11366B;
@@ -146,18 +251,4 @@ section {
 #ladiesImage {
   width: 90%;
   margin-left: 10%;
-}
-
-#SplashImage {
-  /* padding: 0; */
-  /* width: 100%; */
-  /* height: 50vh; */
-  /* position: relative; */
-  /* background-size: 100% 90%; */
-  /* background-repeat: no-repeat; */
-  margin-top: -1%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
