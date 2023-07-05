@@ -6,7 +6,6 @@ import Footer from "../Footer/Footer";
 import splash from './splash.png'
 import Spalsh from './Spalsh.jpeg'
 
-import { Link } from "react-router-dom";
 
 import loginAdmin from './Admin/loginAdmin.png'
 import adminHome from './Admin/adminHome.png'
@@ -47,15 +46,16 @@ function HowItWork() {
           <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} >ADMIN(S)</h2>
         </div>
 
-        <section id="hero" class="hero d-flex align-items-center section-bg" style={{ background: "white" }}>
+        <section id="howItWork" class="howItWork d-flex align-items-center section-bg" style={{ background: "white" }}>
           <div class="container">
             <div class="row justify-content-between gy-5">
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <br />
                 <br />
                 <div class="content m-2">
-                  <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Register</p>
-                  <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Step-00</h2>
+                  <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", fontWeight: 500, fontSize: 33, marginBottom: "1%" }}>Register</p>
+                  <h5 data-aos="fade-up" style={{ color: "#134D61" }}>Step-00</h5>
+                  <br />
                   <h6>The user can register themselves  as an Organization’s Admin by providing relevant details:</h6>
                   <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
                     <div class="content m-2" style={{ textAlign: "left" }}>
@@ -87,7 +87,7 @@ function HowItWork() {
         <section id="about" class="about">
           <div class="container" data-aos="fade-up">
 
-            <div class="row gx-0">
+            <div class="row gx-0" id="">
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                 <img src={loginAdmin} alt="" id="newImageSize" />
                 <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
@@ -96,9 +96,8 @@ function HowItWork() {
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content" id="leftContent">
-                  <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Login</h2>
+                  <h1 data-aos="fade-up" style={{ color: "#134D61", fontWeight: 500, fontSize: 33, marginBottom: "1%" }}>Login</h1>
                   <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-01</h5>
-                  <br />
                   <br />
                   <h6>By Logging in to The KollectIt App as Admin, The User is displayed The Admin Home Screen to access features like:</h6>
                   <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
@@ -118,13 +117,14 @@ function HowItWork() {
         </section>
 
 
-        <section id="hero" class="hero d-flex align-items-center section-bg" >
-          <div class="container" id="heroContain">
+        <section id="howItWork" class="howItWork d-flex align-items-center section-bg" >
+          <div class="container" id="howItWorkContain">
             <div class="row justify-content-between gy-5">
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content m-4">
-                  <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Add Member</p>
-                  <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Step-02</h2>
+                  <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", fontWeight: 500, fontSize: 33, marginBottom: "1%" }}>Add Member</p>
+                  <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", }}>Step-02</h5>
+                  <br />
                   <h6>The Admin adds members to their organization, including:</h6>
                   <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
                     <div class="content m-2" style={{ textAlign: "left" }}>
@@ -145,19 +145,14 @@ function HowItWork() {
                 <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={12} width={20} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={AdminRider} alt="" id="newImageSizeThree" />
               </div>
-
             </div>
-            <br />
-            <br />
-            <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, textAlign: "center" }}>CASHIER(S)</h2>
           </div>
         </section>
 
-        <br />
-        <br />
-        <section id="about" class="about">
-          <div class="container" data-aos="fade-up" id="heroContain">
+        <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, textAlign: "center", justifyContent: "center" }} id="HeadeingCashier">CASHIER(S)</h2>
 
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up" id="howItWorkContain">
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                 <img src={CashierLogin} alt="" id="newImageSize" />
@@ -167,9 +162,8 @@ function HowItWork() {
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content" id="leftContent">
-                  <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Cashier Home</h2>
-                  <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-03</h5>
-                  <br />
+                  <h2 data-aos="fade-up" style={{ color: "#134D61", fontWeight: 600, fontSize: 33, marginBottom: "1%" }}>Cashier Home</h2>
+                  <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-01</h5>
                   <br />
                   <h6>The Cashier can login to the app with the credentials provided by the Admin. Displayed The KollectIt Cashier Home Screen,  the Cashier is free to:</h6>
                   <div class="col-lg-12 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
@@ -188,13 +182,14 @@ function HowItWork() {
           </div>
         </section>
 
-        <section id="hero" class="hero d-flex align-items-center section-bg" style={{ background: "white" }}>
+        <section id="howItWork" class="howItWork d-flex align-items-center section-bg" style={{ background: "white" }}>
           <div class="container">
             <div class="row justify-content-between gy-5">
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content m-4">
-                  <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Add Client(s)</p>
-                  <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Step-04</h2>
+                  <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", fontWeight: 500, fontSize: 33, marginBottom: "-2%" }}>Add Client(s)</p>
+                  <h5 data-aos="fade-up" style={{ color: "#134D61" }}>Step-02</h5>
+                  <br />
                   <h6>When adding a client(s), the following details are required:</h6>
                   <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
                     <div class="content m-2" style={{ textAlign: "left" }}>
@@ -237,9 +232,9 @@ function HowItWork() {
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content" id="leftContent">
-                  <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Assign Rider(s) to Client(s)</h2>
-                  <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-05</h5>
-                  <br />
+                  <h2 data-aos="fade-up" style={{ color: "#134D61", fontWeight: 600, fontSize: 33, marginBottom: "1%" }}>Assign Rider(s) to Client(s)</h2>
+                  <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-03</h5>
+
                   <br />
                   <h6>Assign Rider(s) to your Clients by selecting a Member of the Designated Collection Staff and specifying an amount to be collected, if required.</h6>
                 </div>
@@ -249,11 +244,8 @@ function HowItWork() {
         </section>
 
 
-        {/* <br />
-        <br /> */}
-        <div class="section-title">
-          <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }}>Rider(S)</h2>
-        </div>
+
+        <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, textAlign: "center", justifyContent: "center" }} id="HeadeingCashier">Rider(S)</h2>
 
         {/* <br /> */}
         <section id="about" class="about">
@@ -267,9 +259,8 @@ function HowItWork() {
               </div>
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content" id="leftContent">
-                  <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Rider Home</h2>
-                  <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-06</h5>
-                  <br />
+                  <h2 data-aos="fade-up" style={{ color: "#134D61", fontWeight: 600, fontSize: 33, marginBottom: "1%" }}>Rider Home</h2>
+                  <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-01</h5>
                   <br />
                   <h6>By Logging in to The KollectIt App as Rider, The User will be Navigated to The Rider Home Screen to access features like:</h6>
                   <div class="col-lg-12 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
@@ -288,13 +279,14 @@ function HowItWork() {
           </div>
         </section>
 
-        <section id="hero" class="hero d-flex align-items-center section-bg" style={{ background: "white" }}>
+        <section id="howItWork" class="howItWork d-flex align-items-center section-bg" style={{ background: "white" }}>
           <div class="container">
             <div class="row justify-content-between gy-5">
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content m-4">
-                  <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>View Assigned Clients </p>
-                  <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Step-07</h2>
+                  <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", fontWeight: 600, fontSize: 33, marginBottom: "1%" }}>View Assigned Clients </p>
+                  <h5 data-aos="fade-up" style={{ color: "#134D61" }}>Step-02</h5>
+                  <br />
                   <h6>Free to choose from an option at the rider’s home screen, to view <br />
                     their assigned collections, Riders can conveniently view a list of <br />
                     collections assigned to them.</h6>
@@ -321,7 +313,6 @@ function HowItWork() {
 
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-
                 <img src={riderClientList} alt="" id="newImageSize" />
                 <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={RiderCollect} alt="" id="newImageSize" />
@@ -329,9 +320,9 @@ function HowItWork() {
 
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content" id="leftContent">
-                  <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Collect Payment from assigned Client</h2>
-                  <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-08</h5>
-                  <br />
+                  <h2 data-aos="fade-up" style={{ color: "#134D61", fontWeight: 600, fontSize: 33, marginBottom: "1%" }}>Collect Payment from assigned Client</h2>
+                  <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-03</h5>
+
                   <br />
                   <h6>The rider collect’s payments from assigned clients by specifying</h6>
                   <div class="col-lg-12 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
@@ -350,19 +341,18 @@ function HowItWork() {
             </div>
           </div>
         </section>
-
         <br />
         <br />
-        <section id="hero" class="hero d-flex align-items-center section-bg" style={{ background: "white" }}>
-          <div class="container" id="heroContain">
+        <br />
+        <section id="howItWork" class="howItWork d-flex align-items-center section-bg" style={{ background: "white" }}>
+          <div class="container" id="UponProcess" >
 
-            <br />
-            <br />
-            <div class="row justify-content-between gy-5">
+            <div class="row justify-content-between gy-5" >
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                <div class="content m-4 mt-5">
-                  <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", marginTop: "5%" }}> Upon proceed an payment verification code</p>
-                  <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Step-09</h2>
+                <div class="content m-4">
+                  <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", fontWeight: 500, fontSize: 34, marginTop: "-20%", marginBottom: "1%" }}> Upon proceed an payment verification code</p>
+                  <h5 data-aos="fade-up" style={{ color: "#134D61" }}>Step-04</h5>
+                  <br />
                   <h6>Collecting from assigned clients, a Rider must specify</h6>
                   <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
                     <div class="content m-2" style={{ textAlign: "left" }}>
@@ -380,8 +370,7 @@ function HowItWork() {
               </div>
 
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
-                <br />
-                <br />
+
                 <img src={enterOPT} alt="" id="newImageSize" />
                 <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={OTPconfirmation} alt="" id="newImageSize" />
@@ -391,14 +380,8 @@ function HowItWork() {
             </div>
           </div>
         </section>
-
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
         <section id="about" class="about">
           <div class="container" data-aos="fade-up">
 
@@ -412,9 +395,9 @@ function HowItWork() {
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <div class="content" id="leftContent">
 
-                  <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Rider enter OTP verify Payment</h2>
-                  <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-10</h5>
-                  <br />
+                  <h2 data-aos="fade-up" style={{ color: "#134D61", marginBottom: "1%", fontSize: 33 }}>Rider enter OTP verify Payment</h2>
+                  <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-05</h5>
+
                   <br />
                   <h6>The rider is suppose to collect payments from assigned clients by specifying</h6>
                   <div class="col-lg-12 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
@@ -433,7 +416,6 @@ function HowItWork() {
             </div>
           </div>
         </section>
-
         <br />
         <br />
 

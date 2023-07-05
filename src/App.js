@@ -34,7 +34,7 @@ export const App = () => {
       </Helmet>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/KOLLECTIT-Need" element={<YouNeedKollectit />} />
+        <Route path="/KOLLECTIT-WhyYouNeedKollectIt" element={<YouNeedKollectit />} />
         <Route path="/KOLLECTIT-Contact" element={<ContactUS />} />
         <Route path="/KOLLECTIT-OurTeam" element={<OurTeam />} />
         <Route path="/KOLLECTIT-HowItWork" element={<HowItWork />} />

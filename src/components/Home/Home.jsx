@@ -39,7 +39,7 @@ function Home() {
     <>
       <div>
         <Header />
-        <section id="hero" class="hero d-flex align-items-center section-bg" style={{ background: "white" }}>
+        <section id="home" class="home d-flex align-items-center section-bg" style={{ background: "white" }}>
           <div class="container">
             <div class="row justify-content-between gy-5">
               <div
