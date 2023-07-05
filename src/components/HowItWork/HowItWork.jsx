@@ -11,8 +11,10 @@ import loginAdmin from './Admin/loginAdmin.png'
 import adminHome from './Admin/adminHome.png'
 import adminCashier from './Admin/adminCashier.png';
 import AdminRider from './Admin/AdminRider.png';
+import arrowImage from './arrowImage.jpg'
 import Register from './Register.png';
 import Welcome from './Welcom.png';
+
 
 import CashierLogin from './Cashier/Cashierlogin.png'
 import cashierHome from './Cashier/cashierHome.png'
@@ -41,6 +43,14 @@ function HowItWork() {
             backgroundImage: `url(${process.env.PUBLIC_URL + splash})`,
           }}
         />
+        <div class="container">
+          <div class="section-title">
+            <br />
+            <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} >Lorem ipsum dolor sit amet consectetur.</h2>
+            <br />
+            <p>Lorem ipsum adipisicing elit. Est deleniti, magni doloremque omnis quod exercitationem aspernatur repellat aliquid distinctio consequatur non! Sint enim quibusdam facere repellendus eveniet cum fugit numquam</p>
+          </div>
+        </div>
 
         <div class="section-title">
           <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} >ADMIN(S)</h2>
@@ -74,7 +84,7 @@ function HowItWork() {
                 <br />
                 <br />
                 <img src={Welcome} alt="" id="newImageSize" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={Register} alt="" id="newImageSize" />
               </div>
             </div>
@@ -90,7 +100,7 @@ function HowItWork() {
             <div class="row gx-0" id="">
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                 <img src={loginAdmin} alt="" id="newImageSize" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={adminHome} alt="" id="newImageSize" />
               </div>
 
@@ -140,9 +150,9 @@ function HowItWork() {
               </div>
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                 <img src={adminHome} alt="" id="newImageSizeThree" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={12} width={20} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={12} width={20} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={adminCashier} alt="" id="newImageSizeThree" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={12} width={20} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={12} width={20} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={AdminRider} alt="" id="newImageSizeThree" />
               </div>
             </div>
@@ -156,7 +166,7 @@ function HowItWork() {
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                 <img src={CashierLogin} alt="" id="newImageSize" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={cashierHome} alt="" id="newImageSize" />
               </div>
 
@@ -207,7 +217,7 @@ function HowItWork() {
               </div>
               <div class="col-lg-6  order-1 order-lg-2 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                 <img src={cashierHome} alt="" id="newImageSize" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={ClientForm} alt="" id="newImageSize" />
               </div>
 
@@ -224,9 +234,9 @@ function HowItWork() {
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                 <img src={cashierHome} alt="" id="newImageSizeThree" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={12} width={20} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={12} width={20} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={AssignRider} alt="" id="newImageSizeThree" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={12} width={20} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={12} width={20} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={ChooseRider} alt="" id="newImageSizeThree" />
               </div>
 
@@ -254,7 +264,7 @@ function HowItWork() {
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                 <img src={RiderLogin} alt="" id="newImageSize" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={RiderHome} alt="" id="newImageSize" />
               </div>
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
@@ -297,7 +307,7 @@ function HowItWork() {
                 <br />
                 <br />
                 <img src={RiderHome} alt="" id="newImageSize" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={riderClientList} alt="" id="newImageSize" />
               </div>
 
@@ -314,7 +324,7 @@ function HowItWork() {
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200">
                 <img src={riderClientList} alt="" id="newImageSize" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={RiderCollect} alt="" id="newImageSize" />
               </div>
 
@@ -372,7 +382,7 @@ function HowItWork() {
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
 
                 <img src={enterOPT} alt="" id="newImageSize" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={OTPconfirmation} alt="" id="newImageSize" />
               </div>
 
@@ -389,7 +399,7 @@ function HowItWork() {
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
                 <img src={OTPconfirmation} alt="" id="newImageSize" />
-                <img src='https://cdn.onlinewebfonts.com/svg/img_418607.png' alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={enterOPT} alt="" id="newImageSize" />
               </div>
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
