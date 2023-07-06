@@ -46,14 +46,15 @@ function HowItWork() {
         <div class="container">
           <div class="section-title">
             <br />
-            <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} >Lorem ipsum dolor sit amet consectetur.</h2>
+            <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} >How it Works</h2>
             <br />
-            <p>Lorem ipsum adipisicing elit. Est deleniti, magni doloremque omnis quod exercitationem aspernatur repellat aliquid distinctio consequatur non! Sint enim quibusdam facere repellendus eveniet cum fugit numquam</p>
+            <p>Use KollectIt to streamline financial processes and eliminate discrepancies. The app utilizes integrated databases to provide a comprehensive solution for managing payments and ensuring smooth transactions. </p>
           </div>
         </div>
 
         <div class="section-title">
           <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }} >ADMIN(S)</h2>
+          <p>With our user-friendly interface, admins can easily examine payment statuses, assign roles to collection staff and cashiers, and track payment fulfillment using both Smartphones and Desktops.</p>
         </div>
 
         <section id="howItWork" class="howItWork d-flex align-items-center section-bg" style={{ background: "white" }}>
@@ -159,7 +160,11 @@ function HowItWork() {
           </div>
         </section>
 
-        <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, textAlign: "center", justifyContent: "center" }} id="HeadeingCashier">CASHIER(S)</h2>
+        {/* <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, textAlign: "center", justifyContent: "center" }} id="HeadeingCashier"></h2> */}
+        <div class="section-title">
+          <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }}>CASHIER(S)</h2>
+      <p>Cashiers play a pivotal role in the system too, as they have the ability to assign relevant staff to collect payments from specific clients and oversee the entire payment process.</p>
+        </div>
 
         <section id="about" class="about">
           <div class="container" data-aos="fade-up" id="howItWorkContain">
@@ -255,8 +260,11 @@ function HowItWork() {
 
 
 
-        <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, textAlign: "center", justifyContent: "center" }} id="HeadeingCashier">Rider(S)</h2>
-
+        {/* <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, textAlign: "center", justifyContent: "center" }} id="HeadeingCashier">Rider(S)</h2> */}
+        <div class="section-title">
+          <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }}>Payment Collection Staff</h2>
+          <p>Customers can ensure payment confirmation independently - in real time! Customers, vendors, suppliers will be sent a verification code via SMS so they can provide it to the rider. Providing confirmation of their payment from both sides.</p>
+        </div>
         {/* <br /> */}
         <section id="about" class="about">
           <div class="container" data-aos="fade-up">
