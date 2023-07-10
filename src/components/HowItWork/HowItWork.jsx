@@ -161,7 +161,7 @@ function HowItWork() {
                         <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", fontWeight: 500, fontSize: 33, marginBottom: "1%" }}>Add Member</p>
                         <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", }}>Step-02</h5>
                         <br />
-                        <h6>The Admin adds members to their organization, including:</h6>
+                        <h6>The Admin can add members to their organization, by recording the following information:</h6>
                         <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
                           <div class="content m-2" style={{ textAlign: "left" }}>
                             <ul>
@@ -252,7 +252,7 @@ function HowItWork() {
                         <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", fontWeight: 500, fontSize: 33, marginBottom: "-2%" }}>Add Client(s)</p>
                         <h5 data-aos="fade-up" style={{ color: "#134D61" }}>Step-02</h5>
                         <br />
-                        <h6>When adding a client(s), the following details are required:</h6>
+                        <h6>When adding a client, the following details are required:</h6>
                         <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
                           <div class="content m-2" style={{ textAlign: "left" }}>
                             <ul>
@@ -417,7 +417,7 @@ function HowItWork() {
 
         {/* <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, textAlign: "center", justifyContent: "center" }} id="HeadeingCashier">Rider(S)</h2> */}
         <div class="section-title">
-          <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }}>Payment Collection Staff</h2>
+          <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }}>CASH COLLECTORS</h2>
           <p>Customers can ensure payment confirmation independently - in real time! Customers, vendors, suppliers will be sent a verification code via SMS so they can provide it to the rider. Providing confirmation of their payment from both sides.</p>
         </div>
 

@@ -86,7 +86,7 @@ function Home() {
                   <br />
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                    <li>Looking at the mix of banking transactions, paper-based activity still dominates the share in transaction value. While digital options are freely available, people prefer dealing in hard cash and checks. A lack of trust of online channels is one of the main issues, but avoiding documentation are is also a major contributory factors. With The KollectIt Cross-Platform App, The Admin User is granted Super Access allowing them to assign Team Members to roles, overlook each Team Member’s Task Status, remove roles as per needed or even finish a Team Member’s access to information. With separate priviledges for Cashier’s and Riders (Collection Staff), KollectIt ensures the collection aspect of any collection endeavor is optimized.</li>
+                    <li>Looking at the mix of banking transactions, paper-based activity still dominates the share in transaction value. While digital options are freely available, people prefer dealing in hard cash and checks. A lack of trust in online channels is one of the main issues, but avoiding documentation is also a major contributory factor. With The KollectIt Cross-Platform App, Admin Users are granted Super Access allowing them to assign team members to roles, overlook each team member’s status of tasks assigned to them, remove or switch roles of team members and even revoke a team member’s access to information if needed. With separate privileges for Cashier’s and Riders (Collection Staff), KollectIt maximizes the efficiency of collecting cash in any collection effort.</li>
                   </ul>
                 </div>
               </div>
@@ -121,12 +121,12 @@ function Home() {
                   <br />
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                    <li>Venturing into the realm of handling tangible cash becomes a daunting endeavour for businesses and individuals. Misrepresenting amounts of cash exchanges becomes highly likely, when two separate parties are involved.</li>
+                    <li>Venturing into the realm of handling hard cash becomes a daunting endeavour for businesses and individuals. Misrepresenting amounts of cash exchanges becomes highly likely, when two separate parties are involved.</li>
                     <br />
                     <li>The Mobile and Desktop (hybrid) Software behind KollectIt enable clear-cut methods to authenticate how much cash is exchanged between both parties of cash transactions. Using OTPs (One-Time-Passwords) sent by KollectIt, The Providers of cash can verify the sum of cash provided. The cashier or person responsible to validate the receipt of cash or check from the receiving end, conveniently identifies the exact amount to be received so the scrutiny of parties is conducted with enhanced precision. </li>
                     <br/>
-                    <li>The Team behind KollectIt is prepared to tailor the Application to specific requirements of user-friendly integration between other in-house software your financial team might use. Simply send detailed requirements to 
-                    <a href="mailto:info@tecstik.com" class="text-black"><b> info@tecstik.com </b></a> and anticipate a prompt response from KollectIt’s developers within 24-Hours.</li>
+                    <li>The Team behind KollectIt is geared to tailor the application to specific requirements of users. With user-friendly integration between other in-house software your financial team uses, KollectIt increases the likelihood of resolving discrepancies effectively. Simply send detailed requirements to 
+                    <a href="mailto:info@tecstik.com" class="text-black"><b> info@tecstik.com </b></a> and  anticipate a prompt response from KollectIt’s developers within 24-Hours.</li>
                   </ul>
                 </div>
               </div>

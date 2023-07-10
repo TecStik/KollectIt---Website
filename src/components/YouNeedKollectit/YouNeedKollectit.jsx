@@ -61,7 +61,7 @@ const YouNeedKollectit = () => {
                                 <br />
                                 <br />
                                 <ul style={{ listStyleType: "none", marginLeft: "-5%" }}>
-                                    <li>With integrated databases, KollectIt brings the finest communications between your collection team. Carefully look into collection processes as an Admin User by confirming, examining status(es) and assigning team members to relevant roles.</li>
+                                    <li>With integrated databases, KollectIt brings the finest communication between your collection team. Carefully examine the collection processes as an Admin User by confirming, reviewing status(es) and assigning team members to relevant roles.</li>
                                 </ul>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ const YouNeedKollectit = () => {
                                 <br />
                                 <ul style={{ listStyleType: "none", marginLeft: "-5%" }}>
                                     <li>
-                                        Once designated for the position, your cashier or manager is tasked with ensuring fulfilment. After signing in as Cashier, the ability to add a Client(s), Assign Rider(s) for collection, view and make payment deposits, view payment statuses and more.
+                                        Once designated for the position, your cashier or manager is tasked with ensuring fulfilment. After signing in, the functionality of adding a Client(s), Assigning Rider(s) for collection, viewing and making payment deposits, viewing payment statuses and more are available to them.
                                     </li>
                                 </ul>
                             </div>
@@ -111,7 +111,7 @@ const YouNeedKollectit = () => {
                                 <br />
                                 <br />
                                 <ul style={{ listStyleType: "none", marginLeft: "-5%" }}>
-                                    <li>When assigned to the role of a Rider, a Rider can select an option from their home screen. Complete with a Client List designated to them, view all of the payments they have collected, verify recently collected payments with a PVC(Payment Verification Code) sent to a client.
+                                    <li>When assigned to the role of a Rider, a cash collector can select an option from their home screen. On the home screen, riders can view the list of collections designated to them, a register of the payments they have collected, and they can verify recently collected payments with a PVC(Payment Verification Code) sent to a client.
                                     </li>
                                 </ul>
                             </div>

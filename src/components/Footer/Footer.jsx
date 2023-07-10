@@ -49,7 +49,7 @@ export default function Footer() {
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" id="footerLine">
                 <h6 class="text-uppercase fw-bold text-white">KOLLECTIT</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style={{ background: "#7c4dff", height: 2, width: 60 }} />
-                <p>Retail Transactions are key to the development of any digital payments, receivables or delivery system(s). KollectIt enhances precision between all of the collection staff of businesses or even individuals.</p>
+                <p>Retail Transactions are key to the development of any payments, receivables or delivery system(s). KollectIt enhances precision between all of the collection staff of businesses and even individuals.</p>
               </div>
 
 
@@ -62,7 +62,7 @@ export default function Footer() {
                 />
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
-                  Diminished Accounting Disparity{/* </Link> */}
+                  Minimized Accounting Discrepancies{/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/webAndMobile?tab=6" class="text-white"> */}

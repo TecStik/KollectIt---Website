@@ -39,7 +39,7 @@ export default function OurTeam() {
                             <br /> */}
                             <div class="content">
                                 <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                                    <li>TecStik is a technology subsidiary led by Pacific Financial Services: A company that has been operating globally for over 20 years. TecStik provides IT consulting, Advanced Digital Transformation, ITAS/SAAS (IT as a Service /Software as a Service), Artificial Intelligence, Data Sciences, Blockchain/Web3 and Cloud offerings. TecStik has assembled a team of seasoned finance professionals and technology specialists who provide clients with optimal solutions for their businesses. After meticulous research and development, TecStik regularly builds technology products for the valued clientele: Including Fintech, Medtech and Ecommerce solutions. These products are well-suited for enhanced productivity and convenience for users. With TecStik’s highly seasoned Islamic Bankers and Financial Consultants working with Pacific Financial Services - KollectIt’s Creators -, it consistently develops innovative fintech applications for both Mobile and Desktop Devices.</li>
+                                    <li>TecStik is a technology subsidiary led by Pacific Financial Services: A company that has been operating globally for over 20 years. TecStik provides IT consulting, Advanced Digital Transformation, ITAS/SAAS (IT as a Service /Software as a Service), Artificial Intelligence, Data Sciences, Blockchain/Web3 and Cloud offerings. TecStik has assembled a team of seasoned finance professionals and technology specialists who provide clients with optimal solutions for their businesses. After conducting meticulous research and development, TecStik regularly builds technology products for the valued clientele: bringing Fintech, Medtech and Ecommerce solutions. These products are well-suited for enhanced productivity and convenience for users. With TecStik’s highly seasoned team of Bankers, Software Developers and Financial Consultants, the outfit consistently develops innovative fintech applications for both Mobile and Desktop Devices.</li>
                                 </ul>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ export default function OurTeam() {
                             <div class="content">
                                 <h2>Mr. Bilal Saleem - Chief Executive</h2>
                                 <br />
-                                <h5>Mr. Bilal Saleem is the Director of TecStik, bringing you IJMA. His extensive expertise in Banking and Finance leading Pacific Financial Services Pvt. Ltd., has allowed TecStik to make diligent efforts to upgrade Islamic Banking.</h5>
+                                <h5>Mr. Bilal Saleem is the Director of TecStik, bringing you KollectIt. His extensive expertise in Banking and Finance leading Pacific Financial Services Pvt. Ltd., has allowed TecStik to make diligent efforts to upgrade your cash collection efforts.</h5>
                                 <br />
                                 <ul>
                                     <li>Over 26 years of experience in Corporate Finance, Treasury and Investment Banking with several successful transactions to his credit.</li>
@@ -120,8 +120,9 @@ export default function OurTeam() {
                                     <br />
                                     <li>He holds an undergraduate degree with honors in Anthropology from Kingston University in London, UK.</li>
                                     <br />
-                                    <li>With his profound expertise in the field, he possesses the ability to thoroughly investigate, supervise, and execute the vast array of projected requirements for professionals engaged in cash-intensive finance. His primary focus lies in harnessing technology to optimize and augment the industry.</li>
-
+                                    <li>Posessing certified knowledge of research methods, Mr. Azfar thoroughly investigates, supervises, and executes the vast array of projected requirements for professionals engaged in cash-intensive finance</li>
+                                    <br />
+                                    <li>Mr. Azfar's primary focus lies in researching technology to optimize and augment the financial industry.</li>
                                 </ul>
                             </div>
                         </div>
@@ -141,9 +142,9 @@ export default function OurTeam() {
                                     <br />
                                     <li>Holds prestigious qualifications in finance including CFA,CMA,IFQ</li>
                                     <br />
-                                    <li>possesses multiple international Fintech accreditations.</li>
+                                    <li>Holds numerous global Fintech certifications</li>
                                     <br />
-                                    <li>Position holder in International Blockchain examination</li>
+                                    <li>Position holder in The International Blockchain examination</li>
                                 </ul>
                             </div>
                         </div>
