@@ -62,22 +62,25 @@ export default function Footer() {
                 />
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
-                  Accuracy of your transactions {/* </Link> */}
+                  Diminished Accounting Disparity{/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/webAndMobile?tab=6" class="text-white"> */}
 
                   Coherent Communication
+
                   {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/webAndMobile?tab=6" class="text-white"> */}
 
-                  Reduced Monitoring Costs    {/* </Link> */}
+                  Reduced Monitoring Costs
+  {/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/product?tab=6" class="text-white"> */}
                   Simplified Compliance Reporting
+
 
                   {/* </Link> */}
                 </p>
@@ -107,12 +110,12 @@ export default function Footer() {
                 </p>
                 <p>
                   <Link to="/KOLLECTIT-OurTeam?tab=6" class="text-white">
-                  Our Team 
+                    Our Team
                   </Link>
                 </p>
                 <p>
                   <Link to="/KOLLECTIT-Contact?tab=6" class="text-white">
-                  Contact Us
+                    Contact Us
                   </Link>
                 </p>
               </div>
@@ -135,11 +138,15 @@ export default function Footer() {
                 <p>
                   <i class="fas fa-phone mr-3"></i> (92-21) 32442392-93
                 </p>
+                <p>
+                  <a href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt" target="_blank">
+                    <img src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1" alt="" srcset="" height={50} />
+                  </a>
+                </p>
               </div>
             </div>
           </div>
         </div>
-
         {/* <!-- Copyright --> */}
         <div
           class="text-center p-3"
@@ -155,3 +162,17 @@ export default function Footer() {
     </div>
   );
 }
+
+{/* <div class="container">
+          <div class="section-title">
+            <img src={Spalsh} class="img-fluid" alt="" id="Splash" />
+
+            <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Unlock the Potential of Cash Collection <br /> Transformation.</h2>
+            <br />
+            <p>
+              <a href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt" target="_blank">
+                <img src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1" alt="" srcset="" height={50} />
+              </a>
+            </p>
+          </div>
+        </div> */}
