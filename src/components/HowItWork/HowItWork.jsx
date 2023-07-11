@@ -15,6 +15,8 @@ import AdminRider from './Admin/AdminRider.png';
 import arrowImage from './arrowImage.jpg'
 import Register from './Register.png';
 import Welcome from './Welcom.png';
+import rider1 from './Admin/rider1.png';
+import Adminregister from './Admin/register.png';
 
 
 import CashierLogin from './Cashier/Cashierlogin.png'
@@ -48,11 +50,11 @@ function HowItWork() {
       <div>
         <Header />
 
-          <section id="SplashImage"
-            style={{
-              backgroundImage: `url(${splash})`,
-            }}
-          />
+        <section id="SplashImage"
+          style={{
+            backgroundImage: `url(${splash})`,
+          }}
+        />
         <div class="container">
           <div class="section-title">
             <br />
@@ -82,12 +84,12 @@ function HowItWork() {
             {/* Step-00 */}
             <Slide autoplay={false}>
               <section id="howItWork" class="howItWork d-flex align-items-center section-bg " >
-                <div class="container mt-2" style={{ background: "#F0F2F5" }} id="ImageSliderRes">
+                <div class="container " style={{ background: "#F0F2F5" }} id="ImageSliderRes">
                   <div class="row justify-content-between gy-5">
                     <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                       <br />
                       <br />
-                      <div class="content ml-4" style={{ textAlign: "left" }}>
+                      <div class="content ml-4" style={{ textAlign: "left" }} id="ContentRider">
                         <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", fontWeight: 500, fontSize: 33, marginBottom: "1%" }}>Register</p>
                         <h5 data-aos="fade-up" style={{ color: "#134D61" }}>Step-00</h5>
                         <br />
@@ -117,17 +119,17 @@ function HowItWork() {
               </section>
               {/* Step-01 */}
               <section id="howItWork" class="howItWork d-flex align-items-center section-bg " >
-                <div class="container mt-2" style={{ background: "#F0F2F5" }} id="ImageSliderRes">
+                <div class="container" style={{ background: "#F0F2F5" }} id="ImageSliderRes">
                   <div class="row justify-content-between gy-5">
                     <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                       <br />
                       <br />
-                      <div class="content ml-4" style={{ textAlign: "left" }}>
+                      <div class="content ml-4" style={{ textAlign: "left" }} id="ContentRider">
                         <h1 data-aos="fade-up" style={{ color: "#134D61", fontWeight: 500, fontSize: 33, }}>Login</h1>
                         <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-01</h5>
                         {/* <br /> */}
                         <h6>By Logging in to The KollectIt App as Admin, The User is displayed The Admin Home Screen to access features like:</h6>
-                        <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-12 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
                           <div class="content m-2" style={{ textAlign: "left" }}>
                             <ul>
                               <li>Add members</li>
@@ -140,35 +142,35 @@ function HowItWork() {
                       </div>
 
                     </div>
-                    <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
+                    <div class="col-lg-6 d-flex flex-row justify-content-center mt-12" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                       <br />
                       <br />
-                      <img src={loginAdmin} alt="" id="newImageSize" />
+                      <img src={Adminregister} alt="" id="newImageSize" />
                       <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
-                      <img src={adminHome} alt="" id="newImageSize" />
+                      <img src={loginAdmin} alt="" id="newImageSize" />
                     </div>
                   </div>
                 </div>
               </section>
               {/* Step-02 */}
-              <section id="howItWork" class="howItWork d-flex align-items-center section-bg">
-                <div class="container mt-2" style={{ background: "#F0F2F5", marginTop: "1%" }} id="ImageSliderRes">
+
+              <section id="howItWork" class="howItWork d-flex align-items-center section-bg " >
+                <div class="container" style={{ background: "#F0F2F5", marginBottom: '-1%' }} id="ImageSliderRes">
                   <div class="row justify-content-between gy-5">
                     <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                      <br />
-                      <br />
-                      <div class="content ml-4" style={{ textAlign: "left" }}>
-                        <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", fontWeight: 500, fontSize: 33, marginBottom: "1%" }}>Add Member</p>
-                        <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", }}>Step-02</h5>
-                        <br />
-                        <h6>The Admin can add members to their organization, by recording the following information:</h6>
-                        <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
+
+                      <div class="content ml-4" style={{ textAlign: "left" }} id="ContentRider">
+                        <h1 data-aos="fade-up" style={{ color: "#134D61", fontWeight: 500, fontSize: 30, }}>Add Cashier(s)</h1>
+                        <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-02</h5>
+                        {/* <br /> */}
+                        <h6>The Admin can add cashier(s) to their organization, by recording the following information:</h6>
+                        <div class="col-lg-12 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
                           <div class="content m-2" style={{ textAlign: "left" }}>
                             <ul>
                               <li>Company Name:</li>
                               <li>Short Code</li>
                               <li>Login Id</li>
-                              <li>Cashiers</li>
+                              <li>Selecting “Cashier” from the dropdown menu available</li>
                             </ul>
                           </div>
                         </div>
@@ -178,11 +180,49 @@ function HowItWork() {
                     <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                       <br />
                       <br />
-                      <img src={adminHome} alt="" id="newImageSizeThree" />
+                      <img src={adminHome} alt="" id="newImageSizethree" />
                       <img src={arrowImage} alt="" height={12} width={20} style={{ marginTop: "auto", marginBottom: "auto" }} />
-                      <img src={adminCashier} alt="" id="newImageSizeThree" />
-                      <img src={arrowImage} alt="" height={12} width={20} style={{ marginTop: "auto", marginBottom: "auto" }} />
-                      <img src={AdminRider} alt="" id="newImageSizeThree" />
+                      <img src={adminCashier} alt="" id="newImageSizethree" />
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
+
+              {/* Step-03 */}
+              <section id="howItWork" class="howItWork d-flex align-items-center section-bg " >
+                <div class="container" style={{ background: "#F0F2F5" }} id="ImageSliderRes">
+                  <div class="row justify-content-between gy-5">
+                    <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                      <br />
+                      <br />
+                      <div class="content ml-4" style={{ textAlign: "left" }} id="ContentRider">
+                        <h1 data-aos="fade-up" style={{ color: "#134D61", fontWeight: 500, fontSize: 30, }}>Add Rider(s) or Cash Collector(s)</h1>
+                        <h5 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>Step-03</h5>
+                        {/* <br /> */}
+                        <h6>Admin(s) can conveniently add cash collection staff by providing
+                          The following information:
+                        </h6>
+                        <div class="col-lg-12 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
+                          <div class="content m-2" style={{ textAlign: "left" }}>
+                            <ul>
+                              <li>Their Name</li>
+                              <li>Email</li>
+                              <li>Cell Phone Number</li>
+                              <li>Password used by them to login to the app</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
+                      <br />
+                      <br />
+                      <img src={rider1} alt="" id="newImageSize" />
+                      {/* <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} /> */}
+                      {/* <img src={adminHome} alt="" id="newImageSize" /> */}
                     </div>
                   </div>
                 </div>

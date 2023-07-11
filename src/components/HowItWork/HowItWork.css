@@ -38,10 +38,17 @@
   margin-left: 23%;
 }
 
+
 #newImageSize {
   width: 32%;
   margin: 2%;
-  /* height: 100%; */
+  /* height: 90%; */
+}
+#newImageSizethree {
+  width: 32%;
+  /* margin: 2%; */
+  height: 90%;
+  margin-bottom: 1%;
 }
 
 #newImageSizeThree {
@@ -330,6 +337,13 @@
   }
 
   #newImageSize {
+    width: 40%;
+    height: 80%;
+    background-color: #11366B;
+    margin: 2%;
+
+  }
+  #newImageSizethree {
     width: 40%;
     height: 80%;
     background-color: #11366B;
