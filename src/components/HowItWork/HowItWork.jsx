@@ -48,11 +48,11 @@ function HowItWork() {
       <div>
         <Header />
 
-        <section id="SplashImage"
-          style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL + splash})`,
-          }}
-        />
+          <section id="SplashImage"
+            style={{
+              backgroundImage: `url(${splash})`,
+            }}
+          />
         <div class="container">
           <div class="section-title">
             <br />
@@ -90,7 +90,7 @@ function HowItWork() {
                       <div class="content ml-4" style={{ textAlign: "left" }}>
                         <p data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61", fontWeight: 500, fontSize: 33, marginBottom: "1%" }}>Register</p>
                         <h5 data-aos="fade-up" style={{ color: "#134D61" }}>Step-00</h5>
-                        {/* <br /> */}
+                        <br />
                         <h6>The user can register themselves  as an Organization’s Admin by providing relevant details:</h6>
                         <div class="col-lg-6 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
                           <div class="content m-2" style={{ textAlign: "left" }}>
@@ -109,7 +109,7 @@ function HowItWork() {
                       <br />
                       <br />
                       <img src={Welcome} alt="" id="newImageSize" />
-                      <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                      <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                       <img src={Register} alt="" id="newImageSize" />
                     </div>
                   </div>
@@ -144,7 +144,7 @@ function HowItWork() {
                       <br />
                       <br />
                       <img src={loginAdmin} alt="" id="newImageSize" />
-                      <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                      <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                       <img src={adminHome} alt="" id="newImageSize" />
                     </div>
                   </div>
@@ -235,7 +235,7 @@ function HowItWork() {
                       <br />
                       <br />
                       <img src={CashierLogin} alt="" id="newImageSize" />
-                      <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                      <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                       <img src={cashierHome} alt="" id="newImageSize" />
                     </div>
                   </div>
@@ -271,7 +271,8 @@ function HowItWork() {
                       <br />
                       <br />
                       <img src={cashierHome} alt="" id="newImageSize" />
-                      <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+
+                      <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "42%", marginBottom: "auto" }} />
                       <img src={ClientForm} alt="" id="newImageSize" />
                     </div>
                   </div>
@@ -326,7 +327,7 @@ function HowItWork() {
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                 <img src={CashierLogin} alt="" id="newImageSize" />
-                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={cashierHome} alt="" id="newImageSize" />
               </div>
 
@@ -377,7 +378,7 @@ function HowItWork() {
               </div>
               <div class="col-lg-6  order-1 order-lg-2 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                 <img src={cashierHome} alt="" id="newImageSize" />
-                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={ClientForm} alt="" id="newImageSize" />
               </div>
 
@@ -417,7 +418,7 @@ function HowItWork() {
 
         {/* <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, textAlign: "center", justifyContent: "center" }} id="HeadeingCashier">Rider(S)</h2> */}
         <div class="section-title">
-          <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }}>CASH COLLECTORS</h2>
+          <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 }}>CASH COLLECTION STAFF</h2>
           <p>Customers can ensure payment confirmation independently - in real time! Customers, vendors, suppliers will be sent a verification code via SMS so they can provide it to the rider. Providing confirmation of their payment from both sides.</p>
         </div>
 
@@ -439,7 +440,7 @@ function HowItWork() {
 
                         <h6>By Logging in to The KollectIt App as Rider, The User will be Navigated to The Rider Home Screen to access features like:</h6>
                         <div class="col-lg-12 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
-                          <div class="content m-2" style={{ textAlign: "left" }}>
+                          <div class="content" style={{ textAlign: "left" }}>
                             <ul>
                               <li>Client List: to see, clients assigned to them.</li>
                               <li>Payment Collections: To view all collected payments.</li>
@@ -454,7 +455,7 @@ function HowItWork() {
                       <br />
                       <br />
                       <img src={RiderLogin} alt="" id="newImageSize" />
-                      <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                      <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                       <img src={RiderHome} alt="" id="newImageSize" />
                     </div>
                   </div>
@@ -483,7 +484,7 @@ function HowItWork() {
                       <br />
                       <br />
                       <img src={RiderHome} alt="" id="newImageSize" />
-                      <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                      <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                       <img src={riderClientList} alt="" id="newImageSize" />
                     </div>
                   </div>
@@ -519,7 +520,7 @@ function HowItWork() {
                       <br />
                       <br />
                       <img src={riderClientList} alt="" id="newImageSize" />
-                      <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                      <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                       <img src={RiderCollect} alt="" id="newImageSize" />
                     </div>
                   </div>
@@ -531,7 +532,7 @@ function HowItWork() {
                   <div class="row justify-content-between gy-5">
                     <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                       <div class="content ml-4" style={{ textAlign: "left" }} id="ContentRider">
-                        <p data-aos="fade-up" data-aos-delay="100" id="ContentRiderPragraf">Upon proceed an payment verification code</p>
+                        <p data-aos="fade-up" data-aos-delay="100" id="ContentRiderPragraf" style={{ color: "#134D61" }}>Upon proceed an payment verification code</p>
                         <h5 data-aos="fade-up" style={{ color: "#134D61" }}>Step-04</h5>
                         <h6>Collecting from assigned clients, a Rider must specify</h6>
                         <div class="col-lg-12 d-flex flex-column justify-content-center mt-0 mb-0" data-aos="fade-up" data-aos-delay="200">
@@ -553,7 +554,7 @@ function HowItWork() {
                       <br />
                       <br />
                       <img src={RiderLogin} alt="" id="newImageSize" />
-                      <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                      <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                       <img src={RiderHome} alt="" id="newImageSize" />
                     </div>
                   </div>
@@ -589,7 +590,7 @@ function HowItWork() {
                       <br />
                       <br />
                       <img src={OTPconfirmation} alt="" id="newImageSize" />
-                      <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                      <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                       <img src={enterOPT} alt="" id="newImageSize" />
                     </div>
                   </div>
@@ -606,7 +607,7 @@ function HowItWork() {
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
                 <img src={RiderLogin} alt="" id="newImageSize" />
-                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={RiderHome} alt="" id="newImageSize" />
               </div>
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
@@ -649,7 +650,7 @@ function HowItWork() {
                 <br />
                 <br />
                 <img src={RiderHome} alt="" id="newImageSize" />
-                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={riderClientList} alt="" id="newImageSize" />
               </div>
 
@@ -666,7 +667,7 @@ function HowItWork() {
             <div class="row gx-0">
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200">
                 <img src={riderClientList} alt="" id="newImageSize" />
-                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={RiderCollect} alt="" id="newImageSize" />
               </div>
 
@@ -725,7 +726,7 @@ function HowItWork() {
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200" style={{ alignItems: "center" }}>
 
                 <img src={enterOPT} alt="" id="newImageSize" />
-                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={OTPconfirmation} alt="" id="newImageSize" />
               </div>
 
@@ -742,7 +743,7 @@ function HowItWork() {
               <div class="col-lg-6 d-flex flex-row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
                 <img src={OTPconfirmation} alt="" id="newImageSize" />
-                <img src={arrowImage} alt="" height={25} width={50} style={{ marginTop: "auto", marginBottom: "auto" }} />
+                <img src={arrowImage} alt="" height={20} width={40} style={{ marginTop: "auto", marginBottom: "auto" }} />
                 <img src={enterOPT} alt="" id="newImageSize" />
               </div>
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
@@ -769,16 +770,15 @@ function HowItWork() {
             </div>
           </div>
         </section> */}
-        <br />
-        <br />
+        {/* <br />
+        <br /> */}
 
 
 
 
         <div class="container">
           <div class="section-title">
-            <img src={Spalsh} class="img-fluid" alt="" id="Splash" />
-
+            {/* <img src={Spalsh} class="img-fluid" alt="" id="Splash" /> */}
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Unlock the Potential of Cash Collection <br /> Transformation.</h2>
             <br />
             <p>

@@ -35,8 +35,6 @@ export default function OurTeam() {
                         <div
                             class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
                             <h1 data-aos="fade-up" data-aos-delay="100" style={{ color: "#134D61" }}>About Operator</h1>
-                            {/* <br />
-                            <br /> */}
                             <div class="content">
                                 <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                                     <li>TecStik is a technology subsidiary led by Pacific Financial Services: A company that has been operating globally for over 20 years. TecStik provides IT consulting, Advanced Digital Transformation, ITAS/SAAS (IT as a Service /Software as a Service), Artificial Intelligence, Data Sciences, Blockchain/Web3 and Cloud offerings. TecStik has assembled a team of seasoned finance professionals and technology specialists who provide clients with optimal solutions for their businesses. After conducting meticulous research and development, TecStik regularly builds technology products for the valued clientele: bringing Fintech, Medtech and Ecommerce solutions. These products are well-suited for enhanced productivity and convenience for users. With TecStik’s highly seasoned team of Bankers, Software Developers and Financial Consultants, the outfit consistently develops innovative fintech applications for both Mobile and Desktop Devices.</li>
@@ -44,15 +42,12 @@ export default function OurTeam() {
                             </div>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center text-lg-start">
-                            {/* <br />
-                            <br /> */}
                             <img style={{ width: "100%", alignItems: "center" }} id="ourTimeImage" src={splash} />
                         </div>
                     </div>
                 </div>
             </section>
 
-            <br />
 
 
             <div class="container" id="OurTeamSection">
