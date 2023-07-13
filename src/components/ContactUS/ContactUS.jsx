@@ -139,6 +139,21 @@ export default function ContactUS() {
       <br />
       <br />
       <br />
+      <div class="container">
+        <div class="section-title">
+          {/* <img src={Spalsh} class="img-fluid" alt="" id="Splash" /> */}
+          <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Unlock the Potential of Cash Collection <br /> Transformation...</h2>
+          <br />
+          <p>
+            <a href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt" target="_blank">
+              <img src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1" alt="" srcset="" height={50} />
+            </a>
+          </p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
       <Footer />
     </div>
   )

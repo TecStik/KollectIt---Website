@@ -11,6 +11,10 @@ import Mobile from '../Images/whyJoin/Mobile1.png'
 import Setting from '../Images/whyJoin/Setting.png'
 import Question from '../Images/whyJoin/Question.png'
 
+import KollectLogo from './KollectitLogo.png'
+import tecstiklogo from './tecstiklogo.png'
+
+import CoursalImage from './CoursalImage.png'
 
 const YouNeedKollectit = () => {
 
@@ -39,12 +43,19 @@ const YouNeedKollectit = () => {
             <Header />
             <section id="blog"
                 style={{
-                    backgroundImage: `url(${process.env.PUBLIC_URL + splash})`,
+                    background: "#7390B6",
+                    marginBottom: '8%'
+                    // backgroundImage:`url(${process.env.PUBLIC_URL + splash})`,
                 }}
-            />
+            >
+                <img src={KollectLogo} id="logoImage" alt="" srcset="" />
+                <h2 class="text-center">By...</h2>
+                <img src={tecstiklogo} id="logoImageTec" alt="" srcset="" />
 
-            <h1 style={{color: "#134D61", fontSize: '35px', fontWeight: 600}} className="text-center">Revamp Your Cash Collection Game Now!</h1>
-            
+            </section>
+
+            <h1 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, }} className="text-center">Revamp Your Cash Collection Game Now!</h1>
+
             <section id="about" class="about">
                 <div class="container" data-aos="fade-up">
 
@@ -77,7 +88,7 @@ const YouNeedKollectit = () => {
                     <div class="row gx-0">
                         <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                             <div class="content">
-                                <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600,marginLeft:"-1%" }} id="textCenter">Reassured Accuracy</h2>
+                                <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, marginLeft: "-1%" }} id="textCenter">Reassured Accuracy</h2>
                                 <br />
                                 <br />
                                 <ul style={{ listStyleType: "none", marginLeft: "-5%" }}>
@@ -107,7 +118,7 @@ const YouNeedKollectit = () => {
 
                                 <br />
                                 <br />
-                                <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600 ,marginLeft:"-1%"}} id="textCenter">Precise Data Exchange</h2>
+                                <h2 style={{ color: "#134D61", fontSize: '35px', fontWeight: 600, marginLeft: "-1%" }} id="textCenter">Precise Data Exchange</h2>
                                 <br />
                                 <br />
                                 <ul style={{ listStyleType: "none", marginLeft: "-5%" }}>
@@ -122,6 +133,19 @@ const YouNeedKollectit = () => {
                 <br />
 
             </section>
+
+            <div class="container">
+                <div class="section-title">
+                    {/* <img src={Spalsh} class="img-fluid" alt="" id="Splash" /> */}
+                    <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Unlock the Potential of Cash Collection <br /> Transformation...</h2>
+                    <br />
+                    <p>
+                        <a href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt" target="_blank">
+                            <img src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1" alt="" srcset="" height={50} />
+                        </a>
+                    </p>
+                </div>
+            </div>
             {/* <br />
             <br />
             <br />

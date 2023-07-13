@@ -119,7 +119,7 @@ export default function Header() {
               >
                How it Works</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 exact
                 to="/KOLLECTIT-OurTeam"
@@ -129,7 +129,7 @@ export default function Header() {
               >
                 Our Team
               </Link>
-            </li>
+            </li> */}
             {/* <li className="nav-item">
               <div class="dropdown">
                 <div id="services"><Link to="/KOLLECTIT-OurTeam#Ourteam">Our team</Link><i className="fa fa-caret-down"></i></div>

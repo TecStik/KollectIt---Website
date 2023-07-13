@@ -124,9 +124,9 @@ function Home() {
                     <li>Venturing into the realm of handling hard cash becomes a daunting endeavour for businesses and individuals. Misrepresenting amounts of cash exchanges becomes highly likely, when two separate parties are involved.</li>
                     <br />
                     <li>The Mobile and Desktop (hybrid) Software behind KollectIt enable clear-cut methods to authenticate how much cash is exchanged between both parties of cash transactions. Using OTPs (One-Time-Passwords) sent by KollectIt, The Providers of cash can verify the sum of cash provided. The cashier or person responsible to validate the receipt of cash or check from the receiving end, conveniently identifies the exact amount to be received so the scrutiny of parties is conducted with enhanced precision. </li>
-                    <br/>
-                    <li>The Team behind KollectIt is geared to tailor the application to specific requirements of users. With user-friendly integration between other in-house software your financial team uses, KollectIt increases the likelihood of resolving discrepancies effectively. Simply send detailed requirements to 
-                    <a href="mailto:info@tecstik.com" class="text-black"><b> info@tecstik.com </b></a> and  anticipate a prompt response from KollectIt’s developers within 24-Hours.</li>
+                    <br />
+                    <li>The Team behind KollectIt is geared to tailor the application to specific requirements of users. With user-friendly integration between other in-house software your financial team uses, KollectIt increases the likelihood of resolving discrepancies effectively. Simply send detailed requirements to
+                      <a href="mailto:info@tecstik.com" class="text-black"><b> info@tecstik.com </b></a> and  anticipate a prompt response from KollectIt’s developers within 24-Hours.</li>
                   </ul>
                 </div>
               </div>
@@ -137,7 +137,19 @@ function Home() {
             </div>
           </div>
         </section>
-
+        
+        <div class="container">
+          <div class="section-title">
+            {/* <img src={Spalsh} class="img-fluid" alt="" id="Splash" /> */}
+            <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Unlock the Potential of Cash Collection <br /> Transformation...</h2>
+            <br />
+            <p>
+              <a href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt" target="_blank">
+                <img src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1" alt="" srcset="" height={50} />
+              </a>
+            </p>
+          </div>
+        </div>
 
         {/* <div class="container">
           <div class="section-title">

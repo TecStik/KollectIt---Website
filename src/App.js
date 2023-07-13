@@ -36,7 +36,7 @@ export const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/KOLLECTIT-WhyYouNeedKollectIt" element={<YouNeedKollectit />} />
         <Route path="/KOLLECTIT-Contact" element={<ContactUS />} />
-        <Route path="/KOLLECTIT-OurTeam" element={<OurTeam />} />
+        {/* <Route path="/KOLLECTIT-OurTeam" element={<OurTeam />} /> */}
         <Route path="/KOLLECTIT-HowItWorks" element={<HowItWork />} />
         {/*
         <Route path="/KOLLECTIT-About" element={<About />} />
