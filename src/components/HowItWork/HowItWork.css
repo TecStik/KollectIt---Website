@@ -40,9 +40,9 @@
 
 
 #newImageSize {
-  width: 32%;
-  margin: 2%;
-  height: 90%;
+  width: 40%;
+  /* margin: 2%; */
+  /* height: 100%; */
 }
 
 #newImageSizethree {
@@ -53,8 +53,8 @@
 }
 
 #newImageSizeThree {
-  width: 32.5%;
-  height: 80%;
+  width: 30%;
+  /* height: 90%; */
 }
 
 #SlideImage {
@@ -100,14 +100,15 @@
 }
 
 /* #newImageSize:hover { */
-  /* background-color: yellow; */
-  /* border: 2px solid red; */
+/* background-color: yellow; */
+/* border: 2px solid red; */
 /* } */
 
 #cardH {
   height: 100%;
   width: 60%;
 }
+
 #ImageSliderRes {
   margin-left: 4%;
   margin-right: 4%;
@@ -261,9 +262,9 @@
     margin-top: -30px;
   } */
 
-  #SlideImage {
+  /* #SlideImage { */
     /* background-color: #c59191; */
-  }
+  /* } */
 
   #howItWork:hover {
     background-color: #578B9D;
@@ -390,8 +391,8 @@
   }
 
   #newImageSizeThree {
-    width: 31%;
-    height: 80%;
+    width: 28%;
+    /* height: 80%; */
     margin-top: 9%;
     margin-bottom: 10%;
   }
