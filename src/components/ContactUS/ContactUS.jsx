@@ -4,6 +4,7 @@ import React, { useRef, useState, useEffect } from "react";
 import './ContactUS.css'
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import tecstiklogo from './tecstiklogo.png';
 
 export default function ContactUS() {
 
@@ -142,7 +143,8 @@ export default function ContactUS() {
       <div class="container">
         <div class="section-title">
           {/* <img src={Spalsh} class="img-fluid" alt="" id="Splash" /> */}
-          <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Unlock the Potential of Cash Collection <br /> Transformation...</h2>
+          <img src={tecstiklogo} alt="" srcset="" height={150} />
+          <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Supercharge your cash collection</h2>
           <br />
           <p>
             <a href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt" target="_blank">

@@ -136,8 +136,9 @@ const YouNeedKollectit = () => {
 
             <div class="container">
                 <div class="section-title">
+                <img src={tecstiklogo} alt="" srcset="" height={150} />
                     {/* <img src={Spalsh} class="img-fluid" alt="" id="Splash" /> */}
-                    <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Unlock the Potential of Cash Collection <br /> Transformation...</h2>
+                    <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Supercharge your cash collection</h2>
                     <br />
                     <p>
                         <a href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt" target="_blank">

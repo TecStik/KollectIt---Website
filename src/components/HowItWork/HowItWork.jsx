@@ -47,7 +47,7 @@ import AllPayment from './Rider/AllPayment.png';
 import RiderBackHome from './Rider/RiderBackHome.png';
 
 
-import firstImage from './Admin/firstImage.jpg';
+import tecstiklogo from './tecstiklogo.png';
 
 function HowItWork() {
 
@@ -786,7 +786,8 @@ function HowItWork() {
 
         <div class="container">
           <div class="section-title">
-            <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Unlock the Potential of Cash Collection <br /> Transformation...</h2>
+                <img src={tecstiklogo} alt="" srcset="" height={150} />
+            <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Supercharge your cash collection</h2>
             <br />
             <p>
               <a href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt" target="_blank">
