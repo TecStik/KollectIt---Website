@@ -18,12 +18,14 @@
 }
 
 #logoImage {
-  width: 30%;
+  width: 50%;
   margin: 0%;
   padding: 0%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -2%;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
 }
 #logoImageTec {
   width: 25%;
@@ -33,7 +35,6 @@
   margin-right: auto;
   margin-top: -5%;
 }
-
 
 /*--------------------------------------------------------------
 # YouNeedKollectit Section
@@ -95,19 +96,29 @@
     width: 50%;
   }
 
-  #blog{
+  #blog {
     align-items: center;
   }
 
   #logoImage {
-    margin-top: 7%;
-    width:80%;
+    /* margin-top: 7%; */
+    width: 90%;
+    /* height: 35%; */
     align-items: center;
   }
   #logoImageTec {
     margin-top: 7%;
-    width:80%;
+    width: 80%;
     align-items: center;
+  }
+
+  #reverseImage {
+    /* background-color: #484848; */
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #reverseImageText {
+    font-size: 20px;
   }
 }
 

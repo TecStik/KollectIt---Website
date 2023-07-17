@@ -79,7 +79,7 @@ export default function ContactUS() {
                 class="email-form"
               >
                 <div class="row">
-                  <div class="col-md-6 form-group">
+                  <div class="col-md-6 form-group ">
                     <input
                       style={{ margin: 10, padding: 10, color: "white" }}
                       type="text"
@@ -141,20 +141,34 @@ export default function ContactUS() {
       <br />
       <br />
       <div class="container">
-        <div class="section-title">
-          {/* <img src={Spalsh} class="img-fluid" alt="" id="Splash" /> */}
-          <img src={tecstiklogo} alt="" srcset="" height={150} />
-          <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Supercharge your cash collection</h2>
-          <br />
-          <p>
-            <a href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt" target="_blank">
-              <img src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1" alt="" srcset="" height={50} />
+          <div class="section-title">
+            <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
+              Supercharge your cash collection
+            </h2>
+            <br />
+            <p>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
+                target="_blank"
+              >
+                <img
+                  src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1"
+                  alt=""
+                  srcset=""
+                  height={50}
+                />
+              </a>
+            </p>
+            <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
+              Brought to you by...
+            </h2>
+            <a href="https://tecstik.com/" target="_blank">
+              <img src={tecstiklogo} alt="" srcset="" height={150} />
             </a>
-          </p>
+          </div>
         </div>
-      </div>
-      <br />
-      <br />
+      {/* <br /> */}
+      {/* <br /> */}
       <br />
       <Footer />
     </div>
