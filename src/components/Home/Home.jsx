@@ -50,7 +50,7 @@ function Home() {
                   data-aos-delay="100"
                   style={{ color: "#134D61" }}
                 >
-                  Taming the Chaos of Collection
+                  Unlock the Digital Era of Physical Cash Collection
                 </p>
                 <br />
                 <br />
@@ -64,7 +64,7 @@ function Home() {
                       Businesses and Individuals. 
                       <br/>
                       <br/> 
-                      <strong>KollectIt</strong> ensures precise reporting with ease
+                      <strong>KollectIt</strong> ensures collaborative exchange of Cash.
                     </li>
                   </ul>
                 </div>
