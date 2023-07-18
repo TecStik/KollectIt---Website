@@ -76,10 +76,9 @@ function HowItWork() {
             </h2>
             <br />
             <p style={{ fontSize: "22px" }}>
-              Use KollectIt to streamline financial processes and eliminate
-              discrepancies. The app utilizes integrated databases to provide a
-              comprehensive solution for managing payments and ensuring smooth
-              transactions.{" "}
+            Streamline finances and eradicate cash collection discrepancies with KollectIt. The app utilizes integrated databases to provide a
+              comprehensive solution for managing payments, ensuring smooth
+              transactions with getting payment confirmation(s) in real-time.{" "}
             </p>
           </div>
         </div>
@@ -91,10 +90,7 @@ function HowItWork() {
             ADMIN(S)
           </h2>
           <p style={{ fontSize: "22px" }}>
-            With our user-friendly interface, admins can easily examine payment
-            statuses, assign roles to collection staff and cashiers, and track
-            payment fulfillment using both Smartphones and Desktops.
-          </p>
+          Unlock Seamless Control: Effortlessly manage payment statuses, assign roles, and track fulfillment on smartphones and desktops through our user-friendly interface. Elevate your experience further with the exclusive paid feature of the desktop admin panel.          </p>
         </div>
 
         <section id="specials" class="specials">
@@ -187,14 +183,14 @@ function HowItWork() {
                           <div class="col-lg-6 details order-2 order-lg-1">
                             <h1 style={{ color: "#134D61" }}>Register</h1>
                             <p style={{ fontSize: "22px" }}>
-                              The user can register themselves as an
+                              A user can register themselves as an
                               Organization’s Admin by providing relevant
                               details:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>Username</li>
-                              <li>Company Name:</li>
-                              <li>Short Code</li>
+                              <li>Organization Name:</li>
+                              <li>Company Short Code</li>
                               <li>Login Id</li>
                               <li>Password </li>
                             </ul>
@@ -263,7 +259,7 @@ function HowItWork() {
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>Company Name:</li>
-                              <li>Short Code</li>
+                              <li>Assigned Short Code</li>
                               <li>Login Id</li>
                               <li>
                                 Selecting “Cashier” from the dropdown menu
@@ -295,13 +291,13 @@ function HowItWork() {
                             </h1>
                             <p style={{ fontSize: "22px" }}>
                               Admin(s) can conveniently add cash collection
-                              staff by providing the following information:
+                              staff or Rider(s) by providing the following information:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>Userames</li>
                               <li>Their Email</li>
                               <li>Their Cell Phone Number</li>
-                              <li>Password they will use to login</li>
+                              <li>Login Password</li>
                             </ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -340,9 +336,8 @@ function HowItWork() {
                               <li>Client Name</li>
                               <li>Client ID</li>
                               <li>Client Type</li>
-                              <li>
-                                Internal Staff Assigned for Collection from them
-                              </li>
+                              <li>The Client's Contact Details</li>
+                              <li>Assigned Collection Staff</li>
                             </ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -368,12 +363,12 @@ function HowItWork() {
                               Reports
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                              By tapping the "Reports" button, organization
-                              admin users gain an overview of collections
-                              assigned to their cashier(s), empowering them to
-                              monitor staff status effectively. Admin users can
-                              view the amount that must be received from each
-                              cashier(s).
+                            By tapping the "Reports" button, Admin users have access to view the amounts to be received from each cashier.
+
+
+
+
+
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -400,14 +395,7 @@ function HowItWork() {
                               Team Members
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                              Accessing the “team members” section, allows
-                              admin(s) to view an organized list of their entire
-                              collection staff. Divided into “Cashiers” and
-                              “Riders”, Admin Users are free to view all their
-                              staff details recorded within the KollectIt App.
-                              The details that show can be seen on the
-                              screenshots provided →
-                            </p>
+                            Unleash Your Team's Potential: Explore the "Team Members" section to access an organized list of your dedicated collection staff. With a clear division into "Cashiers" and "Riders," Admin Users can effortlessly view comprehensive details of their team recorded within the KollectIt App. See it all in action through the screenshots provided →                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -436,19 +424,19 @@ function HowItWork() {
                               Transactions
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                              The Transactions section allow Admin(s) of an
-                              organization, to view all of the collection
-                              activity their team is responsible for.
-                              Transaction information is classified as:
+                            Unlock Visibility with Transactions: The Transactions section empowers Admin(s) of an organization to effortlessly view all current and upcoming collection activities undertaken by their team. Transaction information is thoughtfully classified as:
+
+
+
+
+
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>Date</li>
                               <li>Nature of transaction</li>
                               <li>The payor</li>
                               <li>
-                                The name of a rider who has collected cash from
-                                the payor
-                              </li>
+                                The name of a rider who has collected cash from the remittor                              </li>
                               <li>The amount of cash collected</li>
                             </ul>
                           </div>
@@ -519,9 +507,8 @@ function HowItWork() {
             CASHIER(S)
           </h2>
           <p style={{ fontSize: "22px" }}>
-            Cashiers play a pivotal role in the system, as they have the ability
-            to assign corresponding staff to collect payments from specific
-            clients and oversee the entire payment process(es).
+            
+Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the key to assign corresponding staff for payment collection from specific clients and oversee the entire payment process with seamless precision.
           </p>
         </div>
 
@@ -602,21 +589,25 @@ function HowItWork() {
                             </h1>
                             <p style={{ fontSize: "22px" }}>
                               Cashiers log in with admin-provided credentials
-                              for assigned payments.. Displayed The KollectIt
+                              for assigned payments. Displayed The KollectIt
                               Cashier Home Screen allows Cashiers to:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
-                              <li>Add Clients to their organization</li>
+                              <li>Add Clients or Customers of their organization</li>
                               <li>
                                 Assign Riders to Clients of their organization
                               </li>
                               <li>
                                 View Deposits - Payments received from the rider
-                                to bank or to the supervisor
+                                by bank(s) or to the supervisor.
                               </li>
                               <li>
-                                View Payments collected by assigned riders in
-                                real time.
+                              Real-time view of payments collected by assigned riders from clients or customers.
+
+
+
+
+.
                               </li>
                             </ul>
                           </div>
@@ -645,7 +636,7 @@ function HowItWork() {
                               Add Client(s)
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                              When a cashier(s) is adding a client, the
+                              When a cashier(s) is adding a client or customer, the
                               following details are required:
                             </p>
                             <ul style={{ fontSize: "20px" }}>

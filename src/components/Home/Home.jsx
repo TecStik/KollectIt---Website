@@ -59,11 +59,12 @@ function Home() {
                 <div class="content">
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
-                      Economic Crimes, Payment Discrepancies, Inaccurate
+                      Economic Crimes, Payment Disrepancies, Inaccurate
                       Reporting, Payment Fraud, etc., are all problems faced by
-                      Businesses and Individuals. KollectIt offers an effortless
-                      way to ensure yours or a collection team’s reporting is
-                      precise.
+                      Businesses and Individuals. 
+                      <br/>
+                      <br/> 
+                      <strong>KollectIt</strong> ensures precise reporting with ease
                     </li>
                   </ul>
                 </div>
@@ -113,24 +114,21 @@ function Home() {
                     }}
                     id="textCenter"
                   >
-                    The Ultimate Collection App for All Platforms
+                    The Ultimate Hard Cash Collection App
                   </h2>
                   <br />
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
-                      Looking at the mix of banking transactions, paper-based
-                      activity still dominates the share in transaction value.
-                      While digital options are freely available, people prefer
-                      dealing in hard cash and checks. A lack of trust in online
-                      channels is one of the main issues, but avoiding
+                      Dealing with tangible money and checks is preferred despite digital options. A lack of trust in online
+                      channels is one of the main issues, but avoiding manual
                       documentation is also a major contributory factor. With
                       The KollectIt Cross-Platform App, Admin Users are granted
                       Super Access allowing them to assign team members to
-                      roles, overlook each team member’s status of tasks
+                      roles, overlook each team members status of tasks
                       assigned to them, remove or switch roles of team members
-                      and even revoke a team member’s access to information if
-                      needed. With separate privileges for Cashier’s and Riders
+                      and even revoke a team members access to information if
+                      needed. With separate privileges for Cashiers and Riders
                       (Collection Staff), KollectIt maximizes the efficiency of
                       collecting cash in any collection effort.
                     </li>
@@ -149,7 +147,7 @@ function Home() {
               <h2
                 style={{ color: "#134D61", fontSize: "35px", fontWeight: 600 }}
               >
-                Conquer Collection Challenges with KollectIt
+                Conquer Cash Collection Challenges with KollectIt
               </h2>
               <br />
               {/* <p>The lack of transparency and the burden of manual documentation can present significant challenges. With KOLLECTIT, entire Islamic Banking transactions are executed digitally in just a few clicks/taps, while  ensuring compliance with Sharia principles. There may no longer be delays caused by continuous
@@ -188,14 +186,14 @@ function Home() {
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
-                      Venturing into the realm of handling hard cash becomes a
+                      Venturing into the realm of handling banknotes becomes a
                       daunting endeavour for businesses and individuals.
                       Misrepresenting amounts of cash exchanges becomes highly
                       likely, when two separate parties are involved.
                     </li>
                     <br />
                     <li>
-                      The Mobile and Desktop (hybrid) Software behind KollectIt
+                      The Mobile Software behind KollectIt
                       enable clear-cut methods to authenticate how much cash is
                       exchanged between both parties of cash transactions. Using
                       OTPs (One-Time-Passwords) sent by KollectIt, The Providers
@@ -203,15 +201,15 @@ function Home() {
                       or person responsible to validate the receipt of cash or
                       check from the receiving end, conveniently identifies the
                       exact amount to be received so the scrutiny of parties is
-                      conducted with enhanced precision.{" "}
+                      conducted with enhanced precision. KollectIt also offers a paid desktop solution for Admin Users.
                     </li>
                     <br />
                     <li>
                       The Team behind KollectIt is geared to tailor the
-                      application to specific requirements of users. With
+                      application to specific requirements of users upon request. With
                       user-friendly integration between other in-house software
                       your financial team uses, KollectIt increases the
-                      likelihood of resolving discrepancies effectively. Simply
+                      likelihood of resolving disrepancies effectively. Simply
                       send detailed requirements to
                       <a href="mailto:info@tecstik.com" class="text-black">
                         <b> info@tecstik.com </b>

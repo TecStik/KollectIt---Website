@@ -92,11 +92,10 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    With integrated databases, KollectIt brings the finest
-                    communication between your collection team. Carefully
-                    examine the collection processes as an Admin User by
-                    confirming, reviewing status(es) and assigning team members
-                    to relevant roles.
+                    With integrated databases, <strong>KollectIt</strong> enhances seamless communication 
+                    among your collection staff, cashiers, and admins. 
+                    
+As an Admin User, meticulously review collection processes by confirming, reviewing status(es), and assigning team members to relevant roles.
                   </li>
                 </ul>
               </div>
@@ -134,11 +133,8 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    Once designated for the position, your cashier or manager is
-                    tasked with ensuring fulfilment. After signing in, the
-                    functionality of adding a Client(s), Assigning Rider(s) for
-                    collection, viewing and making payment deposits, viewing
-                    payment statuses and more are available to them.
+                   
+Upon designation, your cashier or manager assumes the responsibility of ensuring fulfillment. Once signed in, they gain access to functionalities like adding clients or customers, assigning riders for collection, viewing and making payment deposits, checking payment statuses, and more using <strong>KollectIt </strong>.
                   </li>
                 </ul>
               </div>
@@ -192,11 +188,11 @@ const YouNeedKollectit = () => {
                 >
                   <li>
                     When assigned to the role of a Rider, a cash collector can
-                    select an option from their home screen. On the home screen,
+                    select an option from their <strong>KollectIt </strong>home screen. On the <strong>KollectIt</strong> home screen,
                     riders can view the list of collections designated to them,
                     a register of the payments they have collected, and they can
                     verify recently collected payments with a PVC(Payment
-                    Verification Code) sent to a client.
+                    Verification Code) sent to a client or customer.
                   </li>
                 </ul>
               </div>
