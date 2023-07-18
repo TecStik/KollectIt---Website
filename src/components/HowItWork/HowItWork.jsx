@@ -13,7 +13,8 @@ import adminHome from "./Admin/adminHome.png";
 import adminCashier from "./Admin/adminCashier.png";
 import AdminRider from "./Admin/AdminRider.png";
 import arrowImage from "./arrowImage.jpg";
-import login from "./Admin/login.png";
+import login from "./login.png";
+import Register from "./register1.png";
 import Welcome from "./Welcom.png";
 import rider1 from "./Admin/rider1.png";
 import Adminregister from "./Admin/register.png";
@@ -46,14 +47,6 @@ import RiderBackHome from "./Rider/RiderBackHome.png";
 import tecstiklogo from "./tecstiklogo.png";
 
 function HowItWork() {
-  const divStyle = {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundSize: "cover",
-    height: "400px",
-    background: "yellow",
-  };
   const [trigger, setTrigger] = useState(0);
   const [CashierTrigger, setCashierTrigger] = useState(0);
   const [RiderTrigger, setRiderTrigger] = useState(0);
@@ -63,11 +56,6 @@ function HowItWork() {
       <div>
         <Header />
 
-        {/* <section id="SplashImage"
-          style={{
-            backgroundImage: `url(${splash})`,
-          }}
-        /> */}
         <div class="container">
           <div class="section-title">
             <br />
@@ -76,7 +64,8 @@ function HowItWork() {
             </h2>
             <br />
             <p style={{ fontSize: "22px" }}>
-            Streamline finances and eradicate cash collection discrepancies with KollectIt. The app utilizes integrated databases to provide a
+              Streamline finances and eradicate cash collection discrepancies
+              with KollectIt. The app utilizes integrated databases to provide a
               comprehensive solution for managing payments, ensuring smooth
               transactions with getting payment confirmation(s) in real-time.{" "}
             </p>
@@ -90,7 +79,11 @@ function HowItWork() {
             ADMIN(S)
           </h2>
           <p style={{ fontSize: "22px" }}>
-          Unlock Seamless Control: Effortlessly manage payment statuses, assign roles, and track fulfillment on smartphones and desktops through our user-friendly interface. Elevate your experience further with the exclusive paid feature of the desktop admin panel.          </p>
+            Unlock Seamless Control: Effortlessly manage payment statuses,
+            assign roles, and track fulfillment on smartphones and desktops
+            through our user-friendly interface. Elevate your experience further
+            with the exclusive paid feature of the desktop admin panel.{" "}
+          </p>
         </div>
 
         <section id="specials" class="specials">
@@ -196,7 +189,7 @@ function HowItWork() {
                             </ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
-                            <img src={Welcome} alt="" id="newImageSize" />
+                            <img src={Register} alt="" id="newImageSize" />
                             <img
                               src={arrowImage}
                               height={20}
@@ -229,7 +222,7 @@ function HowItWork() {
                             </ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
-                            <img src={Welcome} alt="" id="newImageSize" />
+                            <img src={login} alt="" id="newImageSize" />
                             <img
                               src={arrowImage}
                               alt=""
@@ -291,7 +284,8 @@ function HowItWork() {
                             </h1>
                             <p style={{ fontSize: "22px" }}>
                               Admin(s) can conveniently add cash collection
-                              staff or Rider(s) by providing the following information:
+                              staff or Rider(s) by providing the following
+                              information:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>Userames</li>
@@ -363,12 +357,9 @@ function HowItWork() {
                               Reports
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                            By tapping the "Reports" button, Admin users have access to view the amounts to be received from each cashier.
-
-
-
-
-
+                              By tapping the "Reports" button, Admin users have
+                              access to view the amounts to be received from
+                              each cashier.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -395,7 +386,15 @@ function HowItWork() {
                               Team Members
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                            Unleash Your Team's Potential: Explore the "Team Members" section to access an organized list of your dedicated collection staff. With a clear division into "Cashiers" and "Riders," Admin Users can effortlessly view comprehensive details of their team recorded within the KollectIt App. See it all in action through the screenshots provided →                            </p>
+                              Unleash Your Team's Potential: Explore the "Team
+                              Members" section to access an organized list of
+                              your dedicated collection staff. With a clear
+                              division into "Cashiers" and "Riders," Admin Users
+                              can effortlessly view comprehensive details of
+                              their team recorded within the KollectIt App. See
+                              it all in action through the screenshots provided
+                              →{" "}
+                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -424,19 +423,21 @@ function HowItWork() {
                               Transactions
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                            Unlock Visibility with Transactions: The Transactions section empowers Admin(s) of an organization to effortlessly view all current and upcoming collection activities undertaken by their team. Transaction information is thoughtfully classified as:
-
-
-
-
-
+                              Unlock Visibility with Transactions: The
+                              Transactions section empowers Admin(s) of an
+                              organization to effortlessly view all current and
+                              upcoming collection activities undertaken by their
+                              team. Transaction information is thoughtfully
+                              classified as:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>Date</li>
                               <li>Nature of transaction</li>
                               <li>The payor</li>
                               <li>
-                                The name of a rider who has collected cash from the remittor                              </li>
+                                The name of a rider who has collected cash from
+                                the remittor{" "}
+                              </li>
                               <li>The amount of cash collected</li>
                             </ul>
                           </div>
@@ -507,8 +508,10 @@ function HowItWork() {
             CASHIER(S)
           </h2>
           <p style={{ fontSize: "22px" }}>
-            
-Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the key to assign corresponding staff for payment collection from specific clients and oversee the entire payment process with seamless precision.
+            Empower Your Cashiers: Cashiers play a pivotal role in the system,
+            holding the key to assign corresponding staff for payment collection
+            from specific clients and oversee the entire payment process with
+            seamless precision.
           </p>
         </div>
 
@@ -593,7 +596,9 @@ Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the k
                               Cashier Home Screen allows Cashiers to:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
-                              <li>Add Clients or Customers of their organization</li>
+                              <li>
+                                Add Clients or Customers of their organization
+                              </li>
                               <li>
                                 Assign Riders to Clients of their organization
                               </li>
@@ -602,17 +607,13 @@ Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the k
                                 by bank(s) or to the supervisor.
                               </li>
                               <li>
-                              Real-time view of payments collected by assigned riders from clients or customers.
-
-
-
-
-.
+                                Real-time view of payments collected by assigned
+                                riders from clients or customers..
                               </li>
                             </ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
-                            <img src={CashierLogin} alt="" id="newImageSize" />
+                            <img src={loginAdmin} alt="" id="newImageSize" />
                             <img
                               src={arrowImage}
                               alt=""
@@ -636,8 +637,8 @@ Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the k
                               Add Client(s)
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                              When a cashier(s) is adding a client or customer, the
-                              following details are required:
+                              When a cashier(s) is adding a client or customer,
+                              the following details are required:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>Chosen Client Id</li>
@@ -723,7 +724,10 @@ Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the k
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Deposit
                             </h1>
-                            <p style={{ fontSize: "22px" }}></p>
+                            <p style={{ fontSize: "22px" }}>
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Porro adipisci possimus libero.
+                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -748,7 +752,10 @@ Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the k
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               View Payment
                             </h1>
-                            <p style={{ fontSize: "22px" }}></p>
+                            <p style={{ fontSize: "22px" }}>
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Porro adipisci possimus libero.
+                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -780,7 +787,10 @@ Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the k
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Client List
                             </h1>
-                            <p style={{ fontSize: "22px" }}></p>
+                            <p style={{ fontSize: "22px" }}>
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Porro adipisci possimus libero.
+                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -809,7 +819,10 @@ Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the k
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Change Password
                             </h1>
-                            <p style={{ fontSize: "25px" }}></p>
+                            <p style={{ fontSize: "25px" }}>
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Porro adipisci possimus libero.
+                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -960,15 +973,14 @@ Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the k
                             </ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
-                            <img src={RiderLogin} alt="" id="newImageSize" />
+                            <img src={loginAdmin} alt="" id="newImageSize" />
                             <img
                               src={arrowImage}
                               alt=""
                               height={20}
                               width={40}
                               style={{
-                                marginTop: "auto",
-                                marginBottom: "auto",
+                                marginTop: "50%",
                               }}
                             />
                             <img src={RiderHome} alt="" id="newImageSize" />
@@ -1159,7 +1171,10 @@ Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the k
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Verify Payment
                             </h1>
-                            <p style={{ fontSize: "25px" }}></p>
+                            <p style={{ fontSize: "25px" }}>
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Porro adipisci possimus libero.
+                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -1187,7 +1202,10 @@ Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the k
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Trasfer
                             </h1>
-                            <p style={{ fontSize: "25px" }}></p>
+                            <p style={{ fontSize: "25px" }}>
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Porro adipisci possimus libero.
+                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -1212,7 +1230,10 @@ Empower Your Cashiers: Cashiers play a pivotal role in the system, holding the k
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Change Password
                             </h1>
-                            <p style={{ fontSize: "25px" }}></p>
+                            <p style={{ fontSize: "25px" }}>
+                              Lorem, ipsum dolor sit amet consectetur
+                              adipisicing elit. Porro adipisci possimus libero.
+                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
