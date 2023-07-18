@@ -58,7 +58,7 @@ export default function Header() {
           <Link exact to="/" className="nav-logo" style={{ color: "#134D61", fontSize: '30px', fontWeight: 600 }}>
             <img src={Logo} alt="" id="logo" height={100} />
            <span id="Kollectit">
-            KOLLECTIT
+            KollectIt
            </span>
           </Link>
 

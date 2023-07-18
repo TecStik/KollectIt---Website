@@ -47,7 +47,7 @@ export default function Footer() {
           <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" id="footerLine">
-                <h6 class="text-uppercase fw-bold text-white">KOLLECTIT</h6>
+                <h6 class="text-uppercase fw-bold text-white">KollectIt</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style={{ background: "#7c4dff", height: 2, width: 60 }} />
                 <p>Retail Transactions are key to the development of any payments, receivables or delivery system(s). KollectIt enhances precision between all of the collection staff of businesses and even individuals.</p>
               </div>
@@ -93,7 +93,7 @@ export default function Footer() {
 
 
               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" id="footerLine">
-                <h6 class="text-uppercase fw-bold text-white ">KOLLECTIT PLATFROM</h6>
+                <h6 class="text-uppercase fw-bold text-white ">KOLLECTIT PLATFORM</h6>
                 <hr
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style={{ background: "#7c4dff", height: 2, width: 60 }}

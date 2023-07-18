@@ -391,7 +391,7 @@ function HowItWork() {
                               your dedicated collection staff. With a clear
                               division into "Cashiers" and "Riders," Admin Users
                               can effortlessly view comprehensive details of
-                              their team recorded within the KollectIt App. See
+                              their team recorded within The KollectIt App. See
                               it all in action through the screenshots provided
                               →{" "}
                             </p>
