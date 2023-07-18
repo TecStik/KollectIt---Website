@@ -11,10 +11,9 @@ import Mobile from "../Images/whyJoin/Mobile1.png";
 import Setting from "../Images/whyJoin/Setting.png";
 import Question from "../Images/whyJoin/Question.png";
 
-import KollectLogo from "./KollectitLogo.png";
+import KollectitLogo from "./KollectitLogo.png";
 import tecstiklogo from "./tecstiklogo.png";
 
-import CoursalImage from "./CoursalImage.png";
 
 const YouNeedKollectit = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -41,10 +40,10 @@ const YouNeedKollectit = () => {
         style={{
           background: "#7390B6",
           marginBottom: "8%",
-          //   backgroundImage:`url(${KollectLogo})`,
+          //   backgroundImage:`url(${KollectitLogo})`,
         }}
       >
-        <img src={KollectLogo} id="logoImage" alt="" srcset="" />
+        <img src={KollectitLogo} id="logoImage" alt="" srcset="" />
         {/* <h2 class="text-center">By...</h2>
         <img src={tecstiklogo} id="logoImageTec" alt="" srcset="" /> */}
       </section>
@@ -92,10 +91,11 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    With integrated databases, <strong>KollectIt</strong> enhances seamless communication 
-                    among your collection staff, cashiers, and admins. 
-                    
-As an Admin User, meticulously review collection processes by confirming, reviewing status(es), and assigning team members to relevant roles.
+                    With integrated databases, <strong>KollectIt</strong>{" "}
+                    enhances seamless communication among your collection staff,
+                    cashiers, and admins. As an Admin User, meticulously review
+                    collection processes by confirming, reviewing status(es),
+                    and assigning team members to relevant roles.
                   </li>
                 </ul>
               </div>
@@ -133,8 +133,12 @@ As an Admin User, meticulously review collection processes by confirming, review
                   id="reverseImageText"
                 >
                   <li>
-                   
-Upon designation, your cashier or manager assumes the responsibility of ensuring fulfillment. Once signed in, they gain access to functionalities like adding clients or customers, assigning riders for collection, viewing and making payment deposits, checking payment statuses, and more using <strong>KollectIt </strong>.
+                    Upon designation, your cashier or manager assumes the
+                    responsibility of ensuring fulfillment. Once signed in, they
+                    gain access to functionalities like adding clients or
+                    customers, assigning riders for collection, viewing and
+                    making payment deposits, checking payment statuses, and more
+                    using <strong>KollectIt </strong>.
                   </li>
                 </ul>
               </div>
@@ -188,7 +192,8 @@ Upon designation, your cashier or manager assumes the responsibility of ensuring
                 >
                   <li>
                     When assigned to the role of a Rider, a cash collector can
-                    select an option from their <strong>KollectIt </strong>home screen. On the <strong>KollectIt</strong> home screen,
+                    select an option from their <strong>KollectIt </strong>home
+                    screen. On the <strong>KollectIt</strong> home screen,
                     riders can view the list of collections designated to them,
                     a register of the payments they have collected, and they can
                     verify recently collected payments with a PVC(Payment
@@ -205,30 +210,39 @@ Upon designation, your cashier or manager assumes the responsibility of ensuring
 
       <div class="container">
         <div class="section-title">
-          {/* <img src={Spalsh} class="img-fluid" alt="" id="Splash" /> */}
           <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-            Supercharge your cash collection
+            Elevate Your Collection Efforts to the Next Level..
           </h2>
-          <br />
-          <p>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
-              target="_blank"
-            >
-              <img
-                src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1"
-                alt=""
-                srcset=""
-                height={50}
-              />
-            </a>
-          </p>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
+            target="_blank"
+          >
+            <img src={KollectitLogo} alt="" srcset="" height={150} />
+          </a>
           <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
             Brought to you by...
           </h2>
-          <a href="https://tecstik.com/" target="_blank">
-            <img src={tecstiklogo} alt="" srcset="" height={150} />
-          </a>
+          <p>
+            <a href="https://tecstik.com/" target="_blank">
+              <img src={tecstiklogo} alt="" srcset="" height={150} />
+            </a>
+          </p>
+          <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
+            Find at
+            <p>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
+                target="_blank"
+              >
+                <img
+                  src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1"
+                  alt=""
+                  srcset=""
+                  height={50}
+                />
+              </a>
+            </p>
+          </h2>
         </div>
       </div>
       {/* <br />

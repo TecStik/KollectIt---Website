@@ -1,14 +1,13 @@
-import { message, Spin } from 'antd';
+import { message, Spin } from "antd";
 import map from "./map.PNG";
 import React, { useRef, useState, useEffect } from "react";
-import './ContactUS.css'
-import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
-import tecstiklogo from './tecstiklogo.png';
+import "./ContactUS.css";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
+import tecstiklogo from "./tecstiklogo.png";
+import KollectitLogo from "./KollectitLogo.png";
 
 export default function ContactUS() {
-
-
   const [loading, setloading] = useState(true);
   function maplink() {
     window.open("https://goo.gl/maps/AhT2xjDLpdB3juyy8", "_blank");
@@ -28,31 +27,39 @@ export default function ContactUS() {
       {/* <br />
       <br /> */}
 
-      <div id="CareersForm" class="Careers" >
-        <div class="container" >
-          <div class="row" >
+      <div id="CareersForm" class="Careers">
+        <div class="container">
+          <div class="row">
             <div class="col-lg-6">
-              <h3 style={{ color: "#134D61", fontSize: "40px" }}>Let’s work together</h3>
-              <p style={{ fontSize: "20px" }}>Thank you for being so awesome and thinking about us.</p>
+              <h3 style={{ color: "#134D61", fontSize: "40px" }}>
+                Let’s work together
+              </h3>
+              <p style={{ fontSize: "20px" }}>
+                Thank you for being so awesome and thinking about us.
+              </p>
 
               <div class="mb-3n">
-                <h3 style={{ color: "#134D61", fontSize: "40px" }}>Send Us an Email</h3>
-                <p><a href="mailto:info@tecstik.com" class="text-black" style={{ fontSize: "20px" }}>info@tecstik.com</a> </p>
-
+                <h3 style={{ color: "#134D61", fontSize: "40px" }}>
+                  Send Us an Email
+                </h3>
+                <p>
+                  <a
+                    href="mailto:info@tecstik.com"
+                    class="text-black"
+                    style={{ fontSize: "20px" }}
+                  >
+                    info@tecstik.com
+                  </a>{" "}
+                </p>
               </div>
             </div>
-
-
-
           </div>
 
           <div class="row">
-
             <div class="col-lg-6">
               <img
                 title="myFrame"
                 src={map}
-
                 id="locationMap"
                 // height="200"
                 // class="mb-4 mb-lg-0"
@@ -63,9 +70,16 @@ export default function ContactUS() {
               />
               <br />
               <br />
-              <button type="button" class="btn btn-primary" style={{ background: "#578B9D", alignItems: "center" }} id="googleMapbtn" onClick={maplink}>Open in Google Maps</button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                style={{ background: "#578B9D", alignItems: "center" }}
+                id="googleMapbtn"
+                onClick={maplink}
+              >
+                Open in Google Maps
+              </button>
             </div>
-
 
             <div class="col-lg-6" style={{ backgroundColor: "#ECECEC" }}>
               <br />
@@ -88,7 +102,7 @@ export default function ContactUS() {
                       id="name"
                       placeholder="Your Name"
                       required
-                    // ref={firstname}
+                      // ref={firstname}
                     />
                   </div>
                   <div class="col-md-6 form-group mt-3 mt-md-0">
@@ -100,7 +114,7 @@ export default function ContactUS() {
                       id="email"
                       placeholder="Your Email"
                       required
-                    // ref={firstEmail}
+                      // ref={firstEmail}
                     />
                   </div>
                 </div>
@@ -124,13 +138,24 @@ export default function ContactUS() {
                     rows="5"
                     placeholder="Message"
                     required
-                  // ref={firstMessage}
+                    // ref={firstMessage}
                   ></textarea>
                 </div>
                 <div class="text-center">
-                  <button type="submit" style={{ backgroundColor: "#578B9D", margin: 10, padding: 10, color: "white", borderRadius: 20 }} disabled>Send Message</button>
+                  <button
+                    type="submit"
+                    style={{
+                      backgroundColor: "#578B9D",
+                      margin: 10,
+                      padding: 10,
+                      color: "white",
+                      borderRadius: 20,
+                    }}
+                    disabled
+                  >
+                    Send Message
+                  </button>
                   {/* {loading ? <button type="submit" class="y">Send Message</button> : <Spin size="large" />} */}
-
                 </div>
               </form>
             </div>
@@ -141,11 +166,26 @@ export default function ContactUS() {
       <br />
       <br />
       <div class="container">
-          <div class="section-title">
-            <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-              Supercharge your cash collection
-            </h2>
-            <br />
+        <div class="section-title">
+          <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
+            Elevate Your Collection Efforts to the Next Level..
+          </h2>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
+            target="_blank"
+          >
+            <img src={KollectitLogo} alt="" srcset="" height={150} />
+          </a>
+          <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
+            Brought to you by...
+          </h2>
+          <p>
+            <a href="https://tecstik.com/" target="_blank">
+              <img src={tecstiklogo} alt="" srcset="" height={150} />
+            </a>
+          </p>
+          <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
+            Find at
             <p>
               <a
                 href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
@@ -159,18 +199,13 @@ export default function ContactUS() {
                 />
               </a>
             </p>
-            <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-              Brought to you by...
-            </h2>
-            <a href="https://tecstik.com/" target="_blank">
-              <img src={tecstiklogo} alt="" srcset="" height={150} />
-            </a>
-          </div>
+          </h2>
         </div>
+      </div>
       {/* <br /> */}
       {/* <br /> */}
       <br />
       <Footer />
     </div>
-  )
+  );
 }

@@ -45,6 +45,7 @@ import Trasfer from "./Rider/Trasfer.png";
 import AllPayment from "./Rider/AllPayment.png";
 import RiderBackHome from "./Rider/RiderBackHome.png";
 import tecstiklogo from "./tecstiklogo.png";
+import KollectitLogo from "./KollectitLogo.png";
 
 function HowItWork() {
   const [trigger, setTrigger] = useState(0);
@@ -1263,28 +1264,38 @@ function HowItWork() {
         <div class="container">
           <div class="section-title">
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-              Supercharge your cash collection
+              Elevate Your Collection Efforts to the Next Level..
             </h2>
-            <br />
-            <p>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
-                target="_blank"
-              >
-                <img
-                  src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1"
-                  alt=""
-                  srcset=""
-                  height={50}
-                />
-              </a>
-            </p>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
+              target="_blank"
+            >
+              <img src={KollectitLogo} alt="" srcset="" height={150} />
+            </a>
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
               Brought to you by...
             </h2>
-            <a href="https://tecstik.com/" target="_blank">
-              <img src={tecstiklogo} alt="" srcset="" height={150} />
-            </a>
+            <p>
+              <a href="https://tecstik.com/" target="_blank">
+                <img src={tecstiklogo} alt="" srcset="" height={150} />
+              </a>
+            </p>
+            <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
+              Find at
+              <p>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
+                  target="_blank"
+                >
+                  <img
+                    src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1"
+                    alt=""
+                    srcset=""
+                    height={50}
+                  />
+                </a>
+              </p>
+            </h2>
           </div>
         </div>
 
