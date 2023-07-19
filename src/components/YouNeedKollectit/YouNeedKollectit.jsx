@@ -91,9 +91,9 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    With integrated databases, <strong>KollectIt</strong>{" "}
+                    With integrated databases of an organization's users, <strong>KollectIt</strong>{" "}
                     enhances seamless communication among your collection staff,
-                    cashiers, and admins. As an Admin User, meticulously review
+                    cashiers, and admins. As an Admin User, you can meticulously review
                     collection processes by confirming, reviewing status(es),
                     and assigning team members to relevant roles.
                   </li>
@@ -134,8 +134,8 @@ const YouNeedKollectit = () => {
                 >
                   <li>
                     Upon designation, your cashier or manager assumes the
-                    responsibility of ensuring fulfillment. Once signed in, they
-                    gain access to functionalities like adding clients or
+                    responsibility of ensuring complete fulfillment. Once signed in, they
+                    gain access to functionalities such as adding clients or
                     customers, assigning riders for collection, viewing and
                     making payment deposits, checking payment statuses, and more
                     using <strong>KollectIt </strong>.
@@ -211,7 +211,7 @@ const YouNeedKollectit = () => {
       <div class="container">
         <div class="section-title">
           <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-            Elevate Your Collection Efforts to the Next Level..
+          Transforming Cash Collection for Unmatched Precision!
           </h2>
           <a
             href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
@@ -228,7 +228,6 @@ const YouNeedKollectit = () => {
             </a>
           </p>
           <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-            Find at
             <p>
               <a
                 href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"

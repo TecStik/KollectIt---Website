@@ -32,10 +32,8 @@ export default function ContactUS() {
           <div class="row">
             <div class="col-lg-6">
               <h3 style={{ color: "#134D61", fontSize: "40px" }}>
-                Let’s work together
               </h3>
               <p style={{ fontSize: "20px" }}>
-                Thank you for being so awesome and thinking about us.
               </p>
 
               <div class="mb-3n">
@@ -168,7 +166,7 @@ export default function ContactUS() {
       <div class="container">
         <div class="section-title">
           <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-            Elevate Your Collection Efforts to the Next Level..
+          Transforming Cash Collection for Unmatched Precision!
           </h2>
           <a
             href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
@@ -185,7 +183,6 @@ export default function ContactUS() {
             </a>
           </p>
           <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-            Find at
             <p>
               <a
                 href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"

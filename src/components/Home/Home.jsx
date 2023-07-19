@@ -121,16 +121,12 @@ function Home() {
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
-                      Dealing with tangible money and checks is preferred despite digital options. A lack of trust in online
-                      channels is one of the main issues, but avoiding manual
-                      documentation is also a major contributory factor. With
+                    Despite the availability of digital alternatives, there is a preference for tangible cash and checks in financial transactions. A lack of trust in online
+                      channels is one of the main issues, but  reducing reliance on manual paperwork is also a significant catalyst for improvement. With
                       The KollectIt Cross-Platform App, Admin Users are granted
                       Super Access allowing them to assign team members to
-                      roles, overlook each team members status of tasks
-                      assigned to them, remove or switch roles of team members
-                      and even revoke a team members access to information if
-                      needed. With separate privileges for Cashiers and Riders
-                      (Collection Staff), KollectIt maximizes the efficiency of
+                      roles, keep tabs on every team member's task status with ease, remove or switch roles of team members
+                      and even revoke a team members access to information if needed. KollectIt maximizes the efficiency of
                       collecting cash in any collection effort.
                     </li>
                   </ul>
@@ -148,7 +144,7 @@ function Home() {
               <h2
                 style={{ color: "#134D61", fontSize: "35px", fontWeight: 600 }}
               >
-                Conquer Cash Collection Challenges with KollectIt
+                Conquer Accounts Receivable Challenges with KollectIt
               </h2>
               <br />
               {/* <p>The lack of transparency and the burden of manual documentation can present significant challenges. With KOLLECTIT, entire Islamic Banking transactions are executed digitally in just a few clicks/taps, while  ensuring compliance with Sharia principles. There may no longer be delays caused by continuous
@@ -187,15 +183,14 @@ function Home() {
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
-                      Venturing into the realm of handling banknotes becomes a
-                      daunting endeavour for businesses and individuals.
+                   Handling physical cash is a Challenge for Businesses and Individuals Alike.
                       Misrepresenting amounts of cash exchanges becomes highly
                       likely, when two separate parties are involved.
                     </li>
                     <br />
                     <li>
-                      The Mobile Software behind KollectIt
-                      enable clear-cut methods to authenticate how much cash is
+                      The Mobile Software and Paid Desktop Admin Panel behind KollectIt,
+                      enable you to seize full control. Authenticate how much cash is
                       exchanged between both parties of cash transactions. Using
                       OTPs (One-Time-Passwords) sent by KollectIt, The Providers
                       of cash can verify the sum of cash provided. The cashier
@@ -206,10 +201,9 @@ function Home() {
                     </li>
                     <br />
                     <li>
-                      The Team behind KollectIt is geared to tailor the
-                      application to specific requirements of users upon request. With
+                    KollectIt's Team is Ready to Customize the Application to Your Unique Needs - Request a Quote Now! With
                       user-friendly integration between other in-house software
-                      your financial team uses, KollectIt increases the
+                      used by your financial team, KollectIt increases the
                       likelihood of resolving disrepancies effectively. Simply
                       send detailed requirements to
                       <a href="mailto:info@tecstik.com" class="text-black">
@@ -236,7 +230,7 @@ function Home() {
         <div class="container">
           <div class="section-title">
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-              Elevate Your Collection Efforts to the Next Level..
+            Transforming your Accounts Receivables for Unmatched Precision!
             </h2>
             <a
               href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
@@ -253,7 +247,6 @@ function Home() {
               </a>
             </p>
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-              Find at
               <p>
                 <a
                   href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"

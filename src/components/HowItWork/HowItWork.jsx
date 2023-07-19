@@ -73,10 +73,7 @@ function HowItWork() {
             ADMIN(S)
           </h2>
           <p style={{ fontSize: "22px" }}>
-            Unlock Seamless Control: Effortlessly manage payment statuses,
-            assign roles, and track fulfillment on smartphones and desktops
-            through our user-friendly interface. Elevate your experience further
-            with the exclusive paid feature of the desktop admin panel.{" "}
+            Unlock Seamless Control.
           </p>
         </div>
 
@@ -502,10 +499,7 @@ function HowItWork() {
             CASHIER(S)
           </h2>
           <p style={{ fontSize: "22px" }}>
-            Empower Your Cashiers: Cashiers play a pivotal role in the system,
-            holding the key to assign corresponding staff for payment collection
-            from specific clients and oversee the entire payment process with
-            seamless precision.
+            Empower Your Cashiers: Let them oversee the entire collection process with seamless precision.
           </p>
         </div>
 
@@ -854,9 +848,7 @@ function HowItWork() {
           </h2>
           <p style={{ fontSize: "22px" }}>
             Customers can ensure payment confirmation independently - in real
-            time! Customers, vendors, suppliers will be sent a verification code
-            via SMS so they can provide it to the rider. Providing confirmation
-            of their payment from both sides.
+            time!
           </p>
         </div>
 
@@ -1257,7 +1249,7 @@ function HowItWork() {
         <div class="container">
           <div class="section-title">
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-              Elevate Your Collection Efforts to the Next Level..
+            Transforming Cash Collection for Unmatched Precision!
             </h2>
             <a
               href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
@@ -1274,7 +1266,6 @@ function HowItWork() {
               </a>
             </p>
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-              Find at
               <p>
                 <a
                   href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"

@@ -91,14 +91,15 @@ export default function Footer() {
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style={{ background: "#7c4dff", height: 2, width: 60 }}
                 />
-                <p>
-                  {/* <Link to="/product" class="text-white"> */}
-                  Minimized Accounting Discrepancies{/* </Link> */}
-                </p>
+                
                 <p>
                   {/* <Link to="/webAndMobile" class="text-white"> */}
-                  Coherent Communication
+                  Seamless Collaboration
                   {/* </Link> */}
+                </p>
+                <p>
+                  {/* <Link to="/product" class="text-white"> */}
+                  Reassured Accuracy{/* </Link> */}
                 </p>
                 <p>
                   {/* <Link to="/webAndMobile" class="text-white"> */}
