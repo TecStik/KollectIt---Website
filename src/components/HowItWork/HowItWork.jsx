@@ -3,19 +3,13 @@ import "./HowItWork.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
-import splash from "./splash.png";
-import Spalsh from "./Spalsh.jpeg";
-
-import { Slide, Zoom } from "react-slideshow-image";
 
 import loginAdmin from "./Admin/loginAdmin.png";
 import adminHome from "./Admin/adminHome.png";
 import adminCashier from "./Admin/adminCashier.png";
-import AdminRider from "./Admin/AdminRider.png";
 import arrowImage from "./arrowImage.jpg";
 import login from "./login.png";
 import Register from "./register1.png";
-import Welcome from "./Welcom.png";
 import rider1 from "./Admin/rider1.png";
 import Adminregister from "./Admin/register.png";
 
@@ -27,7 +21,6 @@ import teamMember from "./Admin/teamMember.png";
 import trasactiom from "./Admin/trasactiom.png";
 import Reports from "./Admin/Reports.png";
 
-import CashierLogin from "./Cashier/Cashierlogin.png";
 import cashierHome from "./Cashier/cashierHome.png";
 import ClientForm from "./Cashier/ClientForm.png";
 import ChooseRider from "./Cashier/chooseRider.png";
