@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import { Link } from "react-router-dom";
 import "./YouNeedKollectit.css";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import payment from "../Images/payment.png";
-import ladypayment from "../Images/ladypayment.png";
-import splash from "../Images/splash1.png";
+import firstImage from "./firstImage.png";
+import IIIrdImage from "./IIIrdImage.png";
+import IIndImage from "./IIndImage.png";
 import Mobile from "../Images/whyJoin/Mobile1.png";
 import Setting from "../Images/whyJoin/Setting.png";
 import Question from "../Images/whyJoin/Question.png";
@@ -14,15 +13,14 @@ import Question from "../Images/whyJoin/Question.png";
 import KollectitLogo from "./KollectitLogo.png";
 import tecstiklogo from "./tecstiklogo.png";
 
-
 const YouNeedKollectit = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const currentTab = searchParams.get("tab") || "0";
 
-  const changeTab = (tab) => {
-    searchParams.set("tab", tab);
-    setSearchParams(searchParams);
-  };
+  // const changeTab = (tab) => {
+  //   searchParams.set("tab", tab);
+  //   setSearchParams(searchParams);
+  // };
 
   useEffect(() => {
     window.scrollTo({
@@ -40,23 +38,67 @@ const YouNeedKollectit = () => {
         style={{
           background: "#7390B6",
           marginBottom: "8%",
-          //   backgroundImage:`url(${KollectitLogo})`,
         }}
       >
         <img src={KollectitLogo} id="logoImage" alt="" srcset="" />
-        {/* <h2 class="text-center">By...</h2>
-        <img src={tecstiklogo} id="logoImageTec" alt="" srcset="" /> */}
       </section>
 
       <h1
         style={{ color: "#134D61", fontSize: "35px", fontWeight: 600 }}
         className="text-center"
       >
-        Revamp Your Cash Collection Game Now!
+        Revamp your payment retrieval
       </h1>
 
-      <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
+      <section id="ReducedMonitoring" class="about">
+        <div class="container" data-aos="fade-up" style={{ marginTop: "5%" }}>
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h2
+                  style={{
+                    color: "#134D61",
+                    fontSize: "35px",
+                    fontWeight: 600,
+                    marginLeft: "-1%",
+                  }}
+                  id="textCenter"
+                >
+                  Reduced Monitoring Costs: Streamlined Insights for Efficient
+                  Management
+                </h2>
+                <br />
+                <br />
+                <ul
+                  style={{ listStyleType: "none", marginLeft: "-5%" }}
+                  id="reverseImageText"
+                >
+                  <li>
+                    Real-time data visualization and automated alerts minimize
+                    manual monitoring efforts and optimize resource allocation.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex "
+              style={{ justifyContent: "center" }}
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img src={firstImage} id="ImgeSize" alt="" />
+            </div>
+          </div>
+          <span id="Seamless"></span>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container" data-aos="fade-up" style={{ marginTop: "-5%" }}>
           <div class="row gx-0" id="reverseImage">
             <div
               class="col-lg-6 d-flex flex-column justify-content-center"
@@ -71,8 +113,6 @@ const YouNeedKollectit = () => {
               data-aos-delay="200"
             >
               <div class="content">
-                <br />
-                <br />
                 <h2
                   style={{
                     color: "#134D61",
@@ -91,22 +131,23 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    With integrated databases of an organization's users, <strong>KollectIt</strong>{" "}
-                    enhances seamless communication among your collection staff,
-                    cashiers, and admins. As an Admin User, you can meticulously review
-                    collection processes by confirming, reviewing status(es),
-                    and assigning team members to relevant roles.
+                    With integrated databases of an organization's users,{" "}
+                    <strong>KollectIt</strong> enhances seamless communication
+                    among your collection staff, cashiers, and admins. As an
+                    Admin User, you can meticulously review collection processes
+                    by confirming, reviewing status(es), and assigning team
+                    members to relevant roles.
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <br />
+        <br id="ReassuredAccuracy"></br>
         <br />
       </section>
 
-      <section id="about" class="about">
+      <section class="about">
         <div class="container" data-aos="fade-up" style={{ marginTop: "-5%" }}>
           <div class="row gx-0">
             <div
@@ -134,11 +175,11 @@ const YouNeedKollectit = () => {
                 >
                   <li>
                     Upon designation, your cashier or manager assumes the
-                    responsibility of ensuring complete fulfillment. Once signed in, they
-                    gain access to functionalities such as adding clients or
-                    customers, assigning riders for collection, viewing and
-                    making payment deposits, checking payment statuses, and more
-                    using <strong>KollectIt </strong>.
+                    responsibility of ensuring complete fulfillment. Once signed
+                    in, they gain access to functionalities such as adding
+                    clients or customers, assigning riders for collection,
+                    viewing and making payment deposits, checking payment
+                    statuses, and more using <strong>KollectIt </strong>.
                   </li>
                 </ul>
               </div>
@@ -155,8 +196,8 @@ const YouNeedKollectit = () => {
         </div>
       </section>
 
-      <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
+      <section id="ReducedMonitoring" class="about">
+        <div class="container" data-aos="fade-up" style={{ marginTop: "-5%" }}>
           <div class="row gx-0" id="reverseImage">
             <div
               class="col-lg-6 d-flex flex-column justify-content-center"
@@ -205,13 +246,109 @@ const YouNeedKollectit = () => {
           </div>
         </div>
         <br />
+        <br id="SimplifiedComplianc"></br>
+      </section>
+
+      <section class="about">
+        <div class="container" data-aos="fade-up" style={{ marginTop: "-5%" }}>
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h2
+                  style={{
+                    color: "#134D61",
+                    fontSize: "35px",
+                    fontWeight: 600,
+                    marginLeft: "-1%",
+                  }}
+                  id="textCenter"
+                >
+                  Simplified Compliance Reporting: Effortless Compliance with
+                  Regulatory Standards
+                </h2>
+                <br />
+                <br />
+                <ul
+                  style={{ listStyleType: "none", marginLeft: "-5%" }}
+                  id="reverseImageText"
+                >
+                  <li>
+                    Centralized data management, customizable reporting tools,
+                    and automated compliance updates ensure easy adherence to
+                    regulatory requirements.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex "
+              style={{ justifyContent: "center" }}
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img src={IIndImage} id="ImgeSize" alt="" />
+            </div>
+          </div>
+        </div>
+        <br id="ImprovedClarity"></br>
+      </section>
+
+      <section class="about">
+        <div class="container" data-aos="fade-up" style={{ marginTop: "-5%" }}>
+          <div class="row gx-0" id="reverseImage">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img src={IIIrdImage} class="img-fluid" alt="" id="ImgeSize" />
+            </div>
+            <div
+              class="col-lg-6 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h2
+                  style={{
+                    color: "#134D61",
+                    fontSize: "35px",
+                    fontWeight: 600,
+                    marginLeft: "-1%",
+                  }}
+                  id="textCenter"
+                >
+                  Improved Clarity: Enhanced Understanding and Decision-Making
+                </h2>
+                <br />
+                <br />
+                <ul
+                  style={{ listStyleType: "none", marginLeft: "-5%" }}
+                  id="reverseImageText"
+                >
+                  <li>
+                    Visualized data analytics, simplified user feedback
+                    analysis, and clear communication empower data-driven
+                    decision-making, user-centric improvements, and stakeholder
+                    transparency.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
         <br />
       </section>
 
       <div class="container">
         <div class="section-title">
           <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-          Transforming Cash Collection for Unmatched Precision!
+            Transforming Cash Collection for Unmatched Precision!
           </h2>
           <a
             href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
@@ -244,6 +381,7 @@ const YouNeedKollectit = () => {
           </h2>
         </div>
       </div>
+
       {/* <br />
             <br />
             <br />

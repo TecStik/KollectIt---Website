@@ -91,30 +91,48 @@ export default function Footer() {
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style={{ background: "#7c4dff", height: 2, width: 60 }}
                 />
-                
                 <p>
-                  {/* <Link to="/webAndMobile" class="text-white"> */}
-                  Seamless Collaboration
-                  {/* </Link> */}
+                  <a
+                    href="/KOLLECTIT-WhyYouNeedKollectIt/#Seamless"
+                    class="text-white"
+                  >
+                    Seamless Collaboration
+                  </a>
                 </p>
                 <p>
-                  {/* <Link to="/product" class="text-white"> */}
-                  Reassured Accuracy{/* </Link> */}
+                  <a
+                    href="/KOLLECTIT-WhyYouNeedKollectIt/#ReassuredAccuracy"
+                    class="text-white"
+                  >
+                    Reassured Accuracy
+                  </a>
                 </p>
                 <p>
-                  {/* <Link to="/webAndMobile" class="text-white"> */}
-                  Reduced Monitoring Costs
-                  {/* </Link> */}
+                  <a
+                    href="/KOLLECTIT-WhyYouNeedKollectIt/#ReducedMonitoring"
+                    class="text-white"
+                  >
+                    {" "}
+                    Reduced Monitoring Costs
+                  </a>
                 </p>
                 <p>
-                  {/* <Link to="/product" class="text-white"> */}
-                  Simplified Compliance Reporting
-                  {/* </Link> */}
+                  <a
+                    href="/KOLLECTIT-WhyYouNeedKollectIt/#SimplifiedComplianc"
+                    class="text-white"
+                  >
+                    {" "}
+                    Simplified Compliance Reporting
+                  </a>
                 </p>
                 <p>
-                  {/* <Link to="/product" class="text-white"> */}
-                  Improved Clarity
-                  {/* </Link> */}
+                  <a
+                    href="/KOLLECTIT-WhyYouNeedKollectIt/#ImprovedClarity"
+                    class="text-white"
+                  >
+                    {" "}
+                    Improved Clarity
+                  </a>
                 </p>
               </div>
 

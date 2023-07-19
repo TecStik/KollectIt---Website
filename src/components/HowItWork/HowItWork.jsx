@@ -18,7 +18,7 @@ import ClientList from "./Admin/ClientList.png";
 import Summary from "./Admin/Summary.png";
 import setPassword from "./Admin/setPassword.png";
 import teamMember from "./Admin/teamMember.png";
-import trasactiom from "./Admin/trasactiom.png";
+import trasactiom from "./Admin/trasaction.png";
 import Reports from "./Admin/Reports.png";
 
 import cashierHome from "./Cashier/cashierHome.png";
