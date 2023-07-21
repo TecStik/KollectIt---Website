@@ -51,7 +51,7 @@ function Home() {
                   data-aos-delay="100"
                   style={{ color: "#134D61" }}
                 >
-                  Unlock the Digital Era of Physical Cash Collection
+                  Bridge Discrepancies: Seamlessly Reconcile Accounts
                 </p>
                 <br />
                 <br />
