@@ -7,7 +7,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import ladypayment from "../Images/ladypayment.png";
 import tecstiklogo from "./tecstiklogo.png";
-import KollectitLogo from './KollectitLogo.png'
+import KollectitLogo from "./KollectitLogo.png";
 
 function Home() {
   let height = "150px";
@@ -62,10 +62,11 @@ function Home() {
                     <li>
                       Economic Crimes, Payment Disrepancies, Inaccurate
                       Reporting, Payment Fraud, etc., are all problems faced by
-                      Businesses and Individuals. 
-                      <br/>
-                      <br/> 
-                      <strong>KollectIt</strong> ensures collaborative exchange of Cash.
+                      Businesses and Individuals.
+                      <br />
+                      <br />
+                      <strong>KollectIt</strong> ensures collaborative exchange
+                      of Cash.
                     </li>
                   </ul>
                 </div>
@@ -112,6 +113,7 @@ function Home() {
                       color: "#134D61",
                       fontSize: "35px",
                       fontWeight: 600,
+                      marginLeft: "-1%",
                     }}
                     id="textCenter"
                   >
@@ -121,13 +123,18 @@ function Home() {
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
-                    Despite the availability of digital alternatives, there is a preference for tangible cash and checks in financial transactions. A lack of trust in online
-                      channels is one of the main issues, but  reducing reliance on manual paperwork is also a significant catalyst for improvement. With
-                      The KollectIt Cross-Platform App, Admin Users are granted
+                      Despite the availability of digital alternatives, there is
+                      a preference for tangible cash and checks in financial
+                      transactions. A lack of trust in online channels is one of
+                      the main issues, but reducing reliance on manual paperwork
+                      is also a significant catalyst for improvement. With The
+                      KollectIt Cross-Platform App, Admin Users are granted
                       Super Access allowing them to assign team members to
-                      roles, keep tabs on every team member's task status with ease, remove or switch roles of team members
-                      and even revoke a team members access to information if needed. KollectIt maximizes the efficiency of
-                      collecting cash in any collection effort.
+                      roles, keep tabs on every team member's task status with
+                      ease, remove or switch roles of team members and even
+                      revoke a team members access to information if needed.
+                      KollectIt maximizes the efficiency of collecting cash in
+                      any collection effort.
                     </li>
                   </ul>
                 </div>
@@ -174,6 +181,7 @@ function Home() {
                       color: "#134D61",
                       fontSize: "35px",
                       fontWeight: 600,
+                      marginLeft: "-1%",
                     }}
                     id="textCenter"
                   >
@@ -183,25 +191,29 @@ function Home() {
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
-                   Handling physical cash is a Challenge for Businesses and Individuals Alike.
-                      Misrepresenting amounts of cash exchanges becomes highly
-                      likely, when two separate parties are involved.
+                      Handling physical cash is a Challenge for Businesses and
+                      Individuals Alike. Misrepresenting amounts of cash
+                      exchanges becomes highly likely, when two separate parties
+                      are involved.
                     </li>
                     <br />
                     <li>
-                      The Mobile Software and Paid Desktop Admin Panel behind KollectIt,
-                      enable you to seize full control. Authenticate how much cash is
-                      exchanged between both parties of cash transactions. Using
-                      OTPs (One-Time-Passwords) sent by KollectIt, The Providers
-                      of cash can verify the sum of cash provided. The cashier
-                      or person responsible to validate the receipt of cash or
-                      check from the receiving end, conveniently identifies the
-                      exact amount to be received so the scrutiny of parties is
-                      conducted with enhanced precision. KollectIt also offers a paid desktop solution for Admin Users.
+                      The Mobile Software and Paid Desktop Admin Panel behind
+                      KollectIt, enable you to seize full control. Authenticate
+                      how much cash is exchanged between both parties of cash
+                      transactions. Using OTPs (One-Time-Passwords) sent by
+                      KollectIt, The Providers of cash can verify the sum of
+                      cash provided. The cashier or person responsible to
+                      validate the receipt of cash or check from the receiving
+                      end, conveniently identifies the exact amount to be
+                      received so the scrutiny of parties is conducted with
+                      enhanced precision. KollectIt also offers a paid desktop
+                      solution for Admin Users.
                     </li>
                     <br />
                     <li>
-                    KollectIt's Team is Ready to Customize the Application to Your Unique Needs - Request a Quote Now! With
+                      KollectIt's Team is Ready to Customize the Application to
+                      Your Unique Needs - Request a Quote Now! With
                       user-friendly integration between other in-house software
                       used by your financial team, KollectIt increases the
                       likelihood of resolving disrepancies effectively. Simply
@@ -230,7 +242,7 @@ function Home() {
         <div class="container">
           <div class="section-title">
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-            Transforming your Accounts Receivables for Unmatched Precision!
+              Transforming your Accounts Receivables for Unmatched Precision!
             </h2>
             <a
               href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
