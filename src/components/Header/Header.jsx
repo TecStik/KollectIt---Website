@@ -42,7 +42,7 @@ export default function Header() {
   return (
     <>
       <Helmet>
-        <title>{window.location.pathname.slice(1) === "" ? "KOLLECTIT-Home" : window.location.pathname.slice(1)}</title>
+        <title>{window.location.pathname.slice(1) === "" ? "KOLLECTIT" : window.location.pathname.slice(1)}</title>
       </Helmet>
       <nav className="navbar"
         style={{

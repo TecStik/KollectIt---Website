@@ -58,9 +58,9 @@ function HowItWork() {
             </h2>
             <br />
             <p style={{ fontSize: "22px" }}>
-              Streamline finances and eradicate cash collection discrepancies
+              Streamline finances and eradicate collection discrepancies, while monitoring your collection processes
               with KollectIt. The app utilizes integrated databases to provide a
-              comprehensive solution for managing payments, ensuring smooth
+              comprehensive solution for managing payments and ensuring smooth
               transactions with getting payment confirmation(s) in real-time.{" "}
             </p>
           </div>

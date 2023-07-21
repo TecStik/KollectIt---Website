@@ -51,7 +51,7 @@ function Home() {
                   data-aos-delay="100"
                   style={{ color: "#134D61" }}
                 >
-                  Bridge Discrepancies: Seamlessly Reconcile Accounts
+                  Bridge Disrepancies: Seamlessly Reconcile Accounts
                 </p>
                 <br />
                 <br />
