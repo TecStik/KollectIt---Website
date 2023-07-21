@@ -713,8 +713,7 @@ function HowItWork() {
                               Deposit
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                              Lorem, ipsum dolor sit amet consectetur
-                              adipisicing elit. Porro adipisci possimus libero.
+                            KollectIt provides Cashiers with the ability to track all deposits received from payment collection staff (riders). With its intuitive interface and essential features, KollectIt simplifies the process of viewing and managing payment transactions, ensuring seamless financial tracking and transparency.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -741,9 +740,7 @@ function HowItWork() {
                               View Payment
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                              Lorem, ipsum dolor sit amet consectetur
-                              adipisicing elit. Porro adipisci possimus libero.
-                            </p>
+                            Through this functionality, cashiers can access the count of verified payments received from clients or customers by the payment collection staff.                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -776,8 +773,7 @@ function HowItWork() {
                               Client List
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                              Lorem, ipsum dolor sit amet consectetur
-                              adipisicing elit. Porro adipisci possimus libero.
+                            At the press of this button, Cashiers can access a comprehensive list of clients with verified and received payments, as well as those with pending and unverified transactions. 
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -808,9 +804,7 @@ function HowItWork() {
                               Change Password
                             </h1>
                             <p style={{ fontSize: "25px" }}>
-                              Lorem, ipsum dolor sit amet consectetur
-                              adipisicing elit. Porro adipisci possimus libero.
-                            </p>
+                            Cashiers can effortlessly update their password by logging in, accessing the "Change Password" button on the home screen, and entering their old and new passwords.</p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -844,7 +838,7 @@ function HowItWork() {
 
         <div class="section-title">
           <h2 style={{ color: "#134D61", fontSize: "35px", fontWeight: 600 }}>
-            CASH COLLECTION STAFF
+            CASH COLLECTION STAFF (Riders)
           </h2>
           <p style={{ fontSize: "22px" }}>
             Customers can ensure payment confirmation independently - in real
@@ -894,7 +888,7 @@ function HowItWork() {
                     onClick={() => setRiderTrigger(4)}
                   >
                     <a class="nav-link" onClick={() => setRiderTrigger(4)}>
-                      Rider enter OTP verify Payment
+                       Enter an OTP to verify Payment
                     </a>
                   </li>
                   <li
@@ -1081,8 +1075,8 @@ function HowItWork() {
                               the client.
                             </p>
                             <p style={{ fontSize: "19px" }}>
-                              The client simply shares The PVC with The Rider to
-                              receive Digital Receipt of Payment.
+                              The client simply shares The OTP with The Rider to enter it inside The KollectIt app for confirmation. This dispatches a
+                              a Digital Receipt of Payment to the client via email and cell phone number.
                             </p>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -1158,8 +1152,7 @@ function HowItWork() {
                               Verify Payment
                             </h1>
                             <p style={{ fontSize: "25px" }}>
-                              Lorem, ipsum dolor sit amet consectetur
-                              adipisicing elit. Porro adipisci possimus libero.
+                              KollectIt lets riders verify payments with client/customer-provided OTPs. Real-time verification ensures secure, transparent transactions, boosting trust. Available on iOS and Android for seamless payment management.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -1186,11 +1179,12 @@ function HowItWork() {
                         <div class="row">
                           <div class="col-lg-6 details order-2 order-lg-1">
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
-                              Trasfer
+                              Transfer
                             </h1>
                             <p style={{ fontSize: "25px" }}>
-                              Lorem, ipsum dolor sit amet consectetur
-                              adipisicing elit. Porro adipisci possimus libero.
+
+                        
+Upon successful collection, riders seamlessly transfer payments to cashiers, ensuring smooth and efficient payment processing. Riders can access the list, select specific payments, and effortlessly update their status for enhanced financial management.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -1217,8 +1211,8 @@ function HowItWork() {
                               Change Password
                             </h1>
                             <p style={{ fontSize: "25px" }}>
-                              Lorem, ipsum dolor sit amet consectetur
-                              adipisicing elit. Porro adipisci possimus libero.
+                             
+KollectIt empowers riders with easy password updates, ensuring secure records of their collection efforts. Simply click "Change Password," enter the previous password, and set the new one for enhanced security and convenience.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
