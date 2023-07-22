@@ -127,9 +127,10 @@ function Home() {
                       a preference for tangible cash and checks in financial
                       transactions. A lack of trust in online channels is one of
                       the main issues, but reducing reliance on manual paperwork
-                      is also a significant catalyst for improvement. With The
-                      KollectIt Cross-Platform App, Admin Users are granted
-                      Super Access allowing them to assign team members to
+                      is also a significant catalyst for improvement. 
+                      <br/>
+                      <br/>
+                      The KollectIt Mobile App offers smooth confirmation of delivery or retrieval, reducing discrepancies for both parties involved. allowing them to assign team members to
                       roles, keep tabs on every team member's task status with
                       ease, remove or switch roles of team members and even
                       revoke a team members access to information if needed.
@@ -198,32 +199,13 @@ function Home() {
                     </li>
                     <br />
                     <li>
-                      The Mobile Software and Paid Desktop Admin Panel behind
-                      KollectIt, enable you to seize full control. Authenticate
-                      how much cash is exchanged between both parties of cash
-                      transactions. Using OTPs (One-Time-Passwords) sent by
-                      KollectIt, The Providers of cash can verify the sum of
-                      cash provided. The cashier or person responsible to
-                      validate the receipt of cash or check from the receiving
-                      end, conveniently identifies the exact amount to be
-                      received so the scrutiny of parties is conducted with
-                      enhanced precision. KollectIt also offers a paid desktop
-                      solution for Admin Users.
+                    KollectIt empowers you with full control over cash transactions. Authenticate exchanges with OTPs, validate receipts with precision, and access a paid desktop solution for Admin Users.
                     </li>
                     <br />
                     <li>
-                      KollectIt's Team is Ready to Customize the Application to
-                      Your Unique Needs - Request a Quote Now! With
-                      user-friendly integration between other in-house software
-                      used by your financial team, KollectIt increases the
-                      likelihood of resolving disrepancies effectively. Simply
-                      send detailed requirements to
-                      <a href="mailto:info@tecstik.com" class="text-black">
-                        <b> info@tecstik.com </b>
-                      </a>{" "}
-                      and anticipate a prompt response from KollectIt’s
-                      developers within 24-Hours.
-                    </li>
+                      
+
+                    KollectIt's team customizes the app for your unique needs. Boost efficiency by integrating with your in-house software. Request a quote now at <strong>info@tecstik.com</strong> for prompt response within 24 hours.                    </li>
                   </ul>
                 </div>
               </div>

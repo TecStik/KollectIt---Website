@@ -58,10 +58,8 @@ function HowItWork() {
             </h2>
             <br />
             <p style={{ fontSize: "22px" }}>
-              Streamline finances and eradicate collection discrepancies, while monitoring your collection processes
-              with KollectIt. The app utilizes integrated databases to provide a
-              comprehensive solution for managing payments and ensuring smooth
-              transactions with getting payment confirmation(s) in real-time.{" "}
+              Streamline finances and eradicate collection discrepancies while monitoring your collection processes
+              with KollectIt. KollectIt uses integrated databases for efficient payment management and real-time payment confirmations.{" "}
             </p>
           </div>
         </div>
@@ -73,7 +71,7 @@ function HowItWork() {
             ADMIN(S)
           </h2>
           <p style={{ fontSize: "22px" }}>
-            Unlock Seamless Control.
+            Unlock Fluent Control.
           </p>
         </div>
 
@@ -167,8 +165,8 @@ function HowItWork() {
                           <div class="col-lg-6 details order-2 order-lg-1">
                             <h1 style={{ color: "#134D61" }}>Register</h1>
                             <p style={{ fontSize: "22px" }}>
-                              A user can register themselves as an
-                              Organization’s Admin by providing relevant
+                              Users can register themselves as an
+                              Organization’s Admin(s) by providing relevant
                               details:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
