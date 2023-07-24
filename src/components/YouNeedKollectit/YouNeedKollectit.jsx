@@ -319,7 +319,7 @@ Cost-Efficient Insights
                   id="reverseImageText"
                 >
                   <li>
-                    With <strong>KollectIt</strong>, access your organizations visualized data analytics, simplified user feedback
+                    With <strong>KollectIt's</strong> Paid Admin Panel, access your organizations visualized data analytics, simplified user feedback
                     analysis, and clear communication for empowering data-driven
                     decision-making, user-centric improvements, and stakeholder
                     transparency.
