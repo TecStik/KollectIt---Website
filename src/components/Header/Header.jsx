@@ -42,7 +42,7 @@ export default function Header() {
   return (
     <>
       <Helmet>
-        <title>{window.location.pathname.slice(1) === "" ? "KOLLECTIT" : window.location.pathname.slice(1)}</title>
+        <title>{window.location.pathname.slice(1) === "" ? "KollectIt" : window.location.pathname.slice(1)}</title>
       </Helmet>
       <nav className="navbar"
         style={{
@@ -102,7 +102,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 exact
-                to="/KOLLECTIT-WhyYouNeedKollectIt"
+                to="/KollectIt-WhyYouNeedKollectIt"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -112,7 +112,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 exact
-                to="/KOLLECTIT-HowItWorks"
+                to="/KollectIt-HowItWorks"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -144,7 +144,7 @@ export default function Header() {
             <li className="nav-item">
               <Link
                 exact
-                to="/KOLLECTIT-Contact"
+                to="/KollectIt-Contact"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}

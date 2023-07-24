@@ -15,7 +15,7 @@ export const App = () => {
   return (
     <BrowserRouter>
       <Helmet>
-        ‍<title>KOLLECTIT</title>‍
+        ‍<title>KollectIt</title>‍
         <meta name="description" content="Find all the best quality products your pet may need" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@user" />
@@ -34,9 +34,9 @@ export const App = () => {
       </Helmet>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/KOLLECTIT-WhyYouNeedKollectIt" element={<YouNeedKollectit />} />
-        <Route path="/KOLLECTIT-Contact" element={<ContactUS />} />
-        <Route path="/KOLLECTIT-HowItWorks" element={<HowItWork />} />
+        <Route path="/KollectIt-WhyYouNeedKollectIt" element={<YouNeedKollectit />} />
+        <Route path="/KollectIt-Contact" element={<ContactUS />} />
+        <Route path="/KollectIt-HowItWorks" element={<HowItWork />} />
         {/* <Route path="/KOLLECTIT-OurTeam" element={<OurTeam />} /> */}
         {/*
         <Route path="/KOLLECTIT-About" element={<About />} />
