@@ -61,12 +61,12 @@ function Home() {
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
                       Economic Crimes, Payment Disrepancies, Inaccurate
-                      Reporting, Payment Fraud, etc., are all problems faced by
+                      Reporting, Payment Fraud, are all problems faced by
                       Businesses and Individuals.
                       <br />
                       <br />
                       <strong>KollectIt</strong> ensures collaborative exchange
-                      of Cash.
+                      of Cash. Leading to transparent financial transactions.
                     </li>
                   </ul>
                 </div>
@@ -117,7 +117,7 @@ function Home() {
                     }}
                     id="textCenter"
                   >
-                    The Ultimate Hard Cash Collection App
+                    The Ultimate App for Collection
                   </h2>
                   <br />
                   <br />
@@ -130,11 +130,11 @@ function Home() {
                       is also a significant catalyst for improvement. 
                       <br/>
                       <br/>
-                      The KollectIt Mobile App offers smooth confirmation of delivery or retrieval, reducing discrepancies for both parties involved. allowing them to assign team members to
+                      The <strong>KollectIt</strong> Mobile App offers smooth confirmation of delivery or retrieval, reducing discrepancies for both parties involved. allowing them to assign team members to
                       roles, keep tabs on every team member's task status with
                       ease, remove or switch roles of team members and even
                       revoke a team members access to information if needed.
-                      KollectIt maximizes the efficiency of collecting cash in
+                      <strong>KollectIt</strong> maximizes the efficiency of collecting cash in
                       any collection effort.
                     </li>
                   </ul>
@@ -152,7 +152,7 @@ function Home() {
               <h2
                 style={{ color: "#134D61", fontSize: "35px", fontWeight: 600 }}
               >
-                Conquer Accounts Receivable Challenges with KollectIt
+                Conquer Accounts Receivable Challenges with <strong>KollectIt</strong>
               </h2>
               <br />
               {/* <p>The lack of transparency and the burden of manual documentation can present significant challenges. With KOLLECTIT, entire Islamic Banking transactions are executed digitally in just a few clicks/taps, while  ensuring compliance with Sharia principles. There may no longer be delays caused by continuous
@@ -186,26 +186,20 @@ function Home() {
                     }}
                     id="textCenter"
                   >
-                    KollectIt is The Key to Accurate Reporting
+                    <strong>KollectIt</strong>: The Gateway to Precise Reporting.
                   </h2>
                   <br />
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
+                                        <br />
                     <li>
-                      Handling physical cash is a Challenge for Businesses and
-                      Individuals Alike. Misrepresenting amounts of cash
-                      exchanges becomes highly likely, when two separate parties
-                      are involved.
-                    </li>
-                    <br />
-                    <li>
-                    KollectIt empowers you with full control over cash transactions. Authenticate exchanges with OTPs, validate receipts with precision, and access a paid desktop solution for Admin Users.
-                    </li>
+
+<strong>KollectIt</strong> offers a comprehensive solution to empower businesses and individuals in managing physical cash with confidence. The challenges of accurate tracking and preventing misrepresentations in cash exchanges between parties are effectively addressed by our app.                  </li>
                     <br />
                     <li>
                       
 
-                    KollectIt's team customizes the app for your unique needs. Boost efficiency by integrating with your in-house software. Request a quote now at <strong>info@tecstik.com</strong> for prompt response within 24 hours.                    </li>
+                    <strong>KollectIt's</strong> team can also customize the app to your unique needs. Boost efficiency by integrating <strong>KollectIt</strong> with your in-house software. Head over to The "Contact Us" page on this website, outline your requirements using the form, hit send and anticipate a prompt response within 24-hours. </li>
                   </ul>
                 </div>
               </div>

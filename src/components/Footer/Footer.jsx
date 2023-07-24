@@ -74,9 +74,7 @@ export default function Footer() {
                 />
                 <p>
                   Retail Transactions are key to the development of any
-                  payments, receivables or delivery system(s). KollectIt
-                  enhances precision between all of the collection staff of
-                  businesses and even individuals.
+                  payments, receivables or delivery system(s). KollectIt improves precision and collaboration among all collection activity stakeholders, benefitting both businesses and individuals.
                 </p>
               </div>
 
@@ -96,7 +94,7 @@ export default function Footer() {
                     href="/KOLLECTIT-WhyYouNeedKollectIt/#Seamless"
                     class="text-white"
                   >
-                    Seamless Collaboration
+                    Cost-Efficient Insights 
                   </a>
                 </p>
                 <p>
@@ -104,25 +102,17 @@ export default function Footer() {
                     href="/KOLLECTIT-WhyYouNeedKollectIt/#ReassuredAccuracy"
                     class="text-white"
                   >
-                    Reassured Accuracy
+                    Seamless Collaboration
                   </a>
                 </p>
-                <p>
-                  <a
-                    href="/KOLLECTIT-WhyYouNeedKollectIt/#ReducedMonitoring"
-                    class="text-white"
-                  >
-                    {" "}
-                    Reduced Monitoring Costs
-                  </a>
-                </p>
+               
                 <p>
                   <a
                     href="/KOLLECTIT-WhyYouNeedKollectIt/#SimplifiedComplianc"
                     class="text-white"
                   >
                     {" "}
-                    Simplified Compliance Reporting
+                    Compliant Reporting
                   </a>
                 </p>
                 <p>
@@ -131,7 +121,8 @@ export default function Footer() {
                     class="text-white"
                   >
                     {" "}
-                    Improved Clarity
+                    Clear Decision-Making
+
                   </a>
                 </p>
               </div>

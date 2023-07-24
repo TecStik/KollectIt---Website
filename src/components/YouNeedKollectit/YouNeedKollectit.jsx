@@ -68,8 +68,8 @@ const YouNeedKollectit = () => {
                   }}
                   id="textCenter"
                 >
-                  Reduced Monitoring Costs: Streamlined Insights for Efficient
-                  Management
+                  
+Cost-Efficient Insights
                 </h2>
                 <br />
                 <br />
@@ -78,7 +78,7 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    Real-time data visualization and automated alerts minimize
+                  Optimal dual-factor authentication, Real-time data visualization and automated alerts with <strong>KollectIt</strong> minimize
                     manual monitoring efforts and optimize resource allocation.
                   </li>
                 </ul>
@@ -131,7 +131,7 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                  <strong>KollectIt</strong> enhances communication among collection staff, cashiers, and admins through integrated databases. As Admin User, you can review collections, monitor tasks, and assign roles.
+                  <strong>KollectIt</strong> enhances communication among collection staff, cashiers, and admins through integrated databases too. Admin users can review collections, monitor tasks, and assign roles.
                   </li>
                 </ul>
               </div>
@@ -222,7 +222,7 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                  Upon accessing The KollectIt Home Screen, Riders or Payment Collection Staff can view assigned collections, collected payments, and verify with OTP (One-Time-Password) received by clients/customers.
+                  Upon accessing The <strong>KollectIt</strong> Home Screen, Riders or Payment Collection Staff can view assigned collections, collected payments, and verify with OTP (One-Time-Password) received by clients/customers.
 
 
 
@@ -256,8 +256,7 @@ const YouNeedKollectit = () => {
                   }}
                   id="textCenter"
                 >
-                  Simplified Compliance Reporting: Effortless Compliance with
-                  Regulatory Standards
+                  Compliant Reporting
                 </h2>
                 <br />
                 <br />
@@ -311,7 +310,7 @@ const YouNeedKollectit = () => {
                   }}
                   id="textCenter"
                 >
-                  Improved Clarity: Enhanced Understanding and Decision-Making
+                  Clear Decision-Making
                 </h2>
                 <br />
                 <br />
@@ -320,8 +319,8 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    Visualized data analytics, simplified user feedback
-                    analysis, and clear communication empower data-driven
+                    With <strong>KollectIt</strong>, access your organizations visualized data analytics, simplified user feedback
+                    analysis, and clear communication for empowering data-driven
                     decision-making, user-centric improvements, and stakeholder
                     transparency.
                   </li>

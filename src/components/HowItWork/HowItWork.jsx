@@ -59,7 +59,7 @@ function HowItWork() {
             <br />
             <p style={{ fontSize: "22px" }}>
               Streamline finances and eradicate collection discrepancies while monitoring your collection processes
-              with KollectIt. KollectIt uses integrated databases for efficient payment management and real-time payment confirmations.{" "}
+              with <strong>KollectIt</strong>. Using integrated databases for efficient payment management and real-time payment confirmations.{" "}
             </p>
           </div>
         </div>
@@ -199,7 +199,7 @@ function HowItWork() {
                           <div class="col-lg-6 details order-2 order-lg-1">
                             <h1 style={{ color: "#134D61" }}>Login</h1>
                             <p style={{ fontSize: "22px" }}>
-                              By Logging in to The KollectIt App as an Admin,
+                              By Logging in to The <strong>KollectIt</strong> App as an Admin,
                               The User is displayed The corresponding home
                               screen to access features like:
                             </p>
@@ -380,7 +380,7 @@ function HowItWork() {
                               your dedicated collection staff. With a clear
                               division into "Cashiers" and "Riders," Admin Users
                               can effortlessly view comprehensive details of
-                              their team recorded within The KollectIt App. See
+                              their team recorded within <strong>KollectIt</strong>. See
                               it all in action through the screenshots provided
                               →{" "}
                             </p>
@@ -460,7 +460,7 @@ function HowItWork() {
                               Change Password
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                              Admin Users can easily change their KollectIt
+                              Admin Users can easily change their <strong>KollectIt</strong>
                               login passwords by selecting the "Change Password"
                               button, entering their previous password, and
                               specifying the desired new password.
@@ -578,7 +578,7 @@ function HowItWork() {
                             </h1>
                             <p style={{ fontSize: "22px" }}>
                               Cashiers log in with admin-provided credentials
-                              for assigned payments. Displayed The KollectIt
+                              for assigned payments. Displayed The <strong>KollectIt</strong>
                               Cashier Home Screen allows Cashiers to:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
@@ -711,7 +711,7 @@ function HowItWork() {
                               Deposit
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                            KollectIt provides Cashiers with the ability to track all deposits received from payment collection staff (riders). With its intuitive interface and essential features, KollectIt simplifies the process of viewing and managing payment transactions, ensuring seamless financial tracking and transparency.
+                            <strong>KollectIt</strong> provides Cashiers with the ability to track all deposits received from payment collection staff (riders). With its intuitive interface and essential features, <strong>KollectIt</strong> simplifies the process of viewing and managing payment transactions, ensuring seamless financial tracking and transparency.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -927,7 +927,7 @@ function HowItWork() {
                               Rider Home
                             </h1>
                             <p style={{ fontSize: "22px" }}>
-                              By Logging in to The KollectIt App as Rider, The
+                              By Logging in to The <strong>KollectIt</strong> App as Rider, The
                               User will be Navigated to The Rider Home Screen to
                               access features like:
                             </p>
@@ -1073,7 +1073,7 @@ function HowItWork() {
                               the client.
                             </p>
                             <p style={{ fontSize: "19px" }}>
-                              The client simply shares The OTP with The Rider to enter it inside The KollectIt app for confirmation. This dispatches a
+                              The client simply shares The OTP with The Rider to enter it inside The <strong>KollectIt</strong> app for confirmation. This dispatches a
                               a Digital Receipt of Payment to the client via email and cell phone number.
                             </p>
                           </div>
@@ -1150,7 +1150,7 @@ function HowItWork() {
                               Verify Payment
                             </h1>
                             <p style={{ fontSize: "25px" }}>
-                              KollectIt lets riders verify payments with client/customer-provided OTPs. Real-time verification ensures secure, transparent transactions, boosting trust. Available on iOS and Android for seamless payment management.
+                            <strong>KollectIt</strong> lets riders verify payments with client/customer-provided OTPs. Real-time verification ensures secure, transparent transactions, boosting trust. Available on iOS and Android for seamless payment management.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -1210,7 +1210,7 @@ Upon successful collection, riders seamlessly transfer payments to cashiers, ens
                             </h1>
                             <p style={{ fontSize: "25px" }}>
                              
-KollectIt empowers riders with easy password updates, ensuring secure records of their collection efforts. Simply click "Change Password," enter the previous password, and set the new one for enhanced security and convenience.
+<strong>KollectIt</strong>ectIt empowers riders with easy password updates, ensuring secure records of their collection efforts. Simply click "Change Password," enter the previous password, and set the new one for enhanced security and convenience.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
