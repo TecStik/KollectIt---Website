@@ -199,7 +199,7 @@ function Home() {
                     <li>
                       
 
-                    <strong>KollectIt's</strong> team can also customize the app to your unique needs. Boost efficiency by integrating <strong>KollectIt</strong> with your in-house software. Head over to The "Contact Us" page on this website, outline your requirements using the form, hit send and anticipate a prompt response within 24-hours. </li>
+                    <strong>KollectIt's</strong> team will also customize the app to your unique needs when we are informed of your specific requirements. Boost efficiency by integrating <strong>KollectIt</strong> with your in-house software. Head over to The "Contact Us" page on this website, outline your requirements using the form, hit send and anticipate a prompt response within 24-hours. </li>
                   </ul>
                 </div>
               </div>
