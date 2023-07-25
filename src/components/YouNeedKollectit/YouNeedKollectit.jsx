@@ -6,9 +6,9 @@ import Header from "../Header/Header";
 import firstImage from "./firstImage.png";
 import IIIrdImage from "./IIIrdImage.png";
 import IIndImage from "./IIndImage.png";
-import Mobile from "../Images/whyJoin/Mobile1.png";
-import Setting from "../Images/whyJoin/Setting.png";
-import Question from "../Images/whyJoin/Question.png";
+import Mobile from ".//Mobile.png";
+import Setting from "./Setting.png";
+import Question from "./Question.png";
 
 import KollectitLogo from "./KollectitLogo.png";
 import tecstiklogo from "./tecstiklogo.png";
@@ -47,11 +47,11 @@ const YouNeedKollectit = () => {
         style={{ color: "#134D61", fontSize: "35px", fontWeight: 600 }}
         className="text-center"
       >
-        Revamp your payment retrieval
+        Experience a Payment Retrieval Transformation
       </h1>
 
       <section id="ReducedMonitoring" class="about">
-        <div class="container" data-aos="fade-up" style={{ marginTop: "5%" }}>
+        <div class="container" data-aos="fade-up" style={{ marginTop: "4%" }}>
           <div class="row gx-0">
             <div
               class="col-lg-6 d-flex flex-column justify-content-center"
@@ -68,8 +68,7 @@ const YouNeedKollectit = () => {
                   }}
                   id="textCenter"
                 >
-                  
-Cost-Efficient Insights
+                  Cost-Efficient Insights
                 </h2>
                 <br />
                 <br />
@@ -78,8 +77,10 @@ Cost-Efficient Insights
                   id="reverseImageText"
                 >
                   <li>
-                  Optimal dual-factor authentication, Real-time data visualization and automated alerts with <strong>KollectIt</strong> minimize
-                    manual monitoring efforts and optimize resource allocation.
+                    Optimal dual-factor authentication, Real-time data
+                    visualization and automated alerts with{" "}
+                    <strong>KollectIt</strong> minimize manual monitoring
+                    efforts and optimize resource allocation.
                   </li>
                 </ul>
               </div>
@@ -131,7 +132,10 @@ Cost-Efficient Insights
                   id="reverseImageText"
                 >
                   <li>
-                  <strong>KollectIt</strong> enhances communication among collection staff, cashiers, and admins through integrated databases too. Admin users can review collections, monitor tasks, and assign roles.
+                    <strong>KollectIt</strong> enhances communication among
+                    collection staff, cashiers, and admins through integrated
+                    databases too. Admin users can review collections, monitor
+                    tasks, and assign roles.
                   </li>
                 </ul>
               </div>
@@ -169,7 +173,10 @@ Cost-Efficient Insights
                   id="reverseImageText"
                 >
                   <li>
-                  After designation, cashiers or managers ensure fulfillment. Signed in, they can add clients, assign riders, view deposits, check statuses, and more using <strong>KollectIt </strong>.
+                    After designation, cashiers or managers ensure fulfillment.
+                    Signed in, they can add clients, assign riders, view
+                    deposits, check statuses, and more using{" "}
+                    <strong>KollectIt </strong>.
                   </li>
                 </ul>
               </div>
@@ -222,12 +229,10 @@ Cost-Efficient Insights
                   id="reverseImageText"
                 >
                   <li>
-                  Upon accessing The <strong>KollectIt</strong> Home Screen, Riders or Payment Collection Staff can view assigned collections, collected payments, and verify with OTP (One-Time-Password) received by clients/customers.
-
-
-
-
-
+                    Upon accessing The <strong>KollectIt</strong> Home Screen,
+                    Riders or Payment Collection Staff can view assigned
+                    collections, collected payments, and verify with OTP
+                    (One-Time-Password) received by clients/customers.
                   </li>
                 </ul>
               </div>
@@ -319,10 +324,11 @@ Cost-Efficient Insights
                   id="reverseImageText"
                 >
                   <li>
-                    With <strong>KollectIt's</strong> Paid Admin Panel, access your organization's visualized data analytics, simplified user feedback
-                    analysis, and clear communication for empowering data-driven
-                    decision-making, user-centric improvements, and stakeholder
-                    transparency.
+                    With <strong>KollectIt's</strong> Paid Admin Panel, access
+                    your organization's visualized data analytics, simplified
+                    user feedback analysis, and clear communication for
+                    empowering data-driven decision-making, user-centric
+                    improvements, and stakeholder transparency.
                   </li>
                 </ul>
               </div>
