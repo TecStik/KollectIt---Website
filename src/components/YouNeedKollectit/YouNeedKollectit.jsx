@@ -9,9 +9,12 @@ import IIndImage from "./IIndImage.png";
 import Mobile from ".//Mobile.png";
 import Setting from "./Setting.png";
 import Question from "./Question.png";
-
 import KollectitLogo from "./KollectitLogo.png";
 import tecstiklogo from "./tecstiklogo.png";
+import { Slide } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
+import Slide2 from "./Slide2.png";
+import Slide3 from "./Slide3.png";
 
 const YouNeedKollectit = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -22,6 +25,25 @@ const YouNeedKollectit = () => {
   //   setSearchParams(searchParams);
   // };
 
+  const spanStyle = {
+    // padding: '20px',
+    // background: '#efefef',
+    // color: '#000000'
+  };
+
+  const divStyle = {
+    // display: "flex",
+    // alignItems: 'center',
+    // justifyContent: 'center',
+    // backgroundSize: 'cover',
+    height: "400px",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    position: "relative",
+    // ob
+  };
+
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -29,11 +51,24 @@ const YouNeedKollectit = () => {
       behavior: "instant",
     });
   }, [searchParams]);
-
+  const slideImages = [
+    {
+      url: Slide2,
+      // caption: 'Slide 1'
+    },
+    {
+      url: "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
+      // caption: 'Slide 2'
+    },
+    {
+      url: "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+      caption: "Slide 3",
+    },
+  ];
   return (
     <>
       <Header />
-      <section
+      {/* <section
         id="blog"
         style={{
           background: "#7390B6",
@@ -41,7 +76,84 @@ const YouNeedKollectit = () => {
         }}
       >
         <img src={KollectitLogo} id="logoImage" alt="" srcset="" />
-      </section>
+      </section> */}
+      <div className="slide-container">
+        <Slide
+          nextArrow={
+            <button
+              style={{
+                background: "#9DBCC6",
+                border: "0px",
+                width: "30px",
+                borderRadius: "100px",
+                margin: 10,
+                padding: 2.5,
+              }}
+            >
+              <svg
+                fill="#fff"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M512 256L270 42.6v138.2H0v150.6h270v138z" />
+              </svg>
+            </button>
+          }
+          prevArrow={
+            <button
+              style={{
+                background: "#9DBCC6",
+                border: "0px",
+                width: "30px",
+                borderRadius: "100px",
+                margin: 10,
+                padding: 2.5,
+              }}
+            >
+              <svg
+                fill="#f1f1f1"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z" />
+              </svg>
+            </button>
+          }
+        >
+          {/*  */}
+          <div className="each-slide-effect">
+            <section
+              id="blog"
+              style={{
+                background: "#7390B6",
+                marginBottom: "8%",
+              }}
+            >
+              <img src={KollectitLogo} id="logoImage" alt="" srcset="" />
+            </section>
+          </div>
+          {/*  */}
+          <section
+            id="blog"
+            style={{
+              background: "#F8F8FC",
+              marginBottom: "8%",
+            }}
+          >
+            <img src={Slide2} id="logoImage2" alt="" srcset="" />
+          </section>
+          <section
+            id="blog"
+            style={{
+              background: "#F8F8FC",
+              marginBottom: "8%",
+            }}
+          >
+            <img src={Slide3} id="logoImage2" alt="" srcset="" />
+          </section>
+          {/* */}
+        </Slide>
+      </div>
 
       <h1
         style={{ color: "#134D61", fontSize: "35px", fontWeight: 600 }}

@@ -8,7 +8,6 @@
   /* margin-top: -2%; */
 }
 
-
 /* 
 #hero p {
   margin: 0 0 10px 0;
@@ -37,7 +36,6 @@
   width: 40%;
   margin-left: 23%;
 }
-
 
 #newImageSize {
   width: 40%;
@@ -74,13 +72,18 @@
 
   /* width: 70%; */
   /* margin: 5; */
-  background-color: #578B9D;
+  background-color: #578b9d;
   /* background-color: rgba(20, 4, 4, 0.342) !important; */
   /* padding: 5; */
   width: 100%;
   /* display: block;
   margin-left: auto;
   margin-right: auto; */
+}
+
+
+.nav-tabs .nav-link {
+  padding: 17px 15px 16px;
 }
 
 #howItWorkRider:hover {
@@ -90,7 +93,7 @@
   /* margin: 5; */
   /* background-color: #D6DCE5; */
   background-color: #578c9dc5;
-  color: #F0F2F5;
+  color: #f0f2f5;
   /* background-color: rgba(20, 4, 4, 0.342) !important; */
   /* padding: 5; */
   width: 100%;
@@ -138,18 +141,16 @@
 
 /* width="100%" style={{ alignItems: "center", marginLeft: "auto", marginRight: "auto", display: "block" }} */
 
-
 #howItWorkRider {
   height: 80% !important;
   margin-top: 6%;
-  background-color: #F0F2F5;
+  background-color: #f0f2f5;
   /* background-color: red; */
 }
 
 /* #ImageSliderRes */
 
 #ContentRiderPragraf {
-
   color: "#134D61";
   font-weight: 500;
   font-size: 25px;
@@ -164,7 +165,7 @@
     width: 100%;
 
     /* display: none; */
-    background: url('https://static.pakwheels.com/2022/09/Ferrari-Purosangue-revealed-11-scaled.jpg');
+    background: url("https://static.pakwheels.com/2022/09/Ferrari-Purosangue-revealed-11-scaled.jpg");
   }
 
   #CoursalImageMobileView {
@@ -203,7 +204,6 @@
     text-align: left;
     /* margin-left: -5%; */
     /* margin-right: -3%; */
-
   }
 
   #ContentRider {
@@ -257,17 +257,16 @@
 }
 
 @media (max-width: 768px) {
-
   /* #hero {
     margin-top: -30px;
   } */
 
   /* #SlideImage { */
-    /* background-color: #c59191; */
+  /* background-color: #c59191; */
   /* } */
 
   #howItWork:hover {
-    background-color: #578B9D;
+    background-color: #578b9d;
     margin-left: 5%;
     margin-right: 5%;
     padding: 0%;
@@ -285,12 +284,12 @@
   }
 
   #BoxReverse {
-    background-color: #11366B;
+    background-color: #11366b;
     /* mar */
   }
 
   #howItWorkContain {
-    background-color: #11366B;
+    background-color: #11366b;
 
     /* color: red; */
     /* display: flex ; */
@@ -306,7 +305,6 @@
   #slideImage {
     margin-left: 0%;
     width: 85%;
-
   }
 
   #ImgeSize {
@@ -386,8 +384,8 @@
   #AddContainer {
     background: "white";
     margin-top: "-35%";
-    padding: '5px';
-    margin: "5px"
+    padding: "5px";
+    margin: "5px";
   }
 
   #newImageSizeThree {
@@ -400,23 +398,20 @@
   #newImageSize {
     width: 40%;
     height: 80%;
-    background-color: #11366B;
+    background-color: #11366b;
     margin: 2%;
-
   }
 
   #newImageSizethree {
     width: 40%;
     height: 80%;
-    background-color: #11366B;
+    background-color: #11366b;
     margin: 2%;
-
   }
 
   #HeadeingCashier {
     margin-top: 15%;
   }
-
 }
 
 @media (max-width: 575px) {
@@ -432,9 +427,6 @@
 /*--------------------------------------------------------------
 # sponsor
 --------------------------------------------------------------*/
-
-
-
 
 /* section {
   padding: 60px 0;
@@ -478,7 +470,6 @@
   margin-left: 10%;
 }
 
-
 .react-slideshow-container .default-nav {
   background-color: rgba(27, 27, 27, 0.253) !important;
   padding: 0% !important;
@@ -498,7 +489,7 @@ background-color: red !important;
 } */
 
 #howItWork .react-slideshow-container .nav :hover {
-  background-color: #11366B;
+  background-color: #11366b;
   display: unset !important;
 }
 
@@ -524,10 +515,9 @@ background-color: red !important;
 
 #ArrorButton {
   background-color: none;
-  border: '0px' !important;
-  width: '30px' !important;
+  border: "0px" !important;
+  width: "30px" !important;
   padding: 0;
   /* marginLeft: "auto",
   marginRight: 'auto', */
-
 }

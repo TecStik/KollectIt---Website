@@ -17,6 +17,9 @@
   /* background-repeat: no-repeat; */
 }
 
+.slide-container {
+  margin-top: -1%;
+}
 #logoImage {
   width: 50%;
   margin: 0%;
@@ -26,6 +29,29 @@
   margin-top: auto;
   margin-bottom: auto;
   align-items: center;
+}
+#logoImage2 {
+  width: 80%;
+  margin: 0%;
+  padding: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  /* background: url("./PorflioImage.PNG") no-repeat; */
+  background-size: cover;
+  padding: 0;
+  margin-top: -4%;
+}
+
+.react-slideshow-container .nav:hover {
+  z-index: 10;
+  position: absolute;
+  cursor: pointer;
+  background-color: yellow;
 }
 #logoImageTec {
   width: 25%;
@@ -156,3 +182,5 @@
     width: 80%;
   }
 }
+
+

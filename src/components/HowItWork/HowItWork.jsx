@@ -3,7 +3,6 @@ import "./HowItWork.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
-
 import loginAdmin from "./Admin/loginAdmin.png";
 import adminHome from "./Admin/adminHome.png";
 import adminCashier from "./Admin/adminCashier.png";
@@ -58,8 +57,10 @@ function HowItWork() {
             </h2>
             <br />
             <p style={{ fontSize: "22px" }}>
-              Streamline finances and eradicate collection discrepancies while monitoring your collection processes
-              with <strong>KollectIt</strong>. Using integrated databases for efficient payment management and real-time payment confirmations.{" "}
+              Streamline finances and eradicate collection discrepancies while
+              monitoring your collection processes with{" "}
+              <strong>KollectIt</strong>. Using integrated databases for
+              efficient payment management and real-time payment confirmations.{" "}
             </p>
           </div>
         </div>
@@ -70,9 +71,7 @@ function HowItWork() {
           <h2 style={{ color: "#134D61", fontSize: "35px", fontWeight: 600 }}>
             ADMIN(S)
           </h2>
-          <p style={{ fontSize: "22px" }}>
-            Unlock Fluent Control.
-          </p>
+          <p style={{ fontSize: "22px" }}>Unlock Fluent Control.</p>
         </div>
 
         <section id="specials" class="specials">
@@ -93,7 +92,7 @@ function HowItWork() {
                     onClick={() => setTrigger(1)}
                   >
                     <a class="nav-link" onClick={() => setTrigger(1)}>
-                      Login
+                      Step-01: Login
                     </a>
                   </li>
                   <li
@@ -101,7 +100,7 @@ function HowItWork() {
                     onClick={() => setTrigger(2)}
                   >
                     <a class="nav-link" onClick={() => setTrigger(2)}>
-                      Add Cashiers
+                      Step-02: Add Cashiers
                     </a>
                   </li>
                   <li
@@ -109,7 +108,7 @@ function HowItWork() {
                     onClick={() => setTrigger(3)}
                   >
                     <a class="nav-link" onClick={() => setTrigger(3)}>
-                      Add Collectors
+                      Step-03: Add Collectors
                     </a>
                     {/* (s) or Cash Collector(s) */}
                   </li>
@@ -118,7 +117,7 @@ function HowItWork() {
                     onClick={() => setTrigger(4)}
                   >
                     <a class="nav-link" onClick={() => setTrigger(4)}>
-                      Client List
+                      Step-04: Client List
                     </a>
                   </li>
                   <li
@@ -126,7 +125,7 @@ function HowItWork() {
                     onClick={() => setTrigger(5)}
                   >
                     <a class="nav-link" onClick={() => setTrigger(5)}>
-                      Reports
+                      Step-05: Reports
                     </a>
                   </li>
                   <li
@@ -134,7 +133,7 @@ function HowItWork() {
                     onClick={() => setTrigger(6)}
                   >
                     <a class="nav-link" onClick={() => setTrigger(6)}>
-                      Team Members
+                      Step-06: Team Members
                     </a>
                   </li>
                   <li
@@ -142,7 +141,7 @@ function HowItWork() {
                     onClick={() => setTrigger(7)}
                   >
                     <a class="nav-link" onClick={() => setTrigger(7)}>
-                      Transactions
+                      Step-07: Transactions
                     </a>
                   </li>
                   <li
@@ -164,10 +163,12 @@ function HowItWork() {
                         <div class="row">
                           <div class="col-lg-6 details order-2 order-lg-1">
                             <h1 style={{ color: "#134D61" }}>Register</h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-00
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
-                              Users can register themselves as an
-                              Organization’s Admin(s) by providing relevant
-                              details:
+                              Users can register themselves as an Organization’s
+                              Admin(s) by providing relevant details:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>Username</li>
@@ -198,10 +199,13 @@ function HowItWork() {
                         <div class="row">
                           <div class="col-lg-6 details order-2 order-lg-1">
                             <h1 style={{ color: "#134D61" }}>Login</h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-01
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
-                              By Logging in to The <strong>KollectIt</strong> App as an Admin,
-                              The User is displayed The corresponding home
-                              screen to access features like:
+                              By Logging in to The <strong>KollectIt</strong>{" "}
+                              App as an Admin, The User is displayed The
+                              corresponding home screen to access features like:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>Add members</li>
@@ -234,6 +238,9 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Add Cashier(s)
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-02
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
                               The Admin can add cashier(s) to their
                               organization, by recording the following
@@ -271,6 +278,9 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Add Collectors
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-03
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
                               Admin(s) can conveniently add cash collection
                               staff or Rider(s) by providing the following
@@ -305,6 +315,9 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Client List
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-04
+                            </h5>
                             <p style={{ fontSize: "20px" }}>
                               Selecting the Client List Button, Admins can
                               easily access a list of all client(s) that have
@@ -345,6 +358,9 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Reports
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-05
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
                               By tapping the "Reports" button, Admin users have
                               access to view the amounts to be received from
@@ -374,15 +390,18 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Team Members
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-06
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
                               Unleash Your Team's Potential: Explore the "Team
                               Members" section to access an organized list of
                               your dedicated collection staff. With a clear
                               division into "Cashiers" and "Riders," Admin Users
                               can effortlessly view comprehensive details of
-                              their team recorded within <strong>KollectIt</strong>. See
-                              it all in action through the screenshots provided
-                              →{" "}
+                              their team recorded within{" "}
+                              <strong>KollectIt</strong>. See it all in action
+                              through the screenshots provided →{" "}
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -411,6 +430,9 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Transactions
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-07
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
                               Unlock Visibility with Transactions: The
                               Transactions section empowers Admin(s) of an
@@ -449,21 +471,18 @@ function HowItWork() {
                       <div class="tab-pane active show">
                         <div class="row">
                           <div class="col-lg-6 details order-2 order-lg-1">
-                            <h1
-                              data-aos="fade-up"
-                              style={{
-                                color: "#134D61",
-                                fontWeight: 500,
-                                fontSize: 30,
-                              }}
-                            >
+                            <h1 style={{ color: "#134D61" }}>
                               Change Password
                             </h1>
+                            {/* <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-08
+                            </h5> */}
                             <p style={{ fontSize: "22px" }}>
-                              Admin Users can easily change their <strong>KollectIt</strong>
-                              login passwords by selecting the "Change Password"
-                              button, entering their previous password, and
-                              specifying the desired new password.
+                              Admin Users can easily change their{" "}
+                              <strong>KollectIt</strong> login passwords by
+                              selecting the "Change Password" button, entering
+                              their previous password, and specifying the
+                              desired new password.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -497,7 +516,8 @@ function HowItWork() {
             CASHIER(S)
           </h2>
           <p style={{ fontSize: "22px" }}>
-            Empower Your Cashiers: Let them oversee the entire collection process with seamless precision.
+            Empower Your Cashiers: Let them oversee the entire collection
+            process with seamless precision.
           </p>
         </div>
 
@@ -511,7 +531,7 @@ function HowItWork() {
                     onClick={() => setCashierTrigger(0)}
                   >
                     <a class="nav-link" onClick={() => setCashierTrigger(0)}>
-                      Cashier Home
+                      Cashier Login
                     </a>
                   </li>
                   <li
@@ -519,7 +539,7 @@ function HowItWork() {
                     onClick={() => setCashierTrigger(1)}
                   >
                     <a class="nav-link" onClick={() => setCashierTrigger(1)}>
-                      Add Client(s)
+                      Step-01: Add Client(s)
                     </a>
                   </li>
                   <li
@@ -527,7 +547,7 @@ function HowItWork() {
                     onClick={() => setCashierTrigger(2)}
                   >
                     <a class="nav-link" onClick={() => setCashierTrigger(2)}>
-                      Assign Rider(s) to Client(S)
+                      Step-02: Assign Rider(s) to Client(S)
                     </a>
                   </li>
                   <li
@@ -535,7 +555,7 @@ function HowItWork() {
                     onClick={() => setCashierTrigger(3)}
                   >
                     <a class="nav-link" onClick={() => setCashierTrigger(3)}>
-                      Deposit
+                      Step-03: Deposit
                     </a>
                     {/* (s) or Cash Collector(s) */}
                   </li>
@@ -544,7 +564,7 @@ function HowItWork() {
                     onClick={() => setCashierTrigger(4)}
                   >
                     <a class="nav-link" onClick={() => setCashierTrigger(4)}>
-                      View Payment
+                      Step-04: View Payment
                     </a>
                   </li>
                   <li
@@ -552,7 +572,7 @@ function HowItWork() {
                     onClick={() => setCashierTrigger(5)}
                   >
                     <a class="nav-link" onClick={() => setCashierTrigger(5)}>
-                      Client List
+                      Step-05: Client List
                     </a>
                   </li>
                   <li
@@ -574,12 +594,16 @@ function HowItWork() {
                         <div class="row">
                           <div class="col-lg-6 details order-2 order-lg-1">
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
-                              Cashier Home
+                              Cashier Login
                             </h1>
+                            {/* <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-00
+                            </h5> */}
                             <p style={{ fontSize: "22px" }}>
-                              Cashiers log in with admin-provided credentials
-                              for assigned payments. Displayed The <strong>KollectIt</strong>
-                              Cashier Home Screen allows Cashiers to:
+                              With the credentials assigned by their
+                              organization Admin, Cashiers can easily login to
+                              their <b>KollectIt</b> Home Screen. Via The
+                              KollectIt Home Screen, Cashiers can:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>
@@ -622,6 +646,9 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Add Client(s)
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-01
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
                               When a cashier(s) is adding a client or customer,
                               the following details are required:
@@ -656,6 +683,9 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Assign Rider(s) to Client(s)
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-02
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
                               Assign Rider(s) to your Collections by selecting a
                               Member of the Designated Collection Staff and
@@ -710,8 +740,18 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Deposit
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-03
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
-                            <strong>KollectIt</strong> provides Cashiers with the ability to track all deposits received from payment collection staff (riders). With its intuitive interface and essential features, <strong>KollectIt</strong> simplifies the process of viewing and managing payment transactions, ensuring seamless financial tracking and transparency.
+                              <strong>KollectIt</strong> provides Cashiers with
+                              the ability to track all deposits received from
+                              payment collection staff (riders). With its
+                              intuitive interface and essential features,{" "}
+                              <strong>KollectIt</strong> simplifies the process
+                              of viewing and managing payment transactions,
+                              ensuring seamless financial tracking and
+                              transparency.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -737,8 +777,15 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               View Payment
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-04
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
-                            Through this functionality, cashiers can access the count of verified payments received from clients or customers by the payment collection staff.                            </p>
+                              Through this functionality, cashiers can access
+                              the count of verified payments received from
+                              clients or customers by the payment collection
+                              staff.{" "}
+                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -770,8 +817,14 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Client List
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-05
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
-                            At the press of this button, Cashiers can access a comprehensive list of clients with verified and received payments, as well as those with pending and unverified transactions. 
+                              At the press of this button, Cashiers can access a
+                              comprehensive list of clients with verified and
+                              received payments, as well as those with pending
+                              and unverified transactions.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -801,8 +854,15 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Change Password
                             </h1>
+                            {/* <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-06
+                            </h5> */}
                             <p style={{ fontSize: "25px" }}>
-                            Cashiers can effortlessly update their password by logging in, accessing the "Change Password" button on the home screen, and entering their old and new passwords.</p>
+                              Cashiers can effortlessly update their password by
+                              logging in, accessing the "Change Password" button
+                              on the home screen, and entering their old and new
+                              passwords.
+                            </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -854,7 +914,7 @@ function HowItWork() {
                     onClick={() => setRiderTrigger(0)}
                   >
                     <a class="nav-link" onClick={() => setRiderTrigger(0)}>
-                      Rider Home
+                      Rider Login
                     </a>
                   </li>
                   <li
@@ -862,7 +922,7 @@ function HowItWork() {
                     onClick={() => setRiderTrigger(1)}
                   >
                     <a class="nav-link" onClick={() => setRiderTrigger(1)}>
-                      View Assigned Clients
+                      Step-01 View Assigned Clients
                     </a>
                   </li>
                   <li
@@ -870,7 +930,7 @@ function HowItWork() {
                     onClick={() => setRiderTrigger(2)}
                   >
                     <a class="nav-link" onClick={() => setRiderTrigger(2)}>
-                      Collect Payment from assigned Client
+                      Step-02: Collect Payment from assigned Client
                     </a>
                   </li>
                   <li
@@ -878,7 +938,7 @@ function HowItWork() {
                     onClick={() => setRiderTrigger(3)}
                   >
                     <a class="nav-link" onClick={() => setRiderTrigger(3)}>
-                      Client Notified upon Proceeding via SMS and Email
+                      Step-03: Client Notified upon Proceeding via SMS and Email
                     </a>
                   </li>
                   <li
@@ -886,7 +946,7 @@ function HowItWork() {
                     onClick={() => setRiderTrigger(4)}
                   >
                     <a class="nav-link" onClick={() => setRiderTrigger(4)}>
-                       Enter an OTP to verify Payment
+                      Step-04: Enter an OTP to verify Payment
                     </a>
                   </li>
                   <li
@@ -894,7 +954,7 @@ function HowItWork() {
                     onClick={() => setRiderTrigger(5)}
                   >
                     <a class="nav-link" onClick={() => setRiderTrigger(5)}>
-                      Verify Payment
+                      Step-05: Verify Payment
                     </a>
                   </li>
                   <li
@@ -902,7 +962,7 @@ function HowItWork() {
                     onClick={() => setRiderTrigger(6)}
                   >
                     <a class="nav-link" onClick={() => setRiderTrigger(6)}>
-                      Trasfer
+                      Step-06: Transfer
                     </a>
                   </li>
                   <li
@@ -924,12 +984,15 @@ function HowItWork() {
                         <div class="row">
                           <div class="col-lg-6 details order-2 order-lg-1">
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
-                              Rider Home
+                              Rider Login
                             </h1>
+                            {/* <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-00
+                            </h5> */}
                             <p style={{ fontSize: "22px" }}>
-                              By Logging in to The <strong>KollectIt</strong> App as Rider, The
-                              User will be Navigated to The Rider Home Screen to
-                              access features like:
+                              By Logging in to The <strong>KollectIt</strong>{" "}
+                              App as Rider, The User will be Navigated to The
+                              Rider Home Screen to access features like:
                             </p>
                             <ul style={{ fontSize: "19px" }}>
                               <li>
@@ -974,6 +1037,9 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               View Assigned Clients
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-01
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
                               Free to choose from an option at the rider’s home
                               screen, to view their assigned collections, Riders
@@ -1008,6 +1074,9 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Collect Payment from assigned Client
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-02
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
                               The rider collect’s payments from assigned clients
                               by specifying
@@ -1015,7 +1084,7 @@ function HowItWork() {
                             <ul style={{ fontSize: "20px" }}>
                               <li>Amount Collected</li>
                               <li>Select Mode of Payment if Cheque/Cash</li>
-                              <li>Attach Cheque Copy if :cheque</li>
+                              <li>Attach Cheque Copy if : cheque</li>
                             </ul>
                             <p style={{ fontSize: "20px" }}>
                               Upon submitting detail, a Payment Verification
@@ -1055,6 +1124,9 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Client Notified upon Proceeding via SMS and Email
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-03
+                            </h5>
                             <p style={{ fontSize: "20px" }}>
                               Collecting from assigned clients, a Rider must
                               specify
@@ -1073,8 +1145,11 @@ function HowItWork() {
                               the client.
                             </p>
                             <p style={{ fontSize: "19px" }}>
-                              The client simply shares The OTP with The Rider to enter it inside The <strong>KollectIt</strong> app for confirmation. This dispatches a
-                              a Digital Receipt of Payment to the client via email and cell phone number.
+                              The client simply shares The OTP with The Rider to
+                              enter it inside The <strong>KollectIt</strong> app
+                              for confirmation. This dispatches a a Digital
+                              Receipt of Payment to the client via email and
+                              cell phone number.
                             </p>
                           </div>
                           <div class="col-lg-6 text-center order-1 order-lg-2">
@@ -1102,6 +1177,9 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Rider enter OTP verify Payment
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-04
+                            </h5>
                             <p style={{ fontSize: "22px" }}>
                               The rider is suppose to collect payments from
                               assigned clients by specifying
@@ -1149,8 +1227,15 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Verify Payment
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-05
+                            </h5>
                             <p style={{ fontSize: "25px" }}>
-                            <strong>KollectIt</strong> lets riders verify payments with client/customer-provided OTPs. Real-time verification ensures secure, transparent transactions, boosting trust. Available on iOS and Android for seamless payment management.
+                              <strong>KollectIt</strong> lets riders verify
+                              payments with client/customer-provided OTPs.
+                              Real-time verification ensures secure, transparent
+                              transactions, boosting trust. Available on iOS and
+                              Android for seamless payment management.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -1179,10 +1264,16 @@ function HowItWork() {
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Transfer
                             </h1>
+                            <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-06
+                            </h5>
                             <p style={{ fontSize: "25px" }}>
-
-                        
-Upon successful collection, riders seamlessly transfer payments to cashiers, ensuring smooth and efficient payment processing. Riders can access the list, select specific payments, and effortlessly update their status for enhanced financial management.
+                              Upon successful collection, riders seamlessly
+                              transfer payments to cashiers, ensuring smooth and
+                              efficient payment processing. Riders can access
+                              the list, select specific payments, and
+                              effortlessly update their status for enhanced
+                              financial management.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -1208,9 +1299,15 @@ Upon successful collection, riders seamlessly transfer payments to cashiers, ens
                             <h1 data-aos="fade-up" style={{ color: "#134D61" }}>
                               Change Password
                             </h1>
+                            {/* <h5 style={{ color: "#134D61", marginTop: "-2%" }}>
+                              Step-07
+                            </h5> */}
                             <p style={{ fontSize: "25px" }}>
-                             
-<strong>KollectIt</strong>ectIt empowers riders with easy password updates, ensuring secure records of their collection efforts. Simply click "Change Password," enter the previous password, and set the new one for enhanced security and convenience.
+                              <strong>KollectIt</strong> empowers riders with
+                              easy password updates, ensuring secure records of
+                              their collection efforts. Simply click "Change
+                              Password," enter the previous password, and set
+                              the new one for enhanced security and convenience.
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -1241,7 +1338,7 @@ Upon successful collection, riders seamlessly transfer payments to cashiers, ens
         <div class="container">
           <div class="section-title">
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-            Transforming Cash Collection for Unmatched Precision!
+              Transforming Cash Collection for Unmatched Precision!
             </h2>
             <a
               href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
