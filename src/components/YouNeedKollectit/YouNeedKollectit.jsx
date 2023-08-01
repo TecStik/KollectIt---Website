@@ -68,59 +68,14 @@ const YouNeedKollectit = () => {
   return (
     <>
       <Header />
-      {/* <section
-        id="blog"
-        style={{
-          background: "#7390B6",
-          marginBottom: "8%",
-        }}
-      >
-        <img src={KollectitLogo} id="logoImage" alt="" srcset="" />
-      </section> */}
+
       <div className="slide-container">
         <Slide
-          nextArrow={
-            <button
-              style={{
-                background: "#9DBCC6",
-                border: "0px",
-                width: "30px",
-                borderRadius: "100px",
-                margin: 10,
-                padding: 2.5,
-              }}
-            >
-              <svg
-                fill="#fff"
-                viewBox="0 0 512 512"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M512 256L270 42.6v138.2H0v150.6h270v138z" />
-              </svg>
-            </button>
-          }
-          prevArrow={
-            <button
-              style={{
-                background: "#9DBCC6",
-                border: "0px",
-                width: "30px",
-                borderRadius: "100px",
-                margin: 10,
-                padding: 2.5,
-              }}
-            >
-              <svg
-                fill="#f1f1f1"
-                viewBox="0 0 512 512"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z" />
-              </svg>
-            </button>
-          }
+          indicators={(index) => (
+            <div id="indicator" style={{ marginTop: "-12%", zIndex: 1 }}></div>
+          )}
+          scale={1.4}
         >
-          {/*  */}
           <div className="each-slide-effect">
             <section
               id="blog"
@@ -159,7 +114,7 @@ const YouNeedKollectit = () => {
         style={{ color: "#134D61", fontSize: "35px", fontWeight: 600 }}
         className="text-center"
       >
-        Experience a Payment Retrieval Transformation
+        Payment Retrieval Transformation
       </h1>
 
       <section id="ReducedMonitoring" class="about">
@@ -184,15 +139,13 @@ const YouNeedKollectit = () => {
                 </h2>
                 <br />
                 <br />
-                <ul
-                  style={{ listStyleType: "none", marginLeft: "-5%" }}
-                  id="reverseImageText"
-                >
-                  <li>
-                    Take advantage of Real Time Authentication & Monitoring with <strong>KollectIt</strong>: {}
-                    </li>
-                    <li>Minimize your manual monitoring efforts.</li>
-                    <li>Optimize your resource allocation.</li>
+                <ul style={{ marginLeft: "-5%" }} id="reverseImageText">
+                  Take advantage of Real Time Authentication & Monitoring with{" "}
+                  <strong>KollectIt</strong>: {}
+                  <li className="ml-4">
+                    Minimize your manual monitoring efforts.
+                  </li>
+                  <li className="ml-4">Optimize your resource allocation.</li>
                 </ul>
               </div>
             </div>
@@ -238,17 +191,16 @@ const YouNeedKollectit = () => {
                 </h2>
                 <br />
                 <br />
-                <ul
-                  style={{ listStyleType: "none", marginLeft: "-5%" }}
-                  id="reverseImageText"
-                >
-                  <li>
-                    <strong>KollectIt</strong> enhances:
-                    <br/>
-                    <li>Communication among collection staff, cashiers, and admins </li>
-                    <li>Integrated databases </li>
-                    <li>Allows admin users to review collections, monitor
-                    tasks, and assign roles.</li>
+                <ul style={{ marginLeft: "-5%" }} id="reverseImageText">
+                  <strong>KollectIt</strong> enhances:
+                  <br />
+                  <li className="ml-4">
+                    Communication among collection staff, cashiers, and admins{" "}
+                  </li>
+                  <li className="ml-4">Integrated databases </li>
+                  <li className="ml-4">
+                    Allows admin users to review collections, monitor tasks, and
+                    assign roles.
                   </li>
                 </ul>
               </div>
@@ -281,17 +233,20 @@ const YouNeedKollectit = () => {
                 </h2>
                 <br />
                 <br />
-                <ul
-                  style={{ listStyleType: "none", marginLeft: "-5%" }}
-                  id="reverseImageText"
-                >
-                  <li>
-                    Cashiers or managers ensure fulfillment:</li>
-                    <li>By adding clients using <strong>KollectIt </strong>,</li> 
-                    <li>Assigning riders using <strong>KollectIt </strong>, </li>
-                    <li>Viewing deposits using <strong>KollectIt </strong>,</li>
-                    <li>Confirming statuses, using <strong>KollectIt </strong>.</li>
-                  
+                <ul style={{ marginLeft: "-5%" }} id="reverseImageText">
+                  Cashiers or managers ensure fulfillment:
+                  <li className="ml-4">
+                    By adding clients using <strong>KollectIt </strong>,
+                  </li>
+                  <li className="ml-4">
+                    By assigning riders using <strong>KollectIt </strong>,{" "}
+                  </li>
+                  <li className="ml-4">
+                    Viewing deposits using <strong>KollectIt </strong>,
+                  </li>
+                  <li className="ml-4">
+                    Confirming statuses, using <strong>KollectIt </strong>.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -338,16 +293,13 @@ const YouNeedKollectit = () => {
                 </h2>
                 <br />
                 <br />
-                <ul
-                  style={{ listStyleType: "none", marginLeft: "-5%" }}
-                  id="reverseImageText"
-                >
-                  <li>
-                  When Riders or Payment Collection Staff access The KollectIt Home Screen, they will have the following options:
-                    <li>View assigned collections</li>
-                    <li> View collected payments,  </li>
-                    <li>
-Verify received payments with client/customer OTP.</li>
+                <ul style={{ marginLeft: "-5%" }} id="reverseImageText">
+                  When Riders or Payment Collection Staff access The KollectIt
+                  Home Screen, they will have the following options:
+                  <li className="ml-4">View assigned collections</li>
+                  <li className="ml-4"> View collected payments, </li>
+                  <li className="ml-4">
+                    Verify received payments with client/customer OTP.
                   </li>
                 </ul>
               </div>
@@ -380,15 +332,12 @@ Verify received payments with client/customer OTP.</li>
                 </h2>
                 <br />
                 <br />
-                <ul
-                  style={{ listStyleType: "none", marginLeft: "-5%" }}
-                  id="reverseImageText"
-                >
-                  Ensure easy adherence to regulatory requirements with <strong>KollectIt</strong>:
-                  <li>Centralized data management,  </li>
-                    <li>customizable reporting tools, </li>
-                    <li>automated compliance updates.</li>
-                 
+                <ul style={{ marginLeft: "-5%" }} id="reverseImageText">
+                  Ensure easy adherence to regulatory requirements with{" "}
+                  <strong>KollectIt</strong>:
+                  <li className="ml-4">Centralized data management, </li>
+                  <li className="ml-4">Customizable reporting tools, </li>
+                  <li className="ml-4">Automated compliance updates.</li>
                 </ul>
               </div>
             </div>

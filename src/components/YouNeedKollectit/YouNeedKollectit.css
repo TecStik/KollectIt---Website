@@ -184,3 +184,22 @@
 }
 
 
+
+#indicator {
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  border: 2px #666 solid;
+  margin: 2px;
+  border-radius: 50%;
+  width: 2px;
+  height: 5px;
+  margin-top: -15%;
+}
+
+#indicator.active {
+  color: #fff;
+  background: #666;
+}
+
+
