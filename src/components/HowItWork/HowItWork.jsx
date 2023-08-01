@@ -57,7 +57,7 @@ function HowItWork() {
             </h2>
             <br />
             <p style={{ fontSize: "22px" }}>
-              Streamline finances and eradicate collection discrepancies while
+              Streamline finances and eradicate collection disrepancies while
               monitoring your collection processes with{" "}
               <strong>KollectIt</strong>. Using integrated databases for
               efficient payment management and real-time payment confirmations.{" "}
@@ -205,7 +205,7 @@ function HowItWork() {
                             <p style={{ fontSize: "22px" }}>
                               By Logging in to The <strong>KollectIt</strong>{" "}
                               App as an Admin, The User is displayed The
-                              corresponding home screen to access features like:
+                              corresponding Home Screen to access features like:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>Add members</li>
@@ -242,8 +242,8 @@ function HowItWork() {
                               Step-02
                             </h5>
                             <p style={{ fontSize: "22px" }}>
-                              The Admin can add cashier(s) to their
-                              organization, by recording the following
+                              The Admin can add Cashier(s) to their
+                              Organization, by recording the following
                               information:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
@@ -251,7 +251,7 @@ function HowItWork() {
                               <li>Assigned Short Code</li>
                               <li>Login Id</li>
                               <li>
-                                Selecting “Cashier” from the dropdown menu
+                                Selecting “Cashier” from the available dropdown menu
                                 available
                               </li>
                             </ul>
@@ -282,12 +282,12 @@ function HowItWork() {
                               Step-03
                             </h5>
                             <p style={{ fontSize: "22px" }}>
-                              Admin(s) can conveniently add cash collection
-                              staff or Rider(s) by providing the following
+                              Admin(s) can conveniently add Cash Collection
+                              Staff or Rider(s) by providing the following
                               information:
                             </p>
                             <ul style={{ fontSize: "20px" }}>
-                              <li>Userames</li>
+                              <li>Usernames</li>
                               <li>Their Email</li>
                               <li>Their Cell Phone Number</li>
                               <li>Login Password</li>
@@ -434,7 +434,7 @@ function HowItWork() {
                               Step-07
                             </h5>
                             <p style={{ fontSize: "22px" }}>
-                              Unlock Visibility with Transactions: The
+                              Unlock Visibility in Transactions: The
                               Transactions section empowers Admin(s) of an
                               organization to effortlessly view all current and
                               upcoming collection activities undertaken by their
@@ -443,11 +443,11 @@ function HowItWork() {
                             </p>
                             <ul style={{ fontSize: "20px" }}>
                               <li>Date</li>
-                              <li>Nature of transaction</li>
-                              <li>The payor</li>
+                              <li>Nature of Transaction</li>
+                              <li>The Payor</li>
                               <li>
                                 The name of a rider who has collected cash from
-                                the remittor{" "}
+                                the client{" "}
                               </li>
                               <li>The amount of cash collected</li>
                             </ul>
@@ -601,7 +601,7 @@ function HowItWork() {
                             </h5> */}
                             <p style={{ fontSize: "22px" }}>
                               With the credentials assigned by their
-                              organization Admin, Cashiers can easily login to
+                              organization's Admin, Cashiers can easily login to
                               their <b>KollectIt</b> Home Screen. Via The
                               KollectIt Home Screen, Cashiers can:
                             </p>
@@ -744,14 +744,13 @@ function HowItWork() {
                               Step-03
                             </h5>
                             <p style={{ fontSize: "22px" }}>
-                              <strong>KollectIt</strong> provides Cashiers with
-                              the ability to track all deposits received from
-                              payment collection staff (riders). With its
-                              intuitive interface and essential features,{" "}
-                              <strong>KollectIt</strong> simplifies the process
-                              of viewing and managing payment transactions,
-                              ensuring seamless financial tracking and
-                              transparency.
+                              All deposits received from
+                              payment collection staff (riders) by Cashiers can be monitored within The KollectIt App, with <strong>KollectIt</strong>. With its
+                              intuitive interface and essential features:{" "}
+                              <li><strong>KollectIt</strong> simplifies the process
+                              of viewing payment transactions</li> <li>Managing payment transactions</li>
+                              <strong>KollectIt</strong> <li><strong>KollectIt</strong>ensures seamless financial tracking and
+                              transparency.</li>
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -781,10 +780,8 @@ function HowItWork() {
                               Step-04
                             </h5>
                             <p style={{ fontSize: "22px" }}>
-                              Through this functionality, cashiers can access
-                              the count of verified payments received from
-                              clients or customers by the payment collection
-                              staff.{" "}
+                              Through this functionality of<strong>KollectIt</strong>, cashiers can access:
+                              <li></li>The tally of verified client payments received by collection staff.{" "}
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -858,7 +855,7 @@ function HowItWork() {
                               Step-06
                             </h5> */}
                             <p style={{ fontSize: "25px" }}>
-                              Cashiers can effortlessly update their password by
+                              Cashiers can conveniently update their password by
                               logging in, accessing the "Change Password" button
                               on the home screen, and entering their old and new
                               passwords.

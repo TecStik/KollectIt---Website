@@ -189,11 +189,10 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    Optimal dual-factor authentication, Real-time data
-                    visualization and automated alerts with{" "}
-                    <strong>KollectIt</strong> minimize manual monitoring
-                    efforts and optimize resource allocation.
-                  </li>
+                    Take advantage of Real Time Authentication & Monitoring with <strong>KollectIt</strong>: {}
+                    </li>
+                    <li>Minimize your manual monitoring efforts.</li>
+                    <li>Optimize your resource allocation.</li>
                 </ul>
               </div>
             </div>
@@ -244,10 +243,12 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    <strong>KollectIt</strong> enhances communication among
-                    collection staff, cashiers, and admins through integrated
-                    databases too. Admin users can review collections, monitor
-                    tasks, and assign roles.
+                    <strong>KollectIt</strong> enhances:
+                    <br/>
+                    <li>Communication among collection staff, cashiers, and admins </li>
+                    <li>Integrated databases </li>
+                    <li>Allows admin users to review collections, monitor
+                    tasks, and assign roles.</li>
                   </li>
                 </ul>
               </div>
@@ -285,11 +286,12 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    After designation, cashiers or managers ensure fulfillment.
-                    Signed in, they can add clients, assign riders, view
-                    deposits, check statuses, and more using{" "}
-                    <strong>KollectIt </strong>.
-                  </li>
+                    Cashiers or managers ensure fulfillment:</li>
+                    <li>By adding clients using <strong>KollectIt </strong>,</li> 
+                    <li>Assigning riders using <strong>KollectIt </strong>, </li>
+                    <li>Viewing deposits using <strong>KollectIt </strong>,</li>
+                    <li>Confirming statuses, using <strong>KollectIt </strong>.</li>
+                  
                 </ul>
               </div>
             </div>
@@ -341,10 +343,11 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    Upon accessing The <strong>KollectIt</strong> Home Screen,
-                    Riders or Payment Collection Staff can view assigned
-                    collections, collected payments, and verify with OTP
-                    (One-Time-Password) received by clients/customers.
+                  When Riders or Payment Collection Staff access The KollectIt Home Screen, they will have the following options:
+                    <li>View assigned collections</li>
+                    <li> View collected payments,  </li>
+                    <li>
+Verify received payments with client/customer OTP.</li>
                   </li>
                 </ul>
               </div>
@@ -381,11 +384,11 @@ const YouNeedKollectit = () => {
                   style={{ listStyleType: "none", marginLeft: "-5%" }}
                   id="reverseImageText"
                 >
-                  <li>
-                    Centralized data management, customizable reporting tools,
-                    and automated compliance updates ensure easy adherence to
-                    regulatory requirements.
-                  </li>
+                  Ensure easy adherence to regulatory requirements with <strong>KollectIt</strong>:
+                  <li>Centralized data management,  </li>
+                    <li>customizable reporting tools, </li>
+                    <li>automated compliance updates.</li>
+                 
                 </ul>
               </div>
             </div>

@@ -51,20 +51,15 @@ function Home() {
                   data-aos-delay="100"
                   style={{ color: "#134D61" }}
                 >
-                  Bridge Disrepancies: Seamlessly Reconcile Accounts
+                  Seamless Reconciliation, Verified Payments
                 </p>
-                <br />
                 <br />
                 {/* <h2 data-aos="fade-up" style={{ color: "#134D61" }}>Cross-Platform Collection</h2> */}
 
                 <div class="content">
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
-                      Economic Crimes, Payment Disrepancies, Inaccurate
-                      Reporting, Payment Fraud, are all problems faced by
-                      Businesses and Individuals.
-                      <br />
-                      <br />
+                     
                       <strong>KollectIt</strong> ensures collaborative exchange
                       of Cash. Leading to transparent financial transactions.
                     </li>
@@ -218,7 +213,7 @@ function Home() {
         <div class="container">
           <div class="section-title">
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-              Transforming your Accounts Receivables for Unmatched Precision!
+            Transforming Cash Collection for Unmatched Precision!
             </h2>
             <a
               href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
