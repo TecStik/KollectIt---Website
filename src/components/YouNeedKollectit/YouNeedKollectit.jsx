@@ -158,6 +158,7 @@ const YouNeedKollectit = () => {
               <img src={firstImage} id="ImgeSize" alt="" />
             </div>
           </div>
+          <span id="ReassuredAccuracy"></span>
           <span id="Seamless"></span>
         </div>
       </section>
@@ -195,19 +196,20 @@ const YouNeedKollectit = () => {
                   <strong>KollectIt</strong> brings a comprehensive review:
                   <br />
                   <li className="ml-4">
-                  Streamlined communication between collection staff, cashiers, and administrators.{" "}
+                    Streamlined communication between collection staff,
+                    cashiers, and administrators.{" "}
                   </li>
                   <li className="ml-4">
-                  Integrated databases allow admin users to review collections, monitor tasks, and
-                    assign roles.
+                    Integrated databases allow admin users to review
+                    collections, monitor tasks, and assign roles.
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <br id="ReassuredAccuracy"></br>
-        <br />
+        <br></br>
+        <br id="ReassuredAccuracy1"></br>
       </section>
 
       <section class="about">
@@ -257,6 +259,7 @@ const YouNeedKollectit = () => {
             >
               <img src={Setting} id="ImgeSize" alt="" />
             </div>
+            <span id="PreciseData"></span>
           </div>
         </div>
       </section>
@@ -293,7 +296,8 @@ const YouNeedKollectit = () => {
                 <br />
                 <br />
                 <ul style={{ marginLeft: "-5%" }} id="reverseImageText">
-                  All of your collection staff will benefit from the following options:
+                  All of your collection staff will benefit from the following
+                  options:
                   <li className="ml-4">View assigned collections</li>
                   <li className="ml-4"> View collected payments, </li>
                   <li className="ml-4">
@@ -381,17 +385,16 @@ const YouNeedKollectit = () => {
                 </h2>
                 <br />
                 <br />
-                <ul
-                  style={{ listStyleType: "none", marginLeft: "-5%" }}
-                  id="reverseImageText"
-                >
-                  <li>
-                    With <strong>KollectIt's</strong> Paid Admin Panel:
-                    <li className="ml-4">Access your organization's visualized data analytics, simplified
-                     user feedback analysis, and clear communication </li>
-
-                     <li className="ml-4"><strong>KollectIt's</strong> Admin Panel empowers data-driven decision-making, user-centric
-                    improvements, and stakeholder transparency.</li>
+                <ul style={{ marginLeft: "-5%" }} id="reverseImageText">
+                  With <strong>KollectIt's</strong> Paid Admin Panel:
+                  <li className="ml-4">
+                    Access your organization's visualized data analytics,
+                    simplified user feedback analysis, and clear communication
+                  </li>
+                  <li className="ml-4">
+                    <strong>KollectIt's</strong> Admin Panel empowers
+                    data-driven decision-making, user-centric improvements, and
+                    stakeholder transparency.
                   </li>
                 </ul>
               </div>

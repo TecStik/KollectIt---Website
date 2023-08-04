@@ -74,7 +74,10 @@ export default function Footer() {
                 />
                 <p>
                   Retail Transactions are key to the development of any
-                  payments, receivables or delivery system(s). KollectIt improves precision and collaboration among all collection activity stakeholders, benefitting both businesses and individuals.
+                  payments, receivables or delivery system(s). KollectIt
+                  improves precision and collaboration among all collection
+                  activity stakeholders, benefitting both businesses and
+                  individuals.
                 </p>
               </div>
 
@@ -94,7 +97,7 @@ export default function Footer() {
                     href="/KOLLECTIT-WhyYouNeedKollectIt/#Seamless"
                     class="text-white"
                   >
-                    Cost-Efficient Insights 
+                    Cost-Efficient Insights
                   </a>
                 </p>
                 <p>
@@ -105,13 +108,27 @@ export default function Footer() {
                     Seamless Collaboration
                   </a>
                 </p>
-               
+                <p>
+                  <a
+                    href="/KOLLECTIT-WhyYouNeedKollectIt/#ReassuredAccuracy1"
+                    class="text-white"
+                  >
+                    Reassured Accuracy
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="/KOLLECTIT-WhyYouNeedKollectIt/#PreciseData"
+                    class="text-white"
+                  >
+                    Precise Data Exchange
+                  </a>
+                </p>
                 <p>
                   <a
                     href="/KOLLECTIT-WhyYouNeedKollectIt/#SimplifiedComplianc"
                     class="text-white"
                   >
-                    {" "}
                     Compliant Reporting
                   </a>
                 </p>
@@ -122,7 +139,6 @@ export default function Footer() {
                   >
                     {" "}
                     Clear Decision-Making
-
                   </a>
                 </p>
               </div>
@@ -154,7 +170,7 @@ export default function Footer() {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/KOLLECTIT-Contact" class="text-white">
+                  <Link to="/KOLLECTIT-ContactUS" class="text-white">
                     Contact Us
                   </Link>
                 </p>
