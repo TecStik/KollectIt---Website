@@ -118,19 +118,12 @@ function Home() {
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
-                      Despite the availability of digital alternatives, there is
-                      a preference for tangible cash and checks in financial
-                      transactions. A lack of trust in online channels is one of
-                      the main issues, but reducing reliance on manual paperwork
-                      is also a significant catalyst for improvement. 
+                      Driven by trust concerns and a desire to reduce manual paperwork, a desire for transactions primarily performed in tangible cash is highly prevalent all around the world. 
                       <br/>
                       <br/>
-                      The <strong>KollectIt</strong> Mobile App offers smooth confirmation of delivery or retrieval, reducing discrepancies for both parties involved. allowing them to assign team members to
-                      roles, keep tabs on every team member's task status with
-                      ease, remove or switch roles of team members and even
-                      revoke a team members access to information if needed.
-                      <strong>KollectIt</strong> maximizes the efficiency of collecting cash in
-                      any collection effort.
+                      Customize The KollectIt App to meet your unique needs and integrate it with in-house software to boost efficiency.
+                      <br/>
+                      <br/>
                     </li>
                   </ul>
                 </div>
@@ -194,7 +187,9 @@ function Home() {
                     <li>
                       
 
-                    <strong>KollectIt's</strong> team will also customize the app to your unique needs when we are informed of your specific requirements. Boost efficiency by integrating <strong>KollectIt</strong> with your in-house software. Head over to The "Contact Us" page on this website, outline your requirements using the form, hit send and anticipate a prompt response within 24-hours. </li>
+                    <strong>KollectIt's</strong> team will also customize the app to your unique needs when we are informed of your specific requirements.  </li>
+                    <br/>
+                    <li>Boost efficiency by integrating <strong>KollectIt</strong> with your in-house software. Head over to The "Contact Us" page on this website, outline your requirements using the form, hit send and anticipate a prompt response within 24-hours.</li>
                   </ul>
                 </div>
               </div>

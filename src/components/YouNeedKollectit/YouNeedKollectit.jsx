@@ -192,14 +192,13 @@ const YouNeedKollectit = () => {
                 <br />
                 <br />
                 <ul style={{ marginLeft: "-5%" }} id="reverseImageText">
-                  <strong>KollectIt</strong> enhances:
+                  <strong>KollectIt</strong> brings a comprehensive review:
                   <br />
                   <li className="ml-4">
-                    Communication among collection staff, cashiers, and admins{" "}
+                  Streamlined communication between collection staff, cashiers, and administrators.{" "}
                   </li>
-                  <li className="ml-4">Integrated databases </li>
                   <li className="ml-4">
-                    Allows admin users to review collections, monitor tasks, and
+                  Integrated databases allow admin users to review collections, monitor tasks, and
                     assign roles.
                   </li>
                 </ul>
@@ -236,13 +235,13 @@ const YouNeedKollectit = () => {
                 <ul style={{ marginLeft: "-5%" }} id="reverseImageText">
                   Cashiers or managers ensure fulfillment:
                   <li className="ml-4">
-                    By adding clients using <strong>KollectIt </strong>,
+                    By adding clients using <strong>KollectIt </strong>.
                   </li>
                   <li className="ml-4">
-                    By assigning riders using <strong>KollectIt </strong>,{" "}
+                    By assigning riders using <strong>KollectIt </strong>.{" "}
                   </li>
                   <li className="ml-4">
-                    Viewing deposits using <strong>KollectIt </strong>,
+                    Viewing deposits using <strong>KollectIt </strong>.
                   </li>
                   <li className="ml-4">
                     Confirming statuses, using <strong>KollectIt </strong>.
@@ -294,8 +293,7 @@ const YouNeedKollectit = () => {
                 <br />
                 <br />
                 <ul style={{ marginLeft: "-5%" }} id="reverseImageText">
-                  When Riders or Payment Collection Staff access The KollectIt
-                  Home Screen, they will have the following options:
+                  All of your collection staff will benefit from the following options:
                   <li className="ml-4">View assigned collections</li>
                   <li className="ml-4"> View collected payments, </li>
                   <li className="ml-4">
@@ -388,11 +386,12 @@ const YouNeedKollectit = () => {
                   id="reverseImageText"
                 >
                   <li>
-                    With <strong>KollectIt's</strong> Paid Admin Panel, access
-                    your organization's visualized data analytics, simplified
-                    user feedback analysis, and clear communication for
-                    empowering data-driven decision-making, user-centric
-                    improvements, and stakeholder transparency.
+                    With <strong>KollectIt's</strong> Paid Admin Panel:
+                    <li className="ml-4">Access your organization's visualized data analytics, simplified
+                     user feedback analysis, and clear communication </li>
+
+                     <li className="ml-4"><strong>KollectIt's</strong> Admin Panel empowers data-driven decision-making, user-centric
+                    improvements, and stakeholder transparency.</li>
                   </li>
                 </ul>
               </div>
