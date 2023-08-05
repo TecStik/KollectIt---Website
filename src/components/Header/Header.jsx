@@ -170,7 +170,7 @@ export default function Header() {
 
       <nav className="Twonavbar" style={{ marginBottom: '1%' }}>
         <div className="Twonav-container">
-          <h4 id="TwoNavText" style={{ color: "#134D61" }}>Digitize Physical Collection</h4>
+          <h4 id="TwoNavText" style={{ color: "#134D61" }}>Digitise Physical Collection</h4>
         </div>
       </nav>
 
