@@ -9,14 +9,17 @@ import YouNeedKollectit from "./components/YouNeedKollectit/YouNeedKollectit";
 import ContactUS from "./components/ContactUS/ContactUS";
 import OurTeam from "./components/OurTeam/OurTeam";
 import HowItWork from "./components/HowItWork/HowItWork";
-
+import TermsOfUse from "./components/TermsOfUse/TermsOfUse";
 
 export const App = () => {
   return (
     <BrowserRouter>
       <Helmet>
         ‍<title>KollectIt</title>‍
-        <meta name="description" content="Find all the best quality products your pet may need" />
+        <meta
+          name="description"
+          content="Find all the best quality products your pet may need"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@user" />
         <meta name="twitter:creator" content="@user" />
@@ -34,9 +37,13 @@ export const App = () => {
       </Helmet>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/KollectIt-WhyYouNeedKollectIt" element={<YouNeedKollectit />} />
+        <Route
+          path="/KollectIt-WhyYouNeedKollectIt"
+          element={<YouNeedKollectit />}
+        />
         <Route path="/KollectIt-ContactUS" element={<ContactUS />} />
         <Route path="/KollectIt-HowItWorks" element={<HowItWork />} />
+        <Route path="/KollectIt-TermsOfUse" element={<TermsOfUse />} />
         {/* <Route path="/KOLLECTIT-OurTeam" element={<OurTeam />} /> */}
         {/*
         <Route path="/KOLLECTIT-About" element={<About />} />
