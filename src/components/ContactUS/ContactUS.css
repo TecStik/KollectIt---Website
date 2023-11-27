@@ -20,6 +20,27 @@
   font-weight: 700;
 }
 
+
+.modal-content{
+  background-color: #9DBCC6 !important;
+}
+
+.form-label{
+  color: #fff !important;
+  font-family: var(--font-primary) !important;
+}
+
+.btn{
+  background-color: #fff !important;
+  color: black !important;
+  font-family: var(--font-primary) !important;
+}
+
+.modal-title{
+  font-family: var(--font-primary) !important;
+  color: #fff !important;
+}
+
 @media (max-width: 767px) {
   #Contact .hero-content h2 {
     font-size: 34px;

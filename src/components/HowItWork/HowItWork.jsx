@@ -39,11 +39,33 @@ import RiderBackHome from "./Rider/RiderBackHome.png";
 import tecstiklogo from "./tecstiklogo.png";
 import KollectitLogo from "./KollectitLogo.png";
 import logo from "../Footer/apk.png";
+import { Button, Modal, Form } from "react-bootstrap"
+import axios from "axios";
 
 function HowItWork() {
   const [trigger, setTrigger] = useState(0);
   const [CashierTrigger, setCashierTrigger] = useState(0);
   const [RiderTrigger, setRiderTrigger] = useState(0);
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const [name, setName] = useState("");
+  const [companyName, setCompanyName] = useState("");
+  const [email, setEmail] = useState("");
+  const [mobile, setMobile] = useState("");
+
+  const handleSubmit = async () => {
+    await axios.post("http://localhost:5000/create", {
+      name: name,
+      companyName: companyName,
+      email: email,
+      mobile: mobile
+    }).then((res) => {
+      console.log(res?.data)
+    }).catch(err => console.log(err))
+  }
 
   return (
     <>
@@ -1354,28 +1376,44 @@ function HowItWork() {
             </p>
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
               <p>
-                <a
+                {/* <a
                   href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
                   target="_blank"
-                >
-                  <img
-                    src={logo}
-                    alt="logo"
-                    srcset=""
-                    style={{ height: "150px", width: '150px' }}
-                  />
-                </a>
+                > */}
+                <img
+                  onClick={handleShow}
+                  src={logo}
+                  alt="logo"
+                  srcset=""
+                  style={{ height: "150px", width: '150px',cursor:"pointer" }}
+                />
+                {/* </a> */}
               </p>
             </h2>
           </div>
         </div>
+        <Modal show={show} onHide={handleClose} >
+        <Modal.Header closeButton>
+          <Modal.Title>APK of KollectIt</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form.Label>Name:</Form.Label>
+          <Form.Control placeholder="Enter Your Name" className="mb-1" type="text" value={name} onChange={(e) => setName(e.target.value)} />
+          <Form.Label>Company Name:</Form.Label>
+          <Form.Control placeholder="Enter Your Company Name" className="mb-1" type="text" value={companyName} onChange={(e) => setCompanyName(e.target.value)} />
+          <Form.Label>Email:</Form.Label>
+          <Form.Control placeholder="Enter Your Email" className="mb-1" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <Form.Label>Mobile No:</Form.Label>
+          <Form.Control placeholder="Enter Your Mobile No" className="mb-1" type="text" value={mobile} onChange={(e) => setMobile(e.target.value)} />
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleSubmit}>
+            Submit
+          </Button>
+        </Modal.Footer>
+      </Modal>
 
-        {/* <br /> */}
-        {/* <br /> */}
-        {/* <br /> */}
-        {/* <br /> */}
-        {/* <br /> */}
-        {/*  */}
+
         <Footer />
       </div>
     </>

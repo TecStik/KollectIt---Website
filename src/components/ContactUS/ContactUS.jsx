@@ -7,11 +7,35 @@ import Header from "../Header/Header";
 import tecstiklogo from "./tecstiklogo.png";
 import KollectitLogo from "./KollectitLogo.png";
 import logo from "../Footer/apk.png";
+import { Button, Modal, Form } from "react-bootstrap";
+import axios from "axios";
 
 export default function ContactUS() {
   const [loading, setloading] = useState(true);
+  const [show, setShow] = useState(false);
+  const [name, setName] = useState("");
+  const [companyName, setCompanyName] = useState("");
+  const [email, setEmail] = useState("");
+  const [mobile, setMobile] = useState("");
+
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
   function maplink() {
     window.open("https://goo.gl/maps/AhT2xjDLpdB3juyy8", "_blank");
+  }
+
+  const handleSubmit = async () => {
+    await axios.post("http://localhost:5000/create", {
+      name: name,
+      companyName: companyName,
+      email: email,
+      mobile: mobile
+    }).then((res) => {
+      console.log(res?.data)
+    }).catch(err => console.log(err))
   }
 
   return (
@@ -101,7 +125,7 @@ export default function ContactUS() {
                       id="name"
                       placeholder="Your Name"
                       required
-                      // ref={firstname}
+                    // ref={firstname}
                     />
                   </div>
                   <div class="col-md-6 form-group mt-3 mt-md-0">
@@ -113,7 +137,7 @@ export default function ContactUS() {
                       id="email"
                       placeholder="Your Email"
                       required
-                      // ref={firstEmail}
+                    // ref={firstEmail}
                     />
                   </div>
                 </div>
@@ -137,7 +161,7 @@ export default function ContactUS() {
                     rows="5"
                     placeholder="Message"
                     required
-                    // ref={firstMessage}
+                  // ref={firstMessage}
                   ></textarea>
                 </div>
                 <div class="text-center">
@@ -167,7 +191,7 @@ export default function ContactUS() {
       <div class="container">
         <div class="section-title">
           <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-          Transforming Cash Collection for Unmatched Precision!
+            Transforming Cash Collection for Unmatched Precision!
           </h2>
           <a
             href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
@@ -185,23 +209,44 @@ export default function ContactUS() {
           </p>
           <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
             <p>
-              <a
+              {/* <a
                 href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
                 target="_blank"
-              >
-                <img
-                  src={logo}
-                  alt="logo"
-                  srcset=""
-                 style={{height:"150px",width:'150px'}}
-                />
-              </a>
+              > */}
+              <img
+                onClick={handleShow}
+                src={logo}
+                alt="logo"
+                srcset=""
+                style={{ height: "150px", width: '150px', cursor: 'pointer' }}
+              />
+              {/* </a> */}
             </p>
           </h2>
         </div>
       </div>
-      {/* <br /> */}
-      {/* <br /> */}
+
+      <Modal show={show} onHide={handleClose} >
+        <Modal.Header closeButton>
+          <Modal.Title>APK of KollectIt</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form.Label>Name:</Form.Label>
+          <Form.Control placeholder="Enter Your Name" className="mb-1" type="text" value={name} onChange={(e) => setName(e.target.value)} />
+          <Form.Label>Company Name:</Form.Label>
+          <Form.Control placeholder="Enter Your Company Name" className="mb-1" type="text" value={companyName} onChange={(e) => setCompanyName(e.target.value)} />
+          <Form.Label>Email:</Form.Label>
+          <Form.Control placeholder="Enter Your Email" className="mb-1" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <Form.Label>Mobile No:</Form.Label>
+          <Form.Control placeholder="Enter Your Mobile No" className="mb-1" type="text" value={mobile} onChange={(e) => setMobile(e.target.value)} />
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleSubmit}>
+            Submit
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
       <br />
       <Footer />
     </div>

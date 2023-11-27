@@ -16,12 +16,21 @@ import "react-slideshow-image/dist/styles.css";
 import Slide2 from "./Slide2.png";
 import Slide3 from "./Slide3.png";
 import logo from "../Footer/apk.png";
-
+import { Button, Modal, Form } from "react-bootstrap";
+import axios from "axios";
 
 
 const YouNeedKollectit = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const currentTab = searchParams.get("tab") || "0";
+  const [show, setShow] = useState(false);
+  const [name, setName] = useState("");
+  const [companyName, setCompanyName] = useState("");
+  const [email, setEmail] = useState("");
+  const [mobile, setMobile] = useState("");
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   // const changeTab = (tab) => {
   //   searchParams.set("tab", tab);
@@ -68,6 +77,17 @@ const YouNeedKollectit = () => {
       caption: "Slide 3",
     },
   ];
+
+  const handleSubmit = async () => {
+    await axios.post("http://localhost:5000/create", {
+      name: name,
+      companyName: companyName,
+      email: email,
+      mobile: mobile
+    }).then((res) => {
+      console.log(res?.data)
+    }).catch(err => console.log(err))
+  }
   return (
     <>
       <Header />
@@ -429,31 +449,43 @@ const YouNeedKollectit = () => {
           </p>
           <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
             <p>
-              <a
+              {/* <a
                 href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
                 target="_blank"
-              >
-                <img
-                  src={logo}
-                  alt="logo"
-                  srcset=""
-                  style={{ height: "150px", width: '150px' }}
-                />
-              </a>
+              > */}
+              <img
+                onClick={handleShow}
+                src={logo}
+                alt="logo"
+                srcset=""
+                style={{ height: "150px", width: '150px', cursor: 'pointer' }}
+              />
+              {/* </a> */}
             </p>
           </h2>
         </div>
       </div>
 
-      {/* <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br /> */}
+      <Modal show={show} onHide={handleClose} >
+        <Modal.Header closeButton>
+          <Modal.Title>APK of KollectIt</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form.Label>Name:</Form.Label>
+          <Form.Control placeholder="Enter Your Name" className="mb-1" type="text" value={name} onChange={(e) => setName(e.target.value)} />
+          <Form.Label>Company Name:</Form.Label>
+          <Form.Control placeholder="Enter Your Company Name" className="mb-1" type="text" value={companyName} onChange={(e) => setCompanyName(e.target.value)} />
+          <Form.Label>Email:</Form.Label>
+          <Form.Control placeholder="Enter Your Email" className="mb-1" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <Form.Label>Mobile No:</Form.Label>
+          <Form.Control placeholder="Enter Your Mobile No" className="mb-1" type="text" value={mobile} onChange={(e) => setMobile(e.target.value)} />
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleSubmit}>
+            Submit
+          </Button>
+        </Modal.Footer>
+      </Modal>
       <Footer />
     </>
   );
