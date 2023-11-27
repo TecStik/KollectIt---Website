@@ -8,6 +8,7 @@ import Footer from "../Footer/Footer";
 import ladypayment from "../Images/ladypayment.png";
 import tecstiklogo from "./tecstiklogo.png";
 import KollectitLogo from "./KollectitLogo.png";
+import logo from "../Footer/apk.png";
 
 function Home() {
   let height = "150px";
@@ -59,7 +60,7 @@ function Home() {
                 <div class="content">
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
-                     
+
                       <strong>KollectIt</strong> ensures collaborative exchange
                       of Cash. Leading to transparent financial transactions.
                     </li>
@@ -118,12 +119,12 @@ function Home() {
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
                     <li>
-                      Driven by trust concerns and a desire to reduce manual paperwork, a desire for transactions primarily performed in tangible cash is highly prevalent all around the world. 
-                      <br/>
-                      <br/>
+                      Driven by trust concerns and a desire to reduce manual paperwork, a desire for transactions primarily performed in tangible cash is highly prevalent all around the world.
+                      <br />
+                      <br />
                       Customize The KollectIt App to meet your unique needs and integrate it with in-house software to boost efficiency.
-                      <br/>
-                      <br/>
+                      <br />
+                      <br />
                     </li>
                   </ul>
                 </div>
@@ -179,16 +180,16 @@ function Home() {
                   <br />
                   <br />
                   <ul style={{ listStyleType: "none", marginLeft: "-6%" }}>
-                                        <br />
-                    <li>
-
-<strong>KollectIt</strong> offers a comprehensive solution to empower businesses and individuals in managing physical cash with confidence. The challenges of accurate tracking and preventing misrepresentations in cash exchanges between parties are effectively addressed by our app.                  </li>
                     <br />
                     <li>
-                      
 
-                    <strong>KollectIt's</strong> team will also customize the app to your unique needs when we are informed of your specific requirements.  </li>
-                    <br/>
+                      <strong>KollectIt</strong> offers a comprehensive solution to empower businesses and individuals in managing physical cash with confidence. The challenges of accurate tracking and preventing misrepresentations in cash exchanges between parties are effectively addressed by our app.                  </li>
+                    <br />
+                    <li>
+
+
+                      <strong>KollectIt's</strong> team will also customize the app to your unique needs when we are informed of your specific requirements.  </li>
+                    <br />
                     <li>Boost efficiency by integrating <strong>KollectIt</strong> with your in-house software. Head over to The "Contact Us" page on this website, outline your requirements using the form, hit send and anticipate a prompt response within 24-hours.</li>
                   </ul>
                 </div>
@@ -208,7 +209,7 @@ function Home() {
         <div class="container">
           <div class="section-title">
             <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-            Transforming Cash Collection for Unmatched Precision!
+              Transforming Cash Collection for Unmatched Precision!
             </h2>
             <a
               href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
@@ -231,10 +232,10 @@ function Home() {
                   target="_blank"
                 >
                   <img
-                    src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1"
-                    alt=""
+                    src={logo}
+                    alt="logo"
                     srcset=""
-                    height={50}
+                    style={{ height: "150px", width: '150px' }}
                   />
                 </a>
               </p>

@@ -6,6 +6,7 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import tecstiklogo from "./tecstiklogo.png";
 import KollectitLogo from "./KollectitLogo.png";
+import logo from "../Footer/apk.png";
 
 export default function ContactUS() {
   const [loading, setloading] = useState(true);
@@ -189,10 +190,10 @@ export default function ContactUS() {
                 target="_blank"
               >
                 <img
-                  src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1"
-                  alt=""
+                  src={logo}
+                  alt="logo"
                   srcset=""
-                  height={50}
+                 style={{height:"150px",width:'150px'}}
                 />
               </a>
             </p>

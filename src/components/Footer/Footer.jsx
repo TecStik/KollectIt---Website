@@ -2,6 +2,8 @@ import React, { useRef, useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import ApkImg from "./apk.png";
+
 export default function Footer() {
   const [searchParams, setSearchParams] = useSearchParams();
   const currentTab = searchParams.get("tab") || "0";

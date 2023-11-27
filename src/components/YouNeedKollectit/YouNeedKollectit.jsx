@@ -15,6 +15,9 @@ import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import Slide2 from "./Slide2.png";
 import Slide3 from "./Slide3.png";
+import logo from "../Footer/apk.png";
+
+
 
 const YouNeedKollectit = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -141,7 +144,7 @@ const YouNeedKollectit = () => {
                 <br />
                 <ul style={{ marginLeft: "-5%" }} id="reverseImageText">
                   Take advantage of Real Time Authentication & Monitoring with{" "}
-                  <strong>KollectIt</strong>: {}
+                  <strong>KollectIt</strong>: { }
                   <li className="ml-4">
                     Minimize your manual monitoring efforts.
                   </li>
@@ -431,10 +434,10 @@ const YouNeedKollectit = () => {
                 target="_blank"
               >
                 <img
-                  src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1"
-                  alt=""
+                  src={logo}
+                  alt="logo"
                   srcset=""
-                  height={50}
+                  style={{ height: "150px", width: '150px' }}
                 />
               </a>
             </p>

@@ -38,6 +38,7 @@ import AllPayment from "./Rider/AllPayment.png";
 import RiderBackHome from "./Rider/RiderBackHome.png";
 import tecstiklogo from "./tecstiklogo.png";
 import KollectitLogo from "./KollectitLogo.png";
+import logo from "../Footer/apk.png";
 
 function HowItWork() {
   const [trigger, setTrigger] = useState(0);
@@ -748,9 +749,9 @@ function HowItWork() {
                               payment collection staff (riders) by Cashiers can be monitored within The KollectIt App, with <strong>KollectIt</strong>. With its
                               intuitive interface and essential features:{" "}
                               <li><strong>KollectIt</strong> simplifies the process
-                              of viewing payment transactions</li> <li>Managing payment transactions</li>
+                                of viewing payment transactions</li> <li>Managing payment transactions</li>
                               <strong>KollectIt</strong> <li><strong>KollectIt</strong>ensures seamless financial tracking and
-                              transparency.</li>
+                                transparency.</li>
                             </p>
                             <ul style={{ fontSize: "20px" }}></ul>
                           </div>
@@ -1358,10 +1359,10 @@ function HowItWork() {
                   target="_blank"
                 >
                   <img
-                    src="https://i0.wp.com/www.techdigest.tv/wp-content/uploads/2021/02/get-it-on-google-play-badge.png?ssl=1"
-                    alt=""
+                    src={logo}
+                    alt="logo"
                     srcset=""
-                    height={50}
+                    style={{ height: "150px", width: '150px' }}
                   />
                 </a>
               </p>
