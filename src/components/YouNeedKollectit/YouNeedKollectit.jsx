@@ -77,16 +77,21 @@ const YouNeedKollectit = () => {
       caption: "Slide 3",
     },
   ];
-
+  let product = "KCOLLECTIT";
+  let status = "REQUESTED"
   const handleSubmit = async () => {
     await axios.post("http://localhost:5000/create", {
       name: name,
       companyName: companyName,
       email: email,
-      mobile: mobile
+      mobile: mobile,
+      product: product,
+      status: status
     }).then((res) => {
       console.log(res?.data)
-    }).catch(err => console.log(err))
+    }).catch(err => window.alert("All Fields Required!"))
+
+    handleClose()
   }
   return (
     <>

@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import payment from "../Images/payment.png";
 import Mobilepayment from "../Images/Mobilepayment.png";
@@ -47,15 +47,22 @@ function Home() {
     margin: "0 auto",
   };
 
+  let product = "KCOLLECTIT";
+  let status = "REQUESTED";
+
   const handleSubmit = async () => {
     await axios.post("http://localhost:5000/create", {
       name: name,
       companyName: companyName,
       email: email,
-      mobile: mobile
+      mobile: mobile,
+      product: product,
+      status: status
     }).then((res) => {
       console.log(res?.data)
-    }).catch(err => console.log(err))
+    }).catch(err => window.alert("All Fields Required!"));
+
+    handleClose()
   }
   return (
     <>
@@ -258,7 +265,7 @@ function Home() {
                   alt="logo"
                   srcset=""
                   onClick={handleShow}
-                  style={{ height: "150px", width: '150px',cursor:'pointer' }}
+                  style={{ height: "150px", width: '150px', cursor: 'pointer' }}
                 />
                 {/* </a> */}
               </p>
@@ -267,25 +274,25 @@ function Home() {
         </div>
 
         <Modal show={show} onHide={handleClose} >
-        <Modal.Header closeButton>
-          <Modal.Title>APK of KollectIt</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Form.Label>Name:</Form.Label>
-          <Form.Control placeholder="Enter Your Name" className="mb-1" type="text" value={name} onChange={(e) => setName(e.target.value)} />
-          <Form.Label>Company Name:</Form.Label>
-          <Form.Control placeholder="Enter Your Company Name" className="mb-1" type="text" value={companyName} onChange={(e) => setCompanyName(e.target.value)} />
-          <Form.Label>Email:</Form.Label>
-          <Form.Control placeholder="Enter Your Email" className="mb-1" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-          <Form.Label>Mobile No:</Form.Label>
-          <Form.Control placeholder="Enter Your Mobile No" className="mb-1" type="text" value={mobile} onChange={(e) => setMobile(e.target.value)} />
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleSubmit}>
-            Submit
-          </Button>
-        </Modal.Footer>
-      </Modal>
+          <Modal.Header closeButton>
+            <Modal.Title>APK of KollectIt</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <Form.Label>Name:</Form.Label>
+            <Form.Control placeholder="Enter Your Name" className="mb-1" type="text" value={name} onChange={(e) => setName(e.target.value)} required/>
+            <Form.Label>Company Name:</Form.Label>
+            <Form.Control placeholder="Enter Your Company Name" className="mb-1" type="text" value={companyName} onChange={(e) => setCompanyName(e.target.value)} />
+            <Form.Label>Email:</Form.Label>
+            <Form.Control placeholder="Enter Your Email" className="mb-1" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+            <Form.Label>Mobile No:</Form.Label>
+            <Form.Control placeholder="Enter Your Mobile No" className="mb-1" type="text" value={mobile} onChange={(e) => setMobile(e.target.value)} />
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleSubmit}>
+              Submit
+            </Button>
+          </Modal.Footer>
+        </Modal>
 
 
         <Footer />
