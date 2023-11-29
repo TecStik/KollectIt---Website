@@ -69,6 +69,10 @@ function HowItWork() {
       product: product,
       status: status
     }).then((res) => {
+      setName("");
+      setCompanyName("");
+      setEmail("");
+      setMobile("");
       console.log(res?.data)
     }).catch(err => window.alert("All Fields Required!"));
     

@@ -38,7 +38,11 @@ export default function ContactUS() {
       product: product,
       status: status
     }).then((res) => {
-      console.log(res?.data)
+      console.log(res?.data);
+      setName("");
+      setCompanyName("");
+      setEmail("");
+      setMobile("");
     }).catch(err => window.alert("All Fields Required!"));
 
     handleClose()
