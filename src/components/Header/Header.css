@@ -219,7 +219,20 @@
 }
 
 
-/*  */
+/*  @media screen and (max-width: 960px)*/
+
+@media screen and (max-width: 528px){
+
+  .res1{
+    font-size: 1rem !important;
+    text-align: center !important;
+  }
+
+  .res2{
+  font-size: 1rem !important;
+  text-align: center !important;
+  }
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -245,6 +258,13 @@
 .hero h2 span {
   color: var(--color-primary);
 }
+
+
+
+
+/* nav media query here */
+
+
 
 /* .hero p {
   color: #4f4f5a;

@@ -140,8 +140,8 @@ export default function Header() {
       {/* 2nd Nav */}
 
       <nav className="second__nav">
-        <div style={{ color: "#134D61", fontSize: '1.6rem',padding:'0px 30px' }}>Digitise Physical Collection</div>
-        <div className="download_container" onClick={handleShow}>Download APK</div>
+        <div style={{ color: "#134D61", fontSize: '1.6rem',padding:'0px 30px' }} className="res1">Digitise Physical Collection</div>
+        <div className="download_container res2" onClick={handleShow}>Download APK</div>
       </nav>
 
 
