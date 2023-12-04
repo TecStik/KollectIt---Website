@@ -14,7 +14,7 @@
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  z-index: 20;
+  z-index: 1000;
   height: 65px;
 }
 
@@ -31,21 +31,34 @@
 .Twonav-container {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   background-color: #9DBCC6;
-  z-index: 1;
+  /* z-index: 1; */
   width: 100%;
-  height: 80px;
+  /* height: 80px; */
   height: 63px;
   font-size: 1.2rem;
-  /* max-width: 1600px; */
-  /* position: sticky; */
-  /* top: 0; */
-  /* color: #11366B; */
-  /* opacity: 0.47; */
-  /* position: fixed; */
 }
 
+.download_container{
+  color: #fff;
+  font-size: 1.3rem;
+  z-index: 1000; /* Adjust this value as needed */
+  cursor: pointer;
+  padding: 0px 30px;
+}
+
+/* testing nav here */
+.second__nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  background-color: #9DBCC6;
+  position: fixed;
+  z-index: 1000;
+}
 
 
 .nav-logo {
@@ -60,7 +73,6 @@
 }
 #logo{
   margin-top: -25px;
-
 }
 
 #TwoNavText {

@@ -457,11 +457,8 @@ const YouNeedKollectit = () => {
             </a>
           </p>
           <h2 data-aos="fade-up" style={{ color: "#134D61" }}>
-            <p>
-              {/* <a
-                href="https://play.google.com/store/apps/details?id=com.anostrat.kollectIt"
-                target="_blank"
-              > */}
+            {/* <p>
+             
               <img
                 onClick={handleShow}
                 src={logo}
@@ -469,8 +466,8 @@ const YouNeedKollectit = () => {
                 srcset=""
                 style={{ height: "150px", width: '150px', cursor: 'pointer' }}
               />
-              {/* </a> */}
-            </p>
+             
+            </p> */}
           </h2>
         </div>
       </div>

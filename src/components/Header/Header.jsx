@@ -1,13 +1,24 @@
 import React, { useState, useEffect } from "react";
-import Radium, { StyleRoot } from 'radium';
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Logo from './kollect-logo.png'
 import "./Header.css";
+import axios from "axios";
+import { Button, Modal, Form } from "react-bootstrap";
 
 export default function Header() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+
+  const [show, setShow] = useState(false);
+  const [name, setName] = useState("");
+  const [companyName, setCompanyName] = useState("");
+  const [email, setEmail] = useState("");
+  const [mobile, setMobile] = useState("");
+
+
+
+
 
   const [navSize, setnavSize] = useState(170);
   const [marginSize, setmarginSize] = useState("5%");
@@ -32,34 +43,46 @@ export default function Header() {
     };
   }, []);
 
-  const style = {
-    // Adding media query..
 
-    '@media screen and (max-width: 500px)': {
-      marginTop: menuSize,
-    },
-  };
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+   
+  let product = "KCOLLECTIT";
+  let status = "REQUESTED";
+
+  const handleSubmit = async () => {
+    await axios.post("http://localhost:5000/create", {
+      name: name,
+      companyName: companyName,
+      email: email,
+      mobile: mobile,
+      product: product,
+      status: status
+    }).then((res) => {
+      setName("");
+      setCompanyName("");
+      setEmail("");
+      setMobile("");
+      console.log(res?.data)
+    }).catch(err => window.alert("All Fields Required!"));
+
+    handleClose()
+  }
+
+
   return (
     <>
       <Helmet>
         <title>{window.location.pathname.slice(1) === "" ? "KollectIt" : window.location.pathname.slice(1)}</title>
       </Helmet>
       <nav className="navbar"
-        style={{
-          // backgroundColor: navColor,
-          // color: navItemColor,
-          // height: navSize,
-          // transition: "all 1s",
-          // height: height
-
-        }}
       >
         <div className="nav-container" >
           <Link exact to="/" className="nav-logo" style={{ color: "#134D61", fontSize: '30px', fontWeight: 600 }}>
             <img src={Logo} alt="" id="logo" height={100} />
-           <span id="Kollectit">
-            KollectIt
-           </span>
+            <span id="Kollectit">
+              KollectIt
+            </span>
           </Link>
 
           {/* <StyleRoot> */}
@@ -75,30 +98,6 @@ export default function Header() {
                 Home
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link
-                exact
-                to="/KOLLECTIT-About"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                About Us
-              </Link>
-            </li> */}
-
-
-            {/* <li className="nav-item">
-              <div class="dropdown">
-                <div id="services">Our Platform <i className="fa fa-caret-down"></i></div>
-                <div class="dropdown-Industries">
-                  <>
-                    <> <Link to="/KOLLECTIT-OurTeam">Our team</Link></>
-                  </>
-
-                </div>
-              </div>
-            </li> */}
             <li className="nav-item">
               <Link
                 exact
@@ -117,30 +116,8 @@ export default function Header() {
                 className="nav-links"
                 onClick={handleClick}
               >
-               How it Works</Link>
+                How it Works</Link>
             </li>
-            {/* <li className="nav-item">
-              <Link
-                exact
-                to="/KOLLECTIT-OurTeam"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Our Team
-              </Link>
-            </li> */}
-            {/* <li className="nav-item">
-              <div class="dropdown">
-                <div id="services"><Link to="/KOLLECTIT-OurTeam#Ourteam">Our team</Link><i className="fa fa-caret-down"></i></div>
-                <div class="dropdown-Industries">
-                    <a href="/KOLLECTIT-OurTeam#AboutOperator">About</a>
-                  <>
-                  </>
-
-                </div>
-              </div>
-            </li> */}
             <li className="nav-item">
               <Link
                 exact
@@ -152,12 +129,6 @@ export default function Header() {
                 Contact Us
               </Link>
             </li>
-            {/* <li className="nav-item">
-                <Button variant="outline-primary" className="nav-links">Login</Button>
-            </li>
-            <li className="nav-item">
-                <Button variant="outline-primary">Sign UP</Button>
-            </li> */}
           </ul>
           {/* </StyleRoot> */}
           <div className="nav-icon" onClick={handleClick}>
@@ -168,15 +139,42 @@ export default function Header() {
 
       {/* 2nd Nav */}
 
-      <nav className="Twonavbar" style={{ marginBottom: '1%' }}>
-        <div className="Twonav-container">
-          <h4 id="TwoNavText" style={{ color: "#134D61" }}>Digitise Physical Collection</h4>
-        </div>
+      <nav className="second__nav">
+        <div style={{ color: "#134D61", fontSize: '1.6rem',padding:'0px 30px' }}>Digitise Physical Collection</div>
+        <div className="download_container" onClick={handleShow}>Download APK</div>
       </nav>
 
-      {/* <br /> */}
-      {/* <br /> */}
-      {/* <br /> */}
+
+      <Modal show={show} onHide={handleClose} >
+        <Modal.Header closeButton>
+          <Modal.Title>APK of KollectIt</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form.Label>Name:</Form.Label>
+          <Form.Control placeholder="Enter Your Name" className="mb-1" type="text" value={name} onChange={(e) => setName(e.target.value)} required />
+          <Form.Label>Company Name:</Form.Label>
+          <Form.Control placeholder="Enter Your Company Name" className="mb-1" type="text" value={companyName} onChange={(e) => setCompanyName(e.target.value)} />
+          <Form.Label>Email:</Form.Label>
+          <Form.Control placeholder="Enter Your Email" className="mb-1" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <Form.Label>Mobile No:</Form.Label>
+          <Form.Control placeholder="Enter Your Mobile No" className="mb-1" type="text" value={mobile} onChange={(e) => setMobile(e.target.value)} />
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleSubmit}>
+            Submit
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+
+      {/* <nav className="Twonavbar" >
+        <div className="Twonav-container">
+          <h4 id="TwoNavText" style={{ color: "#134D61" }}>Digitise Physical Collection</h4>
+          <div className="download_container">
+            <p id="download">Download APK</p>
+          </div>
+        </div>
+      </nav> */}
     </>
   );
 }
