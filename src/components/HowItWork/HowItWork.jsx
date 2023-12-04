@@ -84,7 +84,7 @@ function HowItWork() {
       <div>
         <Header />
 
-        <div class="container">
+        <div class="container" style={{marginTop:'60px'}}>
           <div class="section-title">
             <br />
             <h2 style={{ color: "#134D61", fontSize: "35px", fontWeight: 600 }}>
